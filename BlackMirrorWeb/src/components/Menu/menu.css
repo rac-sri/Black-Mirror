@@ -1,0 +1,217 @@
+.mediaViewInfo {
+    --web-view-name: Game interface – MENU – 1;
+    --web-view-id: Game_interface__MENU__1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Game_interface__MENU__1;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Game_interface__MENU__1 {
+    position: absolute;
+    width: 812px;
+    height: 375px;
+    overflow: hidden;
+    --web-view-name: Game interface – MENU – 1;
+    --web-view-id: Game_interface__MENU__1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#Rectangle_1669 {
+    fill: rgba(21, 15, 48, 0.702);
+}
+.Rectangle_1669 {
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    overflow: visible;
+    transform: matrix(1, 0, 0, 1, 281, 38) rotate(-90deg);
+    transform-origin: center;
+}
+#Rectangle_1668 {
+    fill: rgba(91, 191, 227, 0.204);
+    stroke: rgba(91, 191, 227, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_1668 {
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    overflow: visible;
+    transform: matrix(1, 0, 0, 1, 281, 38) rotate(-90deg);
+    transform-origin: center;
+}
+#Line_27 {
+    fill: transparent;
+    stroke: rgba(91, 191, 227, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_27 {
+    overflow: visible;
+    position: absolute;
+    width: 297.057px;
+    height: 3px;
+    left: 256.5px;
+    top: 115.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Line_28 {
+    fill: transparent;
+    stroke: rgba(91, 191, 227, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_28 {
+    overflow: visible;
+    position: absolute;
+    width: 297.057px;
+    height: 3px;
+    left: 256.5px;
+    top: 212.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Line_29 {
+    fill: transparent;
+    stroke: rgba(91, 191, 227, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_29 {
+    overflow: visible;
+    position: absolute;
+    width: 297.057px;
+    height: 3px;
+    left: 256.5px;
+    top: 164.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Line_30 {
+    fill: transparent;
+    stroke: rgba(91, 191, 227, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_30 {
+    overflow: visible;
+    position: absolute;
+    width: 297.057px;
+    height: 3px;
+    left: 256.5px;
+    top: 261.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#EXIT {
+    left: 378px;
+    top: 267px;
+    position: absolute;
+    overflow: visible;
+    width: 58px;
+    white-space: nowrap;
+    line-height: 120px;
+    margin-top: -46px;
+    text-align: left;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(196, 201, 255, 1);
+}
+#HELP {
+    left: 374px;
+    top: 217px;
+    position: absolute;
+    overflow: visible;
+    width: 67px;
+    white-space: nowrap;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: HELP.html;
+    cursor: pointer;
+    line-height: 120px;
+    margin-top: -46px;
+    text-align: left;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(196, 201, 255, 1);
+}
+#SAVE {
+    left: 372px;
+    top: 168px;
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    white-space: nowrap;
+    line-height: 120px;
+    margin-top: -46px;
+    text-align: left;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(196, 201, 255, 1);
+}
+#OPTION1 {
+    left: 350px;
+    top: 120px;
+    position: absolute;
+    overflow: visible;
+    width: 118px;
+    white-space: nowrap;
+    line-height: 120px;
+    margin-top: -46px;
+    text-align: left;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(196, 201, 255, 1);
+}
+#OPTION2 {
+    left: 349px;
+    top: 71px;
+    position: absolute;
+    overflow: visible;
+    width: 120px;
+    white-space: nowrap;
+    line-height: 120px;
+    margin-top: -46px;
+    text-align: left;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(196, 201, 255, 1);
+}

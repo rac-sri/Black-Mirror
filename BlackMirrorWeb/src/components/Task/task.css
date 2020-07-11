@@ -1,0 +1,209 @@
+.mediaViewInfo {
+    --web-view-name: Game interface – TASK;
+    --web-view-id: Game_interface__TASK;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+    --web-is-overlay: true;
+}
+:root {
+    --web-view-ids: Game_interface__TASK;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Game_interface__TASK {
+    position: absolute;
+    width: 812px;
+    height: 375px;
+    overflow: hidden;
+    cursor: pointer;
+    --web-view-name: Game interface – TASK;
+    --web-view-id: Game_interface__TASK;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+    --web-is-overlay: true;
+}
+#Rectangle_1667 {
+    fill: rgba(21, 15, 48, 0.698);
+}
+.Rectangle_1667 {
+    width: 330px;
+    height: 673px;
+    position: absolute;
+    overflow: visible;
+    transform: matrix(1, 0, 0, 1, 241, -149) rotate(-90deg);
+    transform-origin: center;
+}
+#Rectangle_1650 {
+    fill: rgba(91, 191, 227, 0.204);
+    stroke: rgba(91, 191, 227, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_1650 {
+    width: 330px;
+    height: 673px;
+    position: absolute;
+    overflow: visible;
+    transform: matrix(1, 0, 0, 1, 241, -149) rotate(-90deg);
+    transform-origin: center;
+}
+#TASK {
+    left: 372px;
+    top: 43px;
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    white-space: nowrap;
+    line-height: 120px;
+    margin-top: -46px;
+    text-align: left;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(196, 201, 255, 1);
+}
+#TSK1 {
+    left: 119px;
+    top: 101px;
+    position: absolute;
+    overflow: visible;
+    width: 39px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(91, 191, 227, 1);
+}
+#TSK2 {
+    left: 119px;
+    top: 178px;
+    position: absolute;
+    overflow: visible;
+    width: 39px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(91, 191, 227, 1);
+}
+#TSK3 {
+    left: 119px;
+    top: 255px;
+    position: absolute;
+    overflow: visible;
+    width: 39px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(91, 191, 227, 1);
+}
+#Lorem_ipsum_dolor_sit_amet_con {
+    left: 186px;
+    top: 101px;
+    position: absolute;
+    overflow: hidden;
+    width: 507px;
+    height: 50px;
+    line-height: 20px;
+    margin-top: -3.5px;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(196, 201, 255, 1);
+}
+#Lorem_ipsum_dolor_sit_amet_con_bl {
+    left: 186px;
+    top: 178px;
+    position: absolute;
+    overflow: hidden;
+    width: 507px;
+    height: 50px;
+    line-height: 20px;
+    margin-top: -3.5px;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(196, 201, 255, 1);
+}
+#Lorem_ipsum_dolor_sit_amet_con_bm {
+    left: 186px;
+    top: 255px;
+    position: absolute;
+    overflow: hidden;
+    width: 507px;
+    height: 50px;
+    line-height: 20px;
+    margin-top: -3.5px;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(196, 201, 255, 1);
+}
+#Group_171 {
+    position: absolute;
+    width: 75px;
+    height: 19px;
+    left: 369px;
+    top: 313px;
+    overflow: visible;
+}
+#Rectangle_496 {
+    fill: transparent;
+    stroke: rgba(91, 191, 227, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_496 {
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+}
+#CLOSE {
+    left: 18px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 40px;
+    white-space: nowrap;
+    line-height: 120px;
+    margin-top: -53.5px;
+    text-align: left;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+}
