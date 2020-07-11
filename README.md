@@ -2,4 +2,4 @@
 
 ### POC
 
-[](poc.jpeg)
+![](images/poc.jpeg)
