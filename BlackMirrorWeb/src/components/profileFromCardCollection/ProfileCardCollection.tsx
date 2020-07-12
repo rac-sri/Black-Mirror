@@ -1,71 +1,63 @@
 import React from "react";
-import "./menu.css";
+import "./pcc.css";
 
-export default function Menu() {
+export default function ProfileCardCollection() {
     return (
         <div id="Web_1920__7">
-            <svg class="Path_2_br" viewBox="2 9.33 52.787 45.293">
+            <svg className="Path_2_br" viewBox="2 9.33 52.787 45.293">
                 <linearGradient
                     id="Path_2_br"
                     spreadMethod="pad"
                     x1="0.5"
                     x2="0.5"
-                    y1="0"
-                    y2="1"
+                    y1={0}
+                    y2={1}
                 >
-                    <stop
-                        offset="0"
-                        stop-color="#cef6ff"
-                        stop-opacity="1"
-                    ></stop>
-                    <stop
-                        offset="1"
-                        stop-color="#657dff"
-                        stop-opacity="1"
-                    ></stop>
+                    <stop offset={0} stopColor="#cef6ff" stopOpacity={1} />
+                    <stop offset={1} stopColor="#657dff" stopOpacity={1} />
                 </linearGradient>
                 <path
                     id="Path_2_br"
                     d="M 29.07244110107422 9.329999923706055 L 31.17298698425293 9.329999923706055 L 31.17298698425293 54.62303924560547 L 29.07244110107422 54.62303924560547 L 29.07244110107422 9.329999923706055 Z M 26.66791725158691 9.659194946289062 L 26.73725700378418 42.24950790405273 L 6.191283702850342 42.24950790405273 L 6.191283702850342 36.83389663696289 L 6.191283702850342 27.75021743774414 L 6.191283702850342 21.70423126220703 L 26.66791725158691 9.659194946289062 Z M 7.592113494873047 23.10506248474121 L 7.592113494873047 29.15104866027832 L 2 29.15104866027832 L 2 35.43306732177734 L 7.592113494873047 35.43306732177734 L 7.592113494873047 40.84867477416992 L 25.33642959594727 40.84867477416992 L 25.33642959594727 23.10506248474121 L 7.592113494873047 23.10506248474121 Z M 53.36983489990234 41.54838943481445 C 53.36703491210938 39.53189468383789 53.36423110961914 37.51609802246094 53.36143112182617 35.49960708618164 L 54.78747177124023 35.43657302856445 L 54.77066421508789 29.14544105529785 L 53.35022735595703 29.14544105529785 L 53.36983489990234 22.4046459197998 L 34.22469329833984 22.4046459197998 C 34.2401008605957 33.08807754516602 34.25481033325195 43.77149963378906 34.27021789550781 54.45493698120117 L 53.36983489990234 41.54838943481445 Z"
                 ></path>
             </svg>
-            <svg class="Rectangle_496">
+            <svg className="Rectangle_496">
                 <rect
                     id="Rectangle_496"
-                    rx="16"
-                    ry="16"
-                    x="0"
-                    y="0"
-                    width="98"
-                    height="32"
+                    rx={16}
+                    ry={16}
+                    x={0}
+                    y={0}
+                    width={98}
+                    height={32}
                 ></rect>
             </svg>
             <div id="MENU">
                 <span>MENU</span>
             </div>
-            <svg class="Rectangle_1660">
+            <svg className="Rectangle_1660">
                 <rect
                     id="Rectangle_1660"
-                    rx="16"
-                    ry="16"
-                    x="0"
-                    y="0"
-                    width="97"
-                    height="32"
+                    rx={16}
+                    ry={16}
+                    x={0}
+                    y={0}
+                    width={97}
+                    height={32}
                 ></rect>
             </svg>
             <div id="TASKS">
                 <span>TASKS</span>
             </div>
-            <svg class="Rectangle_1661">
+            <svg className="Rectangle_1661">
                 <rect
                     id="Rectangle_1661"
-                    rx="16"
-                    ry="16"
-                    x="0"
-                    y="0"
-                    width="98"
-                    height="32"
+                    rx={16}
+                    ry={16}
+                    x={0}
+                    y={0}
+                    width={98}
+                    height={32}
                 ></rect>
             </svg>
             <div id="CARDS">
@@ -73,7 +65,10 @@ export default function Menu() {
             </div>
             <div id="Group_77">
                 <div id="Group_7">
-                    <svg class="Path_3" viewBox="8.534 119.047 31.292 59.413">
+                    <svg
+                        className="Path_3"
+                        viewBox="8.534 119.047 31.292 59.413"
+                    >
                         <path
                             id="Path_3"
                             d="M 39.82599639892578 119.046989440918 L 39.82599639892578 162.8137359619141 L 8.534000396728516 178.4595794677734 L 8.534000396728516 134.6627502441406 L 33.57361602783203 122.157958984375 L 39.82599639892578 119.046989440918 Z"
@@ -81,7 +76,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1">
                         <svg
-                            class="Path_4"
+                            className="Path_4"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -90,7 +85,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5"
+                            className="Path_5"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -99,7 +94,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6"
+                            className="Path_6"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -108,7 +103,10 @@ export default function Menu() {
                             ></path>
                         </svg>
                     </div>
-                    <svg class="Path_7" viewBox="8.534 286.897 31.292 65.726">
+                    <svg
+                        className="Path_7"
+                        viewBox="8.534 286.897 31.292 65.726"
+                    >
                         <path
                             id="Path_7"
                             d="M 39.82599639892578 302.5431518554688 L 39.82599639892578 352.622802734375 L 8.534000396728516 336.9765930175781 L 8.534000396728516 286.8969421386719 L 39.82599639892578 302.5431518554688 Z"
@@ -116,7 +114,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2">
                         <svg
-                            class="Path_8"
+                            className="Path_8"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -125,7 +123,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9"
+                            className="Path_9"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -135,7 +133,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10"
+                        className="Path_10"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -145,7 +143,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3">
                         <svg
-                            class="Path_11"
+                            className="Path_11"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -154,7 +152,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12"
+                            className="Path_12"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -162,14 +160,17 @@ export default function Menu() {
                                 d="M 361.9486694335938 394.3140563964844 L 361.9486694335938 403.37548828125 L 349.8669128417969 397.3344116210938 L 349.8669128417969 388.2729797363281 L 361.9486694335938 394.3140563964844 Z"
                             ></path>
                         </svg>
-                        <svg class="Path_13" viewBox="256 39.431 25.04 56.332">
+                        <svg
+                            className="Path_13"
+                            viewBox="256 39.431 25.04 56.332"
+                        >
                             <path
                                 id="Path_13"
                                 d="M 281.0398864746094 51.96585845947266 L 281.0398864746094 95.76268005371094 L 255.9999542236328 83.22781372070312 L 255.9999542236328 39.43099212646484 L 281.0398864746094 51.96585845947266 Z"
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14"
+                            className="Path_14"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -179,7 +180,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15"
+                        className="Path_15"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -189,7 +190,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4">
                         <svg
-                            class="Path_16"
+                            className="Path_16"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -198,7 +199,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17"
+                            className="Path_17"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -206,14 +207,17 @@ export default function Menu() {
                                 d="M 183.7214202880859 206.9607849121094 L 152.4294281005859 222.6069946289062 L 121.16748046875 206.9912414550781 L 121.16748046875 206.9607849121094 L 96.12752532958984 194.4560089111328 L 39.82599639892578 222.6069946289062 L 8.534011840820312 206.9607849121094 L 39.82599639892578 191.3149566650391 L 71.08792877197266 175.6988372802734 L 96.12752532958984 163.1639709472656 L 121.16748046875 175.6988372802734 L 152.4294281005859 191.3149566650391 L 183.7214202880859 206.9607849121094 Z"
                             ></path>
                         </svg>
-                        <svg class="Path_18" viewBox="256 251.569 25.04 29.782">
+                        <svg
+                            className="Path_18"
+                            viewBox="256 251.569 25.04 29.782"
+                        >
                             <path
                                 id="Path_18"
                                 d="M 281.0398864746094 264.0737915039062 L 281.0398864746094 281.3510437011719 L 255.9999542236328 268.8462524414062 L 255.9999542236328 251.5689697265625 L 281.0398864746094 264.0737915039062 Z"
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19"
+                            className="Path_19"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -224,7 +228,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5">
                         <svg
-                            class="Path_20"
+                            className="Path_20"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -233,7 +237,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21"
+                            className="Path_21"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -243,14 +247,17 @@ export default function Menu() {
                         </svg>
                     </div>
                     <div id="Group_6">
-                        <svg class="Path_22" viewBox="0 154.674 181.229 65.48">
+                        <svg
+                            className="Path_22"
+                            viewBox="0 154.674 181.229 65.48"
+                        >
                             <path
                                 id="Path_22"
                                 d="M 146.9253082275391 220.1538238525391 C 146.456298828125 220.1538238525391 145.9936828613281 220.0447998046875 145.5742340087891 219.8352661132812 L 90.61423492431641 192.3560943603516 L 35.65457534790039 219.8352661132812 C 34.80400848388672 220.2600250244141 33.8033561706543 220.2600250244141 32.95278930664062 219.8352661132812 L 1.669641733169556 204.1929626464844 C 0.6463346481323242 203.6811370849609 0 202.6351776123047 0 201.4911651611328 C 0 200.34716796875 0.6463346481323242 199.3011932373047 1.669641733169556 198.7893676757812 L 89.26351165771484 154.9925537109375 C 90.11408233642578 154.5678100585938 91.11473083496094 154.5678100585938 91.96529388427734 154.9925537109375 L 179.5591735839844 198.7893676757812 C 180.5824737548828 199.3011932373047 181.2288055419922 200.34716796875 181.2288055419922 201.4911651611328 C 181.2288055419922 202.6351776123047 180.5824737548828 203.6811370849609 179.5591735839844 204.1929626464844 L 148.2763671875 219.8352661132812 C 147.8565826416016 220.0447998046875 147.3943023681641 220.1538238525391 146.9253082275391 220.1538238525391 Z M 90.61423492431641 185.9582366943359 C 91.08323669433594 185.9582366943359 91.54585266113281 186.0672760009766 91.96529388427734 186.2767944335938 L 146.9253082275391 213.7559509277344 L 171.4548797607422 201.4911651611328 L 90.61423492431641 161.0715026855469 L 9.773951530456543 201.4911651611328 L 34.30350112915039 213.7559509277344 L 89.26351165771484 186.2767944335938 C 89.68296051025391 186.0672760009766 90.14558410644531 185.9578857421875 90.61423492431641 185.9582366943359 L 90.61423492431641 185.9582366943359 Z"
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23"
+                            className="Path_23"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -259,7 +266,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24"
+                            className="Path_24"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -267,14 +274,17 @@ export default function Menu() {
                                 d="M 253.2433471679688 82.02352905273438 C 252.8426513671875 82.02388000488281 252.4586029052734 81.86460876464844 252.1750793457031 81.58143615722656 C 251.8919372558594 81.29826354980469 251.7326354980469 80.91386413574219 251.7329864501953 80.51316833496094 L 251.7329864501953 36.71636199951172 C 251.7329864501953 35.88242340087891 252.4090576171875 35.20600128173828 253.2433471679688 35.20600128173828 C 254.07763671875 35.20600128173828 254.7536926269531 35.88207244873047 254.7536926269531 36.71636199951172 L 254.7536926269531 80.51316833496094 C 254.7540435791016 80.91386413574219 254.5947723388672 81.29791259765625 254.3115997314453 81.58143615722656 C 254.0284271240234 81.86495971679688 253.6440124511719 82.02388000488281 253.2433471679688 82.02352905273438 Z"
                             ></path>
                         </svg>
-                        <svg class="Path_25" viewBox="0 30.885 93.644 105.359">
+                        <svg
+                            className="Path_25"
+                            viewBox="0 30.885 93.644 105.359"
+                        >
                             <path
                                 id="Path_25"
                                 d="M 3.020709753036499 136.2434844970703 C 2.21969199180603 136.2438354492188 1.451246500015259 135.9256286621094 0.8845502734184265 135.3589172363281 C 0.3182105123996735 134.7925872802734 0 134.0241394042969 0 133.2227783203125 L 0 77.70696258544922 C 0 76.56260681152344 0.647040843963623 75.51628875732422 1.671054124832153 75.00516510009766 L 89.26351165771484 31.20799827575684 C 90.22946929931641 30.72129821777344 91.38162231445312 30.78784370422363 92.28492736816406 31.38285446166992 C 93.18824768066406 31.97786903381348 93.70432281494141 33.0103759765625 93.63848876953125 34.08960723876953 C 93.57263946533203 35.169189453125 92.9344482421875 36.13090896606445 91.96565246582031 36.61158752441406 L 6.041069984436035 79.57411193847656 L 6.041069984436035 133.2231140136719 C 6.041419506072998 134.0241394042969 5.723208904266357 134.7925872802734 5.156519412994385 135.3592681884766 C 4.590179920196533 135.9256286621094 3.821727514266968 136.2438354492188 3.020709753036499 136.2434844970703 Z"
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26"
+                            className="Path_26"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -283,7 +293,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27"
+                            className="Path_27"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -292,7 +302,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28"
+                            className="Path_28"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -301,7 +311,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29"
+                            className="Path_29"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -310,7 +320,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30"
+                            className="Path_30"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -319,7 +329,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31"
+                            className="Path_31"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -328,7 +338,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32"
+                            className="Path_32"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -337,7 +347,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33"
+                            className="Path_33"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -346,7 +356,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34"
+                            className="Path_34"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -355,7 +365,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35"
+                            className="Path_35"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -364,7 +374,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36"
+                            className="Path_36"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -374,7 +384,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37"
                         d="M -19.27597618103027 295.5069885253906"
@@ -383,7 +393,10 @@ export default function Menu() {
             </div>
             <div id="Group_78">
                 <div id="Group_7_c">
-                    <svg class="Path_3_c" viewBox="8.534 119.047 31.292 59.413">
+                    <svg
+                        className="Path_3_c"
+                        viewBox="8.534 119.047 31.292 59.413"
+                    >
                         <path
                             id="Path_3_c"
                             d="M 39.82599639892578 119.046989440918 L 39.82599639892578 162.8137359619141 L 8.534000396728516 178.4595794677734 L 8.534000396728516 134.6627502441406 L 33.57361602783203 122.157958984375 L 39.82599639892578 119.046989440918 Z"
@@ -391,7 +404,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_c">
                         <svg
-                            class="Path_4_c"
+                            className="Path_4_c"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -400,7 +413,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_da"
+                            className="Path_5_da"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -409,7 +422,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_db"
+                            className="Path_6_db"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -419,7 +432,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_7_dc"
+                        className="Path_7_dc"
                         viewBox="8.534 286.897 31.292 65.726"
                     >
                         <path
@@ -429,7 +442,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_dd">
                         <svg
-                            class="Path_8_de"
+                            className="Path_8_de"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -438,7 +451,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_df"
+                            className="Path_9_df"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -448,7 +461,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_dg"
+                        className="Path_10_dg"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -458,7 +471,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_dh">
                         <svg
-                            class="Path_11_di"
+                            className="Path_11_di"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -467,7 +480,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_dj"
+                            className="Path_12_dj"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -476,7 +489,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_dk"
+                            className="Path_13_dk"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -485,7 +498,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_dl"
+                            className="Path_14_dl"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -495,7 +508,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_dm"
+                        className="Path_15_dm"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -505,7 +518,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_dn">
                         <svg
-                            class="Path_16_do"
+                            className="Path_16_do"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -514,7 +527,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_dp"
+                            className="Path_17_dp"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -523,7 +536,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_dq"
+                            className="Path_18_dq"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -532,7 +545,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_dr"
+                            className="Path_19_dr"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -543,7 +556,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_ds">
                         <svg
-                            class="Path_20_dt"
+                            className="Path_20_dt"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -552,7 +565,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_du"
+                            className="Path_21_du"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -563,7 +576,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_dv">
                         <svg
-                            class="Path_22_dw"
+                            className="Path_22_dw"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -572,7 +585,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_dx"
+                            className="Path_23_dx"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -581,7 +594,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_dy"
+                            className="Path_24_dy"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -590,7 +603,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_dz"
+                            className="Path_25_dz"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -599,7 +612,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_d"
+                            className="Path_26_d"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -608,7 +621,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_d"
+                            className="Path_27_d"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -617,7 +630,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_d"
+                            className="Path_28_d"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -626,7 +639,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_d"
+                            className="Path_29_d"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -635,7 +648,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_d"
+                            className="Path_30_d"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -644,7 +657,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_d"
+                            className="Path_31_d"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -653,7 +666,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_d"
+                            className="Path_32_d"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -662,7 +675,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_d"
+                            className="Path_33_d"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -671,7 +684,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_d"
+                            className="Path_34_d"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -680,7 +693,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_d"
+                            className="Path_35_d"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -689,7 +702,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_ea"
+                            className="Path_36_ea"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -699,7 +712,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_eb" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_eb" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_eb"
                         d="M -19.27597618103027 295.5069885253906"
@@ -709,7 +722,7 @@ export default function Menu() {
             <div id="Group_79">
                 <div id="Group_7_ed">
                     <svg
-                        class="Path_3_ee"
+                        className="Path_3_ee"
                         viewBox="8.534 119.047 31.292 59.413"
                     >
                         <path
@@ -719,7 +732,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_ef">
                         <svg
-                            class="Path_4_eg"
+                            className="Path_4_eg"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -728,7 +741,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_eh"
+                            className="Path_5_eh"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -737,7 +750,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_ei"
+                            className="Path_6_ei"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -747,7 +760,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_7_ej"
+                        className="Path_7_ej"
                         viewBox="8.534 286.897 31.292 65.726"
                     >
                         <path
@@ -757,7 +770,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_ek">
                         <svg
-                            class="Path_8_el"
+                            className="Path_8_el"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -766,7 +779,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_em"
+                            className="Path_9_em"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -776,7 +789,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_en"
+                        className="Path_10_en"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -786,7 +799,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_eo">
                         <svg
-                            class="Path_11_ep"
+                            className="Path_11_ep"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -795,7 +808,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_eq"
+                            className="Path_12_eq"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -804,7 +817,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_er"
+                            className="Path_13_er"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -813,7 +826,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_es"
+                            className="Path_14_es"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -823,7 +836,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_et"
+                        className="Path_15_et"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -833,7 +846,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_eu">
                         <svg
-                            class="Path_16_ev"
+                            className="Path_16_ev"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -842,7 +855,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_ew"
+                            className="Path_17_ew"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -851,7 +864,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_ex"
+                            className="Path_18_ex"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -860,7 +873,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_ey"
+                            className="Path_19_ey"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -871,7 +884,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_ez">
                         <svg
-                            class="Path_20_e"
+                            className="Path_20_e"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -880,7 +893,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_e"
+                            className="Path_21_e"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -891,7 +904,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_e">
                         <svg
-                            class="Path_22_e"
+                            className="Path_22_e"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -900,7 +913,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_e"
+                            className="Path_23_e"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -909,7 +922,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_e"
+                            className="Path_24_e"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -918,7 +931,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_e"
+                            className="Path_25_e"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -927,7 +940,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_e"
+                            className="Path_26_e"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -936,7 +949,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_e"
+                            className="Path_27_e"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -945,7 +958,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_e"
+                            className="Path_28_e"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -954,7 +967,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_fa"
+                            className="Path_29_fa"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -963,7 +976,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_fb"
+                            className="Path_30_fb"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -972,7 +985,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_fc"
+                            className="Path_31_fc"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -981,7 +994,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_fd"
+                            className="Path_32_fd"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -990,7 +1003,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_fe"
+                            className="Path_33_fe"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -999,7 +1012,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_ff"
+                            className="Path_34_ff"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -1008,7 +1021,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_fg"
+                            className="Path_35_fg"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -1017,7 +1030,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_fh"
+                            className="Path_36_fh"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -1027,7 +1040,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_fi" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_fi" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_fi"
                         d="M -19.27597618103027 295.5069885253906"
@@ -1035,61 +1048,88 @@ export default function Menu() {
                 </svg>
             </div>
             <div id="Group_35">
-                <svg class="Path_175" viewBox="187.429 167.928 29.889 40.535">
+                <svg
+                    className="Path_175"
+                    viewBox="187.429 167.928 29.889 40.535"
+                >
                     <path
                         id="Path_175"
                         d="M 191.5478515625 169.9690856933594 C 191.4615173339844 168.6912231445312 190.3190002441406 167.7898712158203 189.1951446533203 167.9457702636719 C 188.2201690673828 168.0811157226562 187.4265441894531 168.9889678955078 187.4289855957031 170.0865478515625 L 187.7811279296875 182.4428863525391 C 188.2017669677734 197.2052612304688 200.5540466308594 208.8730010986328 215.3164215087891 208.4523620605469 C 216.4537963867188 208.4198913574219 217.3494567871094 207.4717102050781 217.3172607421875 206.3343353271484 C 217.2847747802734 205.1969604492188 216.3363342285156 204.3013000488281 215.1989440917969 204.33349609375 C 202.7078094482422 204.6894378662109 192.2559509277344 194.8168182373047 191.9000091552734 182.32568359375 C 191.7825317382812 178.2068176269531 191.6653289794922 174.0879516601562 191.5478515625 169.9690856933594 Z"
                     ></path>
                 </svg>
-                <svg class="Path_176" viewBox="43.103 167.422 29.72 40.652">
+                <svg className="Path_176" viewBox="43.103 167.422 29.72 40.652">
                     <path
                         id="Path_176"
                         d="M 47.51717758178711 193.6657104492188 C 47.81492233276367 181.1726684570312 58.22077178955078 171.2516021728516 70.71352386474609 171.5496215820312 C 71.85117340087891 171.5766906738281 72.79529571533203 170.6766967773438 72.82235717773438 169.5390472412109 C 72.84942626953125 168.4016571044922 71.94943237304688 167.4575500488281 70.81178283691406 167.4302062988281 C 56.04779052734375 167.0783386230469 43.74991607666016 178.8031768798828 43.39776611328125 193.5674438476562 L 43.10300064086914 205.9254150390625 C 43.10570907592773 207.0230102539062 43.90338897705078 207.9270629882812 44.87890625 208.0578002929688 C 46.00356292724609 208.2085571289062 47.14175033569336 207.3017883300781 47.222412109375 206.0236511230469 C 47.3206672668457 201.9042510986328 47.41892242431641 197.7848510742188 47.51717758178711 193.6657104492188 Z"
                     ></path>
                 </svg>
-                <svg class="Path_177" viewBox="83.727 289.237 16.482 60.297">
+                <svg
+                    className="Path_177"
+                    viewBox="83.727 289.237 16.482 60.297"
+                >
                     <path
                         id="Path_177"
                         d="M 96.08821105957031 289.2369995117188 L 96.08821105957031 318.3167724609375 C 96.08821105957031 319.54833984375 95.72550201416016 320.7401123046875 95.03880310058594 321.7627258300781 L 84.07698059082031 338.0833740234375 C 83.84880065917969 338.4230651855469 83.72699737548828 338.8228759765625 83.72699737548828 339.2323913574219 L 83.72699737548828 347.473388671875 C 83.72699737548828 348.6112976074219 84.64919281005859 349.5335083007812 85.78738403320312 349.5335083007812 C 86.92556762695312 349.5335083007812 87.84748840332031 348.6112976074219 87.84748840332031 347.473388671875 L 87.84748840332031 339.8598022460938 L 98.4595947265625 324.0599365234375 C 99.60427856445312 322.3554992675781 100.2089691162109 320.3695678710938 100.2089691162109 318.3167724609375 L 100.2089691162109 289.2369995117188 L 96.08821105957031 289.2369995117188 Z"
                     ></path>
                 </svg>
-                <svg class="Path_178" viewBox="185.462 289.95 19.579 59.063">
+                <svg
+                    className="Path_178"
+                    viewBox="185.462 289.95 19.579 59.063"
+                >
                     <path
                         id="Path_178"
                         d="M 189.5497436523438 289.9500122070312 L 196.3185272216797 343.5278015136719 L 203.3818054199219 344.9309692382812 C 204.497802734375 345.1526489257812 205.2226715087891 346.2369995117188 205.0012512207031 347.3529663085938 C 204.7795715332031 348.46923828125 203.6947021484375 349.1943969726562 202.5792541503906 348.9727172851562 L 194.0594635009766 347.2801513671875 C 193.1895141601562 347.1072082519531 192.5279846191406 346.397216796875 192.4167327880859 345.5175170898438 L 185.4620056152344 290.4664611816406 L 189.5497436523438 289.9500122070312 Z"
                     ></path>
                 </svg>
-                <svg class="Path_179" viewBox="167.453 45.669 12.361 24.723">
+                <svg
+                    className="Path_179"
+                    viewBox="167.453 45.669 12.361 24.723"
+                >
                     <path
                         id="Path_179"
                         d="M 167.4530029296875 45.66899871826172 L 167.4530029296875 70.39196014404297 C 174.2799835205078 70.39196014404297 179.8144836425781 64.85745239257812 179.8144836425781 58.03047943115234 C 179.8144836425781 51.20322799682617 174.2799835205078 45.66899871826172 167.4530029296875 45.66899871826172 Z"
                     ></path>
                 </svg>
-                <svg class="Path_180" viewBox="121.784 45.669 16.482 24.723">
+                <svg
+                    className="Path_180"
+                    viewBox="121.784 45.669 16.482 24.723"
+                >
                     <path
                         id="Path_180"
                         d="M 138.2659759521484 58.03047943115234 C 138.2659759521484 51.20322799682617 136.4210510253906 45.66899871826172 134.1454772949219 45.66899871826172 C 127.318229675293 45.66899871826172 121.7839965820312 51.20322799682617 121.7839965820312 58.03047943115234 C 121.7839965820312 64.85745239257812 127.318229675293 70.39196014404297 134.1454772949219 70.39196014404297 C 136.4210510253906 70.39196014404297 138.2659759521484 64.85745239257812 138.2659759521484 58.03047943115234 Z"
                     ></path>
                 </svg>
-                <svg class="Path_181" viewBox="167.453 258.791 12.361 20.602">
+                <svg
+                    className="Path_181"
+                    viewBox="167.453 258.791 12.361 20.602"
+                >
                     <path
                         id="Path_181"
                         d="M 167.4530029296875 258.7909851074219 L 167.4530029296875 279.3934631347656 C 174.2799835205078 279.3934631347656 179.8144836425781 273.8589477539062 179.8144836425781 267.031982421875 L 167.4530029296875 258.7909851074219 Z"
                     ></path>
                 </svg>
-                <svg class="Path_182" viewBox="121.784 258.791 16.482 20.602">
+                <svg
+                    className="Path_182"
+                    viewBox="121.784 258.791 16.482 20.602"
+                >
                     <path
                         id="Path_182"
                         d="M 138.2659759521484 267.031982421875 L 134.1454772949219 258.7909851074219 L 121.7839965820312 267.031982421875 C 121.7839965820312 273.8589477539062 127.318229675293 279.3934631347656 134.1454772949219 279.3934631347656 C 136.4210510253906 279.3934631347656 138.2659759521484 273.8589477539062 138.2659759521484 267.031982421875 Z"
                     ></path>
                 </svg>
-                <svg class="Path_183" viewBox="162.379 167.453 13.735 32.964">
+                <svg
+                    className="Path_183"
+                    viewBox="162.379 167.453 13.735 32.964"
+                >
                     <path
                         id="Path_183"
                         d="M 170.6199798583984 167.4530029296875 L 162.3789978027344 167.4530029296875 L 167.8728942871094 200.4169616699219 L 176.1138916015625 200.4169616699219 L 176.1138916015625 172.9468994140625 C 176.1138916015625 169.9126281738281 173.6542663574219 167.4530029296875 170.6199798583984 167.4530029296875 Z"
                     ></path>
                 </svg>
-                <svg class="Path_184" viewBox="121.784 167.453 16.482 32.964">
+                <svg
+                    className="Path_184"
+                    viewBox="121.784 167.453 16.482 32.964"
+                >
                     <path
                         id="Path_184"
                         d="M 132.7720642089844 167.4530029296875 L 127.2778930664062 167.4530029296875 C 124.2436294555664 167.4530029296875 121.7839965820312 169.9126281738281 121.7839965820312 172.9468994140625 L 121.7839965820312 200.4169616699219 L 138.2659759521484 200.4169616699219 L 138.2659759521484 172.9468994140625 C 138.2659759521484 169.9126281738281 135.8063507080078 167.4530029296875 132.7720642089844 167.4530029296875 Z"
@@ -1097,44 +1137,59 @@ export default function Menu() {
                 </svg>
             </div>
             <div id="Group_62">
-                <svg class="Path_233" viewBox="251.733 79.275 27.081 45.601">
+                <svg
+                    className="Path_233"
+                    viewBox="251.733 79.275 27.081 45.601"
+                >
                     <path
                         id="Path_233"
                         d="M 278.8139953613281 79.27499389648438 L 278.8139953613281 111.7070007324219 L 252.2288513183594 124.8755493164062 L 251.7328491210938 123.8705596923828 L 251.7328491210938 118.7936096191406 C 251.7284240722656 117.76416015625 252.3108215332031 116.8221893310547 253.2336730957031 116.3661041259766 L 273.3978271484375 106.3038330078125 L 273.3978271484375 83.64702606201172 C 273.3969116210938 82.61863708496094 273.9782409667969 81.6783447265625 274.8986511230469 81.21951293945312 L 278.8139953613281 79.27499389648438 Z"
                     ></path>
                 </svg>
-                <svg class="Path_234" viewBox="110.081 185.26 43.33 29.691">
+                <svg className="Path_234" viewBox="110.081 185.26 43.33 29.691">
                     <path
                         id="Path_234"
                         d="M 153.4106292724609 196.0791778564453 L 133.2466430664062 206.1416015625 C 132.3237915039062 206.5976715087891 131.7413787841797 207.5396423339844 131.7458190917969 208.5691070556641 L 131.7458190917969 213.6460571289062 L 131.9677429199219 214.1029052734375 L 132.2418060302734 214.6510314941406 L 131.6283569335938 214.9512634277344 L 126.3296508789062 212.3018188476562 L 110.0809936523438 204.18408203125 L 110.0809936523438 197.7367706298828 C 110.0808486938477 196.7151184082031 110.6634063720703 195.7829284667969 111.5818252563477 195.3354187011719 L 131.7458190917969 185.2599945068359 L 136.1439971923828 187.4525756835938 L 153.4106292724609 196.0791778564453 Z"
                     ></path>
                 </svg>
-                <svg class="Path_235" viewBox="145.493 199.595 37.914 26.65">
+                <svg
+                    className="Path_235"
+                    viewBox="145.493 199.595 37.914 26.65"
+                >
                     <path
                         id="Path_235"
                         d="M 183.4066162109375 208.2217407226562 L 163.2426300048828 218.2841491699219 C 162.3197631835938 218.740234375 161.7373657226562 219.6822052001953 161.7418060302734 220.711669921875 L 161.7418060302734 225.7886047363281 L 161.9637298583984 226.2454528808594 L 161.7418060302734 226.1279907226562 L 145.4929962158203 218.0100860595703 L 145.4929962158203 211.5627746582031 C 145.4928436279297 210.5411224365234 146.0754089355469 209.6089324951172 146.9938354492188 209.1614227294922 L 166.1398162841797 199.5950012207031 L 183.4066162109375 208.2217407226562 Z"
                     ></path>
                 </svg>
-                <svg class="Path_236" viewBox="251.734 8.533 27.081 37.848">
+                <svg className="Path_236" viewBox="251.734 8.533 27.081 37.848">
                     <path
                         id="Path_236"
                         d="M 278.8148803710938 19.35248947143555 L 274.8995361328125 21.29715728759766 C 273.9790954589844 21.7559871673584 273.3977661132812 22.69627952575684 273.398681640625 23.72466850280762 L 273.398681640625 46.38133239746094 L 251.7338714599609 35.56199264526367 L 251.7338714599609 12.90517997741699 C 251.7300567626953 11.88290977478027 252.3068084716797 10.94689750671387 253.2216949462891 10.49066925048828 L 257.0978698730469 8.532999992370605 L 260.3735961914062 10.16444206237793 L 278.8148803710938 19.35248947143555 Z"
                     ></path>
                 </svg>
                 <div id="Group_49">
-                    <svg class="Path_237" viewBox="277.334 19.2 23.166 35.564">
+                    <svg
+                        className="Path_237"
+                        viewBox="277.334 19.2 23.166 35.564"
+                    >
                         <path
                             id="Path_237"
                             d="M 300.4995422363281 28.3880500793457 L 296.5841979980469 30.33271789550781 C 295.6637878417969 30.79154586791992 295.0824584960938 31.73183822631836 295.0833740234375 32.76022720336914 L 295.0833740234375 54.76443099975586 L 277.3338928222656 45.90276336669922 L 277.3338928222656 23.24580001831055 C 277.330078125 22.22352981567383 277.9068298339844 21.28751754760742 278.8217468261719 20.83128929138184 L 282.0583190917969 19.20000076293945 L 300.4995422363281 28.3880500793457 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_238" viewBox="145.493 273.676 13.54 6.741">
+                    <svg
+                        className="Path_238"
+                        viewBox="145.493 273.676 13.54 6.741"
+                    >
                         <path
                             id="Path_238"
                             d="M 145.4929962158203 273.6759643554688 L 159.0334777832031 280.4172668457031"
                         ></path>
                     </svg>
-                    <svg class="Path_239" viewBox="287.147 43.999 13.54 6.741">
+                    <svg
+                        className="Path_239"
+                        viewBox="287.147 43.999 13.54 6.741"
+                    >
                         <path
                             id="Path_239"
                             d="M 287.1470031738281 43.99900054931641 L 300.6875 50.74026489257812"
@@ -1142,14 +1197,14 @@ export default function Menu() {
                     </svg>
                 </div>
                 <div id="Group_50">
-                    <svg class="Path_240" viewBox="101.55 0 51.356 59.33">
+                    <svg className="Path_240" viewBox="101.55 0 51.356 59.33">
                         <path
                             id="Path_240"
                             d="M 124.4021835327148 59.33078384399414 C 124.1995391845703 59.33078384399414 123.9996337890625 59.2836799621582 123.8183975219727 59.19313049316406 L 102.2713470458984 48.42595291137695 C 101.8291931152344 48.20479583740234 101.5499114990234 47.75284957885742 101.5499114990234 47.25854110717773 L 101.5499114990234 40.81123352050781 C 101.5457916259766 39.29143524169922 102.4118957519531 37.90332794189453 103.7790603637695 37.23940277099609 L 123.2142715454102 27.52752685546875 C 123.2119827270508 21.28974723815918 123.2098388671875 15.05181884765625 123.2075500488281 8.814040184020996 C 123.6608657836914 7.851875305175781 124.1141967773438 6.889558792114258 124.5673522949219 5.927393913269043 L 125.8239288330078 6.440212726593018 C 125.8240966796875 13.73819065093994 125.8242492675781 21.03632354736328 125.8243942260742 28.33430290222168 C 125.8245468139648 28.82861328125 125.545280456543 29.28071022033691 125.1029586791992 29.50171661376953 L 104.9386749267578 39.57744216918945 C 104.4633255004883 39.80456161499023 104.1604995727539 40.28433990478516 104.1598815917969 40.81123352050781 L 104.1598815917969 46.45161437988281 L 124.4044799804688 56.56817626953125 L 150.2951049804688 43.74712371826172 L 150.2951049804688 12.93294715881348 L 129.8876342773438 2.765453100204468 L 126.5955352783203 4.42809534072876 C 126.1209564208984 4.663168430328369 125.821647644043 5.148150444030762 125.8243942260742 5.677791118621826 L 125.8243942260742 11.74641609191895 C 125.8243942260742 12.46723556518555 125.2400054931641 13.05147743225098 124.5193405151367 13.05147743225098 C 123.7985153198242 13.05147743225098 123.2142715454102 12.46723556518555 123.2142715454102 11.74641609191895 L 123.2142715454102 5.677791118621826 C 123.2080078125 4.160598278045654 124.0644836425781 2.77187705039978 125.4230728149414 2.09648060798645 L 129.2951354980469 0.1406464129686356 C 129.6632690429688 -0.04517925158143044 130.0973205566406 -0.04624985158443451 130.4663696289062 0.1374346166849136 L 152.1830139160156 10.95677089691162 C 152.6257934570312 11.17777442932129 152.9056854248047 11.63002681732178 152.9056854248047 12.12479686737061 L 152.9056854248047 44.55695724487305 C 152.9056854248047 45.05325698852539 152.6241149902344 45.50642776489258 152.17919921875 45.72636032104492 L 124.9807662963867 59.19512557983398 C 124.8010559082031 59.28444671630859 124.6029968261719 59.33094024658203 124.4021835327148 59.33078384399414 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_241"
+                        className="Path_241"
                         viewBox="247.475 181.033 22.968 12.118"
                     >
                         <path
@@ -1157,14 +1212,17 @@ export default function Menu() {
                             d="M 269.7902221679688 193.1514892578125 C 269.6888122558594 193.1516418457031 269.5889282226562 193.1280975341797 269.4984130859375 193.0826568603516 L 247.8340301513672 182.2689819335938 C 247.5125579833984 182.1073303222656 247.3827056884766 181.7159423828125 247.5436096191406 181.3941650390625 C 247.7044982910156 181.0723724365234 248.0955657958984 180.9414367675781 248.4178314208984 181.1015625 L 270.0821838378906 191.9152526855469 C 270.3527221679688 192.0507659912109 270.4946594238281 192.3543548583984 270.4252319335938 192.6487731933594 C 270.3556518554688 192.9431762695312 270.0928955078125 193.1513366699219 269.7902221679688 193.1514892578125 L 269.7902221679688 193.1514892578125 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_242" viewBox="389.116 74.974 6.721 28.339">
+                    <svg
+                        className="Path_242"
+                        viewBox="389.116 74.974 6.721 28.339"
+                    >
                         <path
                             id="Path_242"
                             d="M 389.7684936523438 103.3133239746094 C 389.5953674316406 103.3134765625 389.4294128417969 103.2446594238281 389.3069152832031 103.1222991943359 C 389.1844177246094 102.9999389648438 389.11572265625 102.8338470458984 389.1159057617188 102.6607208251953 L 389.1159057617188 80.00022888183594 C 389.1119079589844 78.72682952880859 389.83349609375 77.56232452392578 390.9753723144531 76.99873352050781 L 394.893310546875 75.04243469238281 C 395.215576171875 74.88230133056641 395.6066284179688 75.01306915283203 395.7675170898438 75.33502197265625 C 395.9284057617188 75.65679931640625 395.798583984375 76.04818725585938 395.4771118164062 76.20985412597656 L 391.5579223632812 78.1661376953125 C 390.8600463867188 78.51041412353516 390.4189758300781 79.22206115722656 390.4210815429688 80.00022888183594 L 390.4210815429688 102.6607208251953 C 390.4212646484375 102.8338470458984 390.3524169921875 102.9999389648438 390.2300720214844 103.1222991943359 C 390.1077270507812 103.2446594238281 389.9416198730469 103.3133239746094 389.7684936523438 103.3133239746094 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_243"
+                        className="Path_243"
                         viewBox="247.466 251.736 22.968 18.877"
                     >
                         <path
@@ -1173,7 +1231,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_244"
+                        className="Path_244"
                         viewBox="66.133 300.518 24.276 21.531"
                     >
                         <path
@@ -1182,7 +1240,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_245"
+                        className="Path_245"
                         viewBox="207.784 332.802 36.413 27.407"
                     >
                         <path
@@ -1191,7 +1249,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_246"
+                        className="Path_246"
                         viewBox="141.227 269.408 14.845 8.047"
                     >
                         <path
@@ -1199,7 +1257,10 @@ export default function Menu() {
                             d="M 155.4201965332031 277.4546508789062 C 155.3193969726562 277.4548034667969 155.2198486328125 277.4315490722656 155.1295928955078 277.3864440917969 L 141.589111328125 270.6447143554688 C 141.2667083740234 270.4839477539062 141.1354827880859 270.0925903320312 141.2959136962891 269.77001953125 C 141.4563446044922 269.4474792480469 141.8477325439453 269.3159484863281 142.1702880859375 269.4758911132812 L 155.7107849121094 276.2174987792969 C 155.9816436767578 276.3525390625 156.1241912841797 276.6562805175781 156.0549163818359 276.9510192871094 C 155.9857788085938 277.2458801269531 155.7230224609375 277.4541931152344 155.4201965332031 277.4546508789062 L 155.4201965332031 277.4546508789062 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_247" viewBox="282.882 39.732 14.845 8.046">
+                    <svg
+                        className="Path_247"
+                        viewBox="282.882 39.732 14.845 8.046"
+                    >
                         <path
                             id="Path_247"
                             d="M 297.0751953125 47.77827453613281 C 296.9743957519531 47.77842330932617 296.8748168945312 47.75518035888672 296.7846069335938 47.71006011962891 L 283.2440795898438 40.96910095214844 C 282.92138671875 40.80866241455078 282.7898559570312 40.41682052612305 282.9502868652344 40.09411239624023 C 283.1107482910156 39.77140045166016 283.5025634765625 39.63986968994141 283.8253173828125 39.80030822753906 L 297.3657836914062 46.54126739501953 C 297.6366577148438 46.67631530761719 297.7791748046875 46.98006439208984 297.7098999023438 47.27478408813477 C 297.6407775878906 47.56935119628906 297.3779907226562 47.77780914306641 297.0751953125 47.77827453613281 L 297.0751953125 47.77827453613281 Z"
@@ -1209,19 +1270,25 @@ export default function Menu() {
             </div>
             <div id="Group_63">
                 <div id="Group_14">
-                    <svg class="Path_68" viewBox="443.733 241.067 3.447 37.059">
+                    <svg
+                        className="Path_68"
+                        viewBox="443.733 241.067 3.447 37.059"
+                    >
                         <path
                             id="Path_68"
                             d="M 447.180419921875 241.0670166015625 L 447.180419921875 278.1259765625 L 443.7330017089844 276.4023742675781 L 443.7330017089844 242.7906188964844 L 447.180419921875 241.0670166015625 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_69" viewBox="324.267 300.8 3.447 37.059">
+                    <svg
+                        className="Path_69"
+                        viewBox="324.267 300.8 3.447 37.059"
+                    >
                         <path
                             id="Path_69"
                             d="M 327.7142333984375 300.7999877929688 L 327.7142333984375 337.8591613769531 L 324.2669982910156 336.1353454589844 L 324.2669982910156 302.5235900878906 L 327.7142333984375 300.7999877929688 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_70" viewBox="136.533 224 3.447 9.48">
+                    <svg className="Path_70" viewBox="136.533 224 3.447 9.48">
                         <path
                             id="Path_70"
                             d="M 139.9804382324219 225.7236022949219 L 139.9804382324219 233.4801635742188 L 136.5330047607422 231.7565612792969 L 136.5330047607422 224 L 139.9804382324219 225.7236022949219 Z"
@@ -1229,81 +1296,96 @@ export default function Menu() {
                     </svg>
                 </div>
                 <div id="Group_15">
-                    <svg class="Path_71" viewBox="17.067 164.267 3.447 33.612">
+                    <svg
+                        className="Path_71"
+                        viewBox="17.067 164.267 3.447 33.612"
+                    >
                         <path
                             id="Path_71"
                             d="M 20.51422119140625 165.9906158447266 L 20.51422119140625 197.8787536621094 L 17.0669994354248 196.1549377441406 L 17.0669994354248 164.2669982910156 L 20.51422119140625 165.9906158447266 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_72" viewBox="8.533 32 99.974 49.987">
+                    <svg className="Path_72" viewBox="8.533 32 99.974 49.987">
                         <path
                             id="Path_72"
                             d="M 108.5065078735352 63.02622222900391 L 70.58544158935547 81.98676300048828 L 8.532999992370605 50.96053314208984 L 46.45407104492188 31.99999237060547 L 108.5065078735352 63.02622222900391 Z"
                         ></path>
                     </svg>
                 </div>
-                <svg class="Path_73" viewBox="34.133 44.8 94.802 47.401">
+                <svg className="Path_73" viewBox="34.133 44.8 94.802 47.401">
                     <path
                         id="Path_73"
                         d="M 128.9354705810547 73.24069976806641 L 91.01439666748047 92.20124816894531 L 34.13299942016602 63.76053619384766 L 72.05406951904297 44.79998779296875 L 128.9354705810547 73.24069976806641 Z"
                     ></path>
                 </svg>
-                <svg class="Path_74" viewBox="0 23.467 103.421 53.434">
+                <svg className="Path_74" viewBox="0 23.467 103.421 53.434">
                     <path
                         id="Path_74"
                         d="M 63.77605056762695 76.9010009765625 C 63.50840759277344 76.9010009765625 63.24440383911133 76.83878326416016 63.00503540039062 76.71920013427734 L 0.9528038501739502 45.69297027587891 C 0.3688403069972992 45.40088653564453 0 44.80399322509766 0 44.15114974975586 C 0 43.49830627441406 0.3688403069972992 42.90141677856445 0.9528038501739502 42.60933303833008 L 38.8736686706543 23.6487922668457 C 39.35905838012695 23.40640068054199 39.93009567260742 23.40640068054199 40.41548919677734 23.6487922668457 L 102.4679260253906 54.67502212524414 C 103.0518951416016 54.96710586547852 103.4207305908203 55.56399917602539 103.4207305908203 56.21684265136719 C 103.4207305908203 56.86968612670898 103.0518951416016 57.46657562255859 102.4679260253906 57.75865936279297 L 64.54705047607422 76.71920013427734 C 64.30769348144531 76.83878326416016 64.04369354248047 76.9010009765625 63.77605056762695 76.9010009765625 L 63.77605056762695 76.9010009765625 Z M 5.577649593353271 44.15114974975586 L 63.77625274658203 73.24996185302734 L 97.84328460693359 56.21684265136719 L 39.64467620849609 27.11803436279297 L 5.577649593353271 44.15114974975586 Z"
                     ></path>
                 </svg>
-                <svg class="Path_75" viewBox="8.533 125.867 62.052 37.921">
+                <svg className="Path_75" viewBox="8.533 125.867 62.052 37.921">
                     <path
                         id="Path_75"
                         d="M 70.58544158935547 156.8932189941406 L 70.58544158935547 163.7878723144531 L 8.532999992370605 132.7616424560547 L 8.532999992370605 125.8669891357422 L 70.58544158935547 156.8932189941406 Z"
                     ></path>
                 </svg>
-                <svg class="Path_76" viewBox="34.133 138.667 56.881 35.335">
+                <svg className="Path_76" viewBox="34.133 138.667 56.881 35.335">
                     <path
                         id="Path_76"
                         d="M 91.01439666748047 167.1077117919922 L 91.01439666748047 174.0023651123047 L 34.13299942016602 145.5616607666016 L 34.13299942016602 138.6670074462891 L 91.01439666748047 167.1077117919922 Z"
                     ></path>
                 </svg>
-                <svg class="Path_77" viewBox="0 117.333 65.5 41.368">
+                <svg className="Path_77" viewBox="0 117.333 65.5 41.368">
                     <path
                         id="Path_77"
                         d="M 63.77605056762695 158.7013702392578 C 63.50840759277344 158.701171875 63.24459838867188 158.6389465332031 63.00503540039062 158.5195770263672 L 0.9526018500328064 127.4933471679688 C 0.3686383068561554 127.2014694213867 -0.0002020458487095311 126.6043701171875 -5.222649690495018e-08 125.951530456543 L -5.222649690495018e-08 119.0568771362305 C -5.222649690495018e-08 118.4593811035156 0.3092521727085114 117.9047012329102 0.8174680471420288 117.5906066894531 C 1.325684070587158 117.2765045166016 1.960146188735962 117.2478256225586 2.49462103843689 117.5150604248047 L 64.54705047607422 148.5412902832031 C 65.13102722167969 148.8333740234375 65.49986267089844 149.4302520751953 65.49986267089844 150.0830993652344 L 65.49986267089844 156.9777526855469 C 65.49986267089844 157.4348754882812 65.31826782226562 157.8733978271484 64.99507904052734 158.1965942382812 C 64.67168426513672 158.519775390625 64.23336791992188 158.7013702392578 63.77605056762695 158.7013702392578 Z M 3.44742488861084 124.8860092163086 L 62.05244064331055 154.1886291503906 L 62.05244064331055 151.1486206054688 L 3.44742488861084 121.8460083007812 L 3.44742488861084 124.8860092163086 Z"
                     ></path>
                 </svg>
-                <svg class="Path_78" viewBox="315.733 185.6 37.921 25.855">
+                <svg className="Path_78" viewBox="315.733 185.6 37.921 25.855">
                     <path
                         id="Path_78"
                         d="M 353.654052734375 185.6000061035156 L 353.654052734375 192.4946594238281 L 315.7330017089844 211.4552001953125 L 315.7330017089844 204.560546875 L 353.654052734375 185.6000061035156 Z"
                     ></path>
                 </svg>
-                <svg class="Path_79" viewBox="307.2 177.066 41.368 29.303">
+                <svg className="Path_79" viewBox="307.2 177.066 41.368 29.303">
                     <path
                         id="Path_79"
                         d="M 308.9236145019531 206.3690032958984 C 308.4664916992188 206.3690032958984 308.0279541015625 206.1874084472656 307.7047729492188 205.8642120361328 C 307.381591796875 205.5410308837891 307.2000122070312 205.1025085449219 307.2000122070312 204.6453857421875 L 307.2000122070312 197.750732421875 C 307.1997985839844 197.097900390625 307.5686645507812 196.5007934570312 308.15283203125 196.2089233398438 L 346.0736694335938 177.2483825683594 C 346.6079711914062 176.9813385009766 347.2426147460938 177.0098266601562 347.7508239746094 177.3239288330078 C 348.259033203125 177.6380157470703 348.5682983398438 178.1927032470703 348.5682983398438 178.7901916503906 L 348.5682983398438 185.6848449707031 C 348.5684814453125 186.3376770019531 348.1996459960938 186.9347839355469 347.615478515625 187.2266693115234 L 309.6946411132812 206.1872100830078 C 309.4552612304688 206.3067932128906 309.1912536621094 206.3690032958984 308.9236145019531 206.3690032958984 Z M 310.6474304199219 198.8162536621094 L 310.6474304199219 201.8562622070312 L 345.1210632324219 184.6195373535156 L 345.1210632324219 181.5795288085938 L 310.6474304199219 198.8162536621094 Z"
                     ></path>
                 </svg>
                 <div id="Group_16">
-                    <svg class="Path_80" viewBox="460.8 232.533 3.447 38.783">
+                    <svg
+                        className="Path_80"
+                        viewBox="460.8 232.533 3.447 38.783"
+                    >
                         <path
                             id="Path_80"
                             d="M 464.2474060058594 232.5330200195312 L 464.2474060058594 269.5921936035156 L 460.7999877929688 271.3157958984375 L 460.7999877929688 234.2568359375 L 464.2474060058594 232.5330200195312 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_81" viewBox="341.333 292.267 3.447 38.783">
+                    <svg
+                        className="Path_81"
+                        viewBox="341.333 292.267 3.447 38.783"
+                    >
                         <path
                             id="Path_81"
                             d="M 344.7804260253906 292.2669677734375 L 344.7804260253906 329.3259887695312 L 341.3330078125 331.0498046875 L 341.3330078125 293.9906005859375 L 344.7804260253906 292.2669677734375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_82" viewBox="153.6 232.533 3.447 7.757">
+                    <svg
+                        className="Path_82"
+                        viewBox="153.6 232.533 3.447 7.757"
+                    >
                         <path
                             id="Path_82"
                             d="M 157.0474243164062 234.2568359375 L 157.0474243164062 238.5659484863281 L 153.6000061035156 240.2895812988281 L 153.6000061035156 232.5330200195312 L 157.0474243164062 234.2568359375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_83" viewBox="34.133 172.8 3.447 31.888">
+                    <svg
+                        className="Path_83"
+                        viewBox="34.133 172.8 3.447 31.888"
+                    >
                         <path
                             id="Path_83"
                             d="M 37.58042144775391 174.5236206054688 L 37.58042144775391 202.9643249511719 L 34.13299942016602 204.6881408691406 L 34.13299942016602 172.7999877929688 L 37.58042144775391 174.5236206054688 Z"
@@ -1311,85 +1393,121 @@ export default function Menu() {
                     </svg>
                 </div>
                 <div id="Group_17">
-                    <svg class="Path_84" viewBox="456.533 228.268 5.171 40.506">
+                    <svg
+                        className="Path_84"
+                        viewBox="456.533 228.268 5.171 40.506"
+                    >
                         <path
                             id="Path_84"
                             d="M 457.3948974609375 268.7740173339844 C 456.9190063476562 268.7738037109375 456.5333862304688 268.3880004882812 456.532958984375 267.912109375 L 456.532958984375 230.8531188964844 C 456.532958984375 230.5267028808594 456.7174072265625 230.2281494140625 457.00927734375 230.0821228027344 L 460.4567260742188 228.3584899902344 C 460.7239379882812 228.2251892089844 461.0410766601562 228.2395324707031 461.2952270507812 228.396484375 C 461.54931640625 228.5534362792969 461.703857421875 228.8307800292969 461.7040405273438 229.1295166015625 L 461.7040405273438 266.1885070800781 C 461.7040405273438 266.5149230957031 461.5195922851562 266.8134460449219 461.2277221679688 266.95947265625 L 457.7802734375 268.68310546875 C 457.6607055664062 268.7428894042969 457.5286254882812 268.7740173339844 457.3948974609375 268.7740173339844 Z M 458.2567749023438 231.3857727050781 L 458.2567749023438 266.5175476074219 L 459.9804077148438 265.6556396484375 L 459.9804077148438 230.5240783691406 L 458.2567749023438 231.3857727050781 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_85" viewBox="439.467 236.801 5.171 38.783">
+                    <svg
+                        className="Path_85"
+                        viewBox="439.467 236.801 5.171 38.783"
+                    >
                         <path
                             id="Path_85"
                             d="M 443.776123046875 275.5833740234375 C 443.6423950195312 275.5833740234375 443.5103149414062 275.55224609375 443.3907470703125 275.4924926757812 L 439.9432983398438 273.7688598632812 C 439.6514282226562 273.6228332519531 439.4669799804688 273.3242797851562 439.4669799804688 272.9978637695312 L 439.4669799804688 239.3861236572266 C 439.4669799804688 239.0596923828125 439.6514282226562 238.7611541748047 439.9432983398438 238.6150970458984 L 443.3907470703125 236.8914947509766 C 443.657958984375 236.7581787109375 443.97509765625 236.7725219726562 444.2291870117188 236.9294738769531 C 444.4833068847656 237.08642578125 444.6378173828125 237.3637542724609 444.6380310058594 237.6625061035156 L 444.6380310058594 274.7216796875 C 444.6376342773438 275.1973876953125 444.2520141601562 275.5831909179688 443.776123046875 275.5833740234375 Z M 441.1906127929688 272.4652099609375 L 442.9142150878906 273.3271179199219 L 442.9142150878906 239.0570678710938 L 441.1906127929688 239.9189758300781 L 441.1906127929688 272.4652099609375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_86" viewBox="439.466 241.066 1.724 2.586">
+                    <svg
+                        className="Path_86"
+                        viewBox="439.466 241.066 1.724 2.586"
+                    >
                         <path
                             id="Path_86"
                             d="M 440.3279113769531 243.6517028808594 C 440.0992431640625 243.6519165039062 439.8800659179688 243.5610046386719 439.71826171875 243.3994140625 C 439.5567016601562 243.2378234863281 439.4658203125 243.0184631347656 439.4660034179688 242.789794921875 L 439.4660034179688 241.9278869628906 C 439.4660034179688 241.4519958496094 439.851806640625 241.0659790039062 440.3279113769531 241.0659790039062 C 440.8040161132812 241.0659790039062 441.1898193359375 241.4518127441406 441.1898193359375 241.9278869628906 L 441.1898193359375 242.789794921875 C 441.1900024414062 243.0184631347656 441.09912109375 243.2376098632812 440.9375305175781 243.3994140625 C 440.7759399414062 243.5610046386719 440.5565795898438 243.6517028808594 440.3279113769531 243.6517028808594 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_87" viewBox="473.6 223.999 1.724 2.586">
+                    <svg
+                        className="Path_87"
+                        viewBox="473.6 223.999 1.724 2.586"
+                    >
                         <path
                             id="Path_87"
                             d="M 474.4619140625 226.584716796875 C 474.2332763671875 226.5849304199219 474.0140991210938 226.4940185546875 473.852294921875 226.3324279785156 C 473.6907348632812 226.1708374023438 473.599853515625 225.9514770507812 473.6000366210938 225.7228088378906 L 473.6000366210938 224.8609008789062 C 473.6000366210938 224.385009765625 473.98583984375 223.9989929199219 474.4619140625 223.9989929199219 C 474.9378051757812 223.9989929199219 475.3238525390625 224.3847961425781 475.3238525390625 224.8609008789062 L 475.3238525390625 225.7228088378906 C 475.3240356445312 225.9514770507812 475.233154296875 226.1706237792969 475.071533203125 226.3324279785156 C 474.9097290039062 226.4940185546875 474.6906127929688 226.5849304199219 474.4619140625 226.584716796875 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_88" viewBox="456.533 232.533 1.724 2.586">
+                    <svg
+                        className="Path_88"
+                        viewBox="456.533 232.533 1.724 2.586"
+                    >
                         <path
                             id="Path_88"
                             d="M 457.3948974609375 235.1185302734375 C 457.166259765625 235.1187438964844 456.9470825195312 235.02783203125 456.7852783203125 234.8662414550781 C 456.6236572265625 234.7046508789062 456.5327758789062 234.4852905273438 456.532958984375 234.2566223144531 L 456.532958984375 233.3949279785156 C 456.532958984375 232.9190368652344 456.9187622070312 232.5330200195312 457.3948974609375 232.5330200195312 C 457.8709716796875 232.5330200195312 458.2567749023438 232.9188232421875 458.2567749023438 233.3949279785156 L 458.2567749023438 234.2568359375 C 458.2570190429688 234.4854736328125 458.1660766601562 234.7046508789062 458.0045166015625 234.866455078125 C 457.8427124023438 235.0280456542969 457.62353515625 235.1187438964844 457.3948974609375 235.1185302734375 L 457.3948974609375 235.1185302734375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_89" viewBox="320 296.534 5.171 38.783">
+                    <svg className="Path_89" viewBox="320 296.534 5.171 38.783">
                         <path
                             id="Path_89"
                             d="M 324.3091430664062 335.3163757324219 C 324.1754150390625 335.3163757324219 324.0432739257812 335.2852783203125 323.9237060546875 335.2254638671875 L 320.476318359375 333.5018615722656 C 320.1844177246094 333.3558349609375 320 333.0572814941406 320 332.7308654785156 L 320 299.119140625 C 320 298.7926940917969 320.1844177246094 298.494140625 320.476318359375 298.3480834960938 L 323.9237060546875 296.6244812011719 C 324.1909484863281 296.4911499023438 324.5081176757812 296.5055236816406 324.76220703125 296.6624450683594 C 325.0162963867188 296.8194274902344 325.1708374023438 297.0967407226562 325.1710205078125 297.3955078125 L 325.1710205078125 334.4546813964844 C 325.1708374023438 334.9303588867188 324.7850341796875 335.316162109375 324.3091430664062 335.3163757324219 L 324.3091430664062 335.3163757324219 Z M 321.7236022949219 332.1981811523438 L 323.4472045898438 333.0601196289062 L 323.4472045898438 298.7900390625 L 321.7236022949219 299.6519775390625 L 321.7236022949219 332.1981811523438 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_90" viewBox="320 300.799 1.724 2.586">
+                    <svg className="Path_90" viewBox="320 300.799 1.724 2.586">
                         <path
                             id="Path_90"
                             d="M 320.8618774414062 303.3847351074219 C 320.6332397460938 303.3849487304688 320.4140625 303.2940368652344 320.2522888183594 303.1324462890625 C 320.0905151367188 302.9708251953125 319.9997863769531 302.75146484375 320 302.5228271484375 L 320 301.6609191894531 C 320 301.1850280761719 320.3858032226562 300.7990112304688 320.8618774414062 300.7990112304688 C 321.3380126953125 300.7990112304688 321.7238159179688 301.184814453125 321.7238159179688 301.6609191894531 L 321.7238159179688 302.5228271484375 C 321.7239990234375 302.75146484375 321.6331176757812 302.9706420898438 321.4714965820312 303.1324462890625 C 321.3099365234375 303.2942504882812 321.0903625488281 303.3849487304688 320.8618774414062 303.3847351074219 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_91" viewBox="337.066 288.001 5.171 40.506">
+                    <svg
+                        className="Path_91"
+                        viewBox="337.066 288.001 5.171 40.506"
+                    >
                         <path
                             id="Path_91"
                             d="M 337.9279174804688 328.5069885253906 C 337.4520263671875 328.5068054199219 337.06640625 328.1210021972656 337.0659790039062 327.6450805664062 L 337.0659790039062 290.5861206054688 C 337.0659790039062 290.2597045898438 337.2504272460938 289.961181640625 337.5422973632812 289.8151245117188 L 340.98974609375 288.0914916992188 C 341.2569580078125 287.9581909179688 341.5740966796875 287.9725341796875 341.8282165527344 288.1294860839844 C 342.0823059082031 288.2864379882812 342.23681640625 288.5637817382812 342.237060546875 288.8625183105469 L 342.237060546875 325.9216918945312 C 342.237060546875 326.2481079101562 342.0526123046875 326.5466613769531 341.7607421875 326.6926879882812 L 338.3132934570312 328.4163208007812 C 338.1937255859375 328.4758911132812 338.0618286132812 328.5069885253906 337.9279174804688 328.5069885253906 Z M 338.789794921875 291.1189880371094 L 338.789794921875 326.250732421875 L 340.513427734375 325.3888549804688 L 340.513427734375 290.257080078125 L 338.789794921875 291.1189880371094 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_92" viewBox="354.133 283.733 1.724 2.586">
+                    <svg
+                        className="Path_92"
+                        viewBox="354.133 283.733 1.724 2.586"
+                    >
                         <path
                             id="Path_92"
                             d="M 354.9949035644531 286.3185119628906 C 354.7662353515625 286.3187255859375 354.5470581054688 286.2278137207031 354.38525390625 286.0662231445312 C 354.2234802246094 285.9046020507812 354.1328125 285.6852722167969 354.1329956054688 285.4566040039062 L 354.1329956054688 284.5949096679688 C 354.1329956054688 284.1190185546875 354.518798828125 283.7330017089844 354.9949035644531 283.7330017089844 C 355.4707946777344 283.7330017089844 355.8568115234375 284.1188049316406 355.8568115234375 284.5949096679688 L 355.8568115234375 285.4568176269531 C 355.8569946289062 285.6854858398438 355.76611328125 285.9046020507812 355.6045227050781 286.06640625 C 355.4429321289062 286.2282104492188 355.2235717773438 286.3187255859375 354.9949035644531 286.3185119628906 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_93" viewBox="337.066 292.266 1.724 2.586">
+                    <svg
+                        className="Path_93"
+                        viewBox="337.066 292.266 1.724 2.586"
+                    >
                         <path
                             id="Path_93"
                             d="M 337.9279174804688 294.8516845703125 C 337.6992492675781 294.8519287109375 337.4801025390625 294.7610168457031 337.3182983398438 294.5994262695312 C 337.156494140625 294.4378356933594 337.0657958984375 294.2184448242188 337.0659790039062 293.9898071289062 L 337.0659790039062 293.1278686523438 C 337.0659790039062 292.6519775390625 337.4517822265625 292.2659912109375 337.9279174804688 292.2659912109375 C 338.4039916992188 292.2659912109375 338.789794921875 292.6517944335938 338.789794921875 293.1278686523438 L 338.789794921875 293.9898071289062 C 338.7900390625 294.2184448242188 338.6990966796875 294.4376220703125 338.5375366210938 294.5994262695312 C 338.3759155273438 294.76123046875 338.1565551757812 294.8516845703125 337.9279174804688 294.8516845703125 L 337.9279174804688 294.8516845703125 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_94" viewBox="149.333 228.267 5.171 9.48">
+                    <svg
+                        className="Path_94"
+                        viewBox="149.333 228.267 5.171 9.48"
+                    >
                         <path
                             id="Path_94"
                             d="M 150.1949005126953 237.7469787597656 C 149.718994140625 237.7467651367188 149.3334045410156 237.3609619140625 149.3329925537109 236.8850708007812 L 149.3329925537109 229.1285095214844 C 149.3331909179688 228.8297424316406 149.4879150390625 228.5526123046875 149.7418212890625 228.3954772949219 C 149.9959411621094 228.238525390625 150.3130645751953 228.2241821289062 150.5802917480469 228.3574829101562 L 154.0277252197266 230.0811157226562 C 154.3196105957031 230.2271423339844 154.5040283203125 230.5256958007812 154.5040283203125 230.8521118164062 L 154.5040283203125 235.1614379882812 C 154.5040283203125 235.4878845214844 154.3196105957031 235.7864074707031 154.0277252197266 235.9324645996094 L 150.5802917480469 237.6560668945312 C 150.4607238769531 237.7158508300781 150.32861328125 237.7469787597656 150.1949005126953 237.7469787597656 L 150.1949005126953 237.7469787597656 Z M 151.0568084716797 230.5232849121094 L 151.0568084716797 235.4906921386719 L 152.7804107666016 234.6287841796875 L 152.7804107666016 231.3851928710938 L 151.0568084716797 230.5232849121094 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_95" viewBox="132.267 219.734 5.171 11.204">
+                    <svg
+                        className="Path_95"
+                        viewBox="132.267 219.734 5.171 11.204"
+                    >
                         <path
                             id="Path_95"
                             d="M 136.5761260986328 230.9375915527344 C 136.4424133300781 230.9375915527344 136.310302734375 230.9064636230469 136.1907348632812 230.8466796875 L 132.7433013916016 229.123046875 C 132.451416015625 228.9770202636719 132.2669982910156 228.678466796875 132.2669982910156 228.35205078125 L 132.2669982910156 220.5954895019531 C 132.2671966552734 220.2967529296875 132.4219207763672 220.0196228027344 132.6758270263672 219.8624572753906 C 132.9299468994141 219.7055053710938 133.2470703125 219.6911773681641 133.5143127441406 219.8244934082031 L 136.9617309570312 221.548095703125 C 137.2536163330078 221.6941375732422 137.4380340576172 221.9926910400391 137.4380340576172 222.3191223144531 L 137.4380340576172 230.07568359375 C 137.4376373291016 230.5515747070312 137.0520324707031 230.9373779296875 136.5761260986328 230.9375915527344 Z M 133.9906005859375 227.8193969726562 L 135.7142181396484 228.6813049316406 L 135.7142181396484 222.8521728515625 L 133.9906005859375 221.9902648925781 L 133.9906005859375 227.8193969726562 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_96" viewBox="12.8 160.001 5.171 35.335">
+                    <svg
+                        className="Path_96"
+                        viewBox="12.8 160.001 5.171 35.335"
+                    >
                         <path
                             id="Path_96"
                             d="M 17.109130859375 195.3359527587891 C 16.97541046142578 195.3359527587891 16.84330749511719 195.3048400878906 16.72372436523438 195.2450561523438 L 13.27630043029785 193.5214538574219 C 12.98442077636719 193.3753967285156 12.80000114440918 193.0768585205078 12.80000114440918 192.7504272460938 L 12.80000114440918 160.8624877929688 C 12.80020236968994 160.5637512207031 12.95492935180664 160.28662109375 13.20883560180664 160.1294555664062 C 13.46294403076172 159.9725036621094 13.78007411956787 159.9581756591797 14.0473108291626 160.0914916992188 L 17.49473571777344 161.8150939941406 C 17.78661727905273 161.9611511230469 17.97103691101074 162.2596893310547 17.97103691101074 162.5861206054688 L 17.97103691101074 194.4742431640625 C 17.97083473205566 194.949951171875 17.58502578735352 195.3357543945312 17.109130859375 195.3359527587891 Z M 14.5236120223999 192.2177734375 L 16.24722290039062 193.0796813964844 L 16.24722290039062 163.1189727783203 L 14.5236120223999 162.2570648193359 L 14.5236120223999 192.2177734375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_97" viewBox="29.866 168.534 5.171 33.612">
+                    <svg
+                        className="Path_97"
+                        viewBox="29.866 168.534 5.171 33.612"
+                    >
                         <path
                             id="Path_97"
                             d="M 30.72790336608887 202.1453552246094 C 30.25200843811035 202.1451568603516 29.86640167236328 201.7593383789062 29.86599731445312 201.2834320068359 L 29.86599731445312 169.3955078125 C 29.86620140075684 169.0967559814453 30.02092742919922 168.8196105957031 30.27483177185059 168.6624755859375 C 30.52894020080566 168.5055236816406 30.8460693359375 168.4911804199219 31.11330795288086 168.6244964599609 L 34.56073379516602 170.3481140136719 C 34.85261535644531 170.494140625 35.03703308105469 170.7926940917969 35.03703308105469 171.1191101074219 L 35.03703308105469 199.559814453125 C 35.03703308105469 199.8862457275391 34.85261535644531 200.1847839355469 34.56073379516602 200.3308410644531 L 31.11330795288086 202.054443359375 C 30.99372863769531 202.1142425537109 30.86182594299316 202.1453552246094 30.72790336608887 202.1453552246094 Z M 31.58981132507324 170.7900695800781 L 31.58981132507324 199.8888702392578 L 33.31342315673828 199.0269622802734 L 33.31342315673828 171.6519775390625 L 31.58981132507324 170.7900695800781 Z"
@@ -1400,7 +1518,7 @@ export default function Menu() {
             <div id="Group_64">
                 <div id="Group_54">
                     <svg
-                        class="Path_233_hd"
+                        className="Path_233_hd"
                         viewBox="251.733 79.275 27.081 45.601"
                     >
                         <path
@@ -1409,7 +1527,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_234_he"
+                        className="Path_234_he"
                         viewBox="110.081 185.26 43.33 29.691"
                     >
                         <path
@@ -1418,7 +1536,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_235_hf"
+                        className="Path_235_hf"
                         viewBox="145.493 199.595 37.914 26.65"
                     >
                         <path
@@ -1427,7 +1545,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_236_hg"
+                        className="Path_236_hg"
                         viewBox="251.734 8.533 27.081 37.848"
                     >
                         <path
@@ -1437,7 +1555,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_49_hh">
                         <svg
-                            class="Path_237_hi"
+                            className="Path_237_hi"
                             viewBox="277.334 19.2 23.166 35.564"
                         >
                             <path
@@ -1446,7 +1564,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_238_hj"
+                            className="Path_238_hj"
                             viewBox="145.493 273.676 13.54 6.741"
                         >
                             <path
@@ -1455,7 +1573,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_239_hk"
+                            className="Path_239_hk"
                             viewBox="287.147 43.999 13.54 6.741"
                         >
                             <path
@@ -1466,7 +1584,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_50_hl">
                         <svg
-                            class="Path_240_hm"
+                            className="Path_240_hm"
                             viewBox="101.55 0 51.356 59.33"
                         >
                             <path
@@ -1475,7 +1593,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_241_hn"
+                            className="Path_241_hn"
                             viewBox="247.475 181.033 22.968 12.118"
                         >
                             <path
@@ -1484,7 +1602,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_242_ho"
+                            className="Path_242_ho"
                             viewBox="389.116 74.974 6.721 28.339"
                         >
                             <path
@@ -1493,7 +1611,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_243_hp"
+                            className="Path_243_hp"
                             viewBox="247.466 251.736 22.968 18.877"
                         >
                             <path
@@ -1502,7 +1620,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_244_hq"
+                            className="Path_244_hq"
                             viewBox="66.133 300.518 24.276 21.531"
                         >
                             <path
@@ -1511,7 +1629,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_245_hr"
+                            className="Path_245_hr"
                             viewBox="207.784 332.802 36.413 27.407"
                         >
                             <path
@@ -1520,7 +1638,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_246_hs"
+                            className="Path_246_hs"
                             viewBox="141.227 269.408 14.845 8.047"
                         >
                             <path
@@ -1529,7 +1647,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_247_ht"
+                            className="Path_247_ht"
                             viewBox="282.882 39.732 14.845 8.046"
                         >
                             <path
@@ -1542,7 +1660,7 @@ export default function Menu() {
                 <div id="Group_55">
                     <div id="Group_14_hv">
                         <svg
-                            class="Path_68_hw"
+                            className="Path_68_hw"
                             viewBox="443.733 241.067 3.447 37.059"
                         >
                             <path
@@ -1551,7 +1669,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_69_hx"
+                            className="Path_69_hx"
                             viewBox="324.267 300.8 3.447 37.059"
                         >
                             <path
@@ -1560,7 +1678,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_70_hy"
+                            className="Path_70_hy"
                             viewBox="136.533 224 3.447 9.48"
                         >
                             <path
@@ -1571,7 +1689,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_15_hz">
                         <svg
-                            class="Path_71_h"
+                            className="Path_71_h"
                             viewBox="17.067 164.267 3.447 33.612"
                         >
                             <path
@@ -1579,27 +1697,36 @@ export default function Menu() {
                                 d="M 20.51422119140625 165.9906158447266 L 20.51422119140625 197.8787536621094 L 17.0669994354248 196.1549377441406 L 17.0669994354248 164.2669982910156 L 20.51422119140625 165.9906158447266 Z"
                             ></path>
                         </svg>
-                        <svg class="Path_72_h" viewBox="8.533 32 99.974 49.987">
+                        <svg
+                            className="Path_72_h"
+                            viewBox="8.533 32 99.974 49.987"
+                        >
                             <path
                                 id="Path_72_h"
                                 d="M 108.5065078735352 63.02622222900391 L 70.58544158935547 81.98676300048828 L 8.532999992370605 50.96053314208984 L 46.45407104492188 31.99999237060547 L 108.5065078735352 63.02622222900391 Z"
                             ></path>
                         </svg>
                     </div>
-                    <svg class="Path_73_h" viewBox="34.133 44.8 94.802 47.401">
+                    <svg
+                        className="Path_73_h"
+                        viewBox="34.133 44.8 94.802 47.401"
+                    >
                         <path
                             id="Path_73_h"
                             d="M 128.9354705810547 73.24069976806641 L 91.01439666748047 92.20124816894531 L 34.13299942016602 63.76053619384766 L 72.05406951904297 44.79998779296875 L 128.9354705810547 73.24069976806641 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_74_h" viewBox="0 23.467 103.421 53.434">
+                    <svg
+                        className="Path_74_h"
+                        viewBox="0 23.467 103.421 53.434"
+                    >
                         <path
                             id="Path_74_h"
                             d="M 63.77605056762695 76.9010009765625 C 63.50840759277344 76.9010009765625 63.24440383911133 76.83878326416016 63.00503540039062 76.71920013427734 L 0.9528038501739502 45.69297027587891 C 0.3688403069972992 45.40088653564453 0 44.80399322509766 0 44.15114974975586 C 0 43.49830627441406 0.3688403069972992 42.90141677856445 0.9528038501739502 42.60933303833008 L 38.8736686706543 23.6487922668457 C 39.35905838012695 23.40640068054199 39.93009567260742 23.40640068054199 40.41548919677734 23.6487922668457 L 102.4679260253906 54.67502212524414 C 103.0518951416016 54.96710586547852 103.4207305908203 55.56399917602539 103.4207305908203 56.21684265136719 C 103.4207305908203 56.86968612670898 103.0518951416016 57.46657562255859 102.4679260253906 57.75865936279297 L 64.54705047607422 76.71920013427734 C 64.30769348144531 76.83878326416016 64.04369354248047 76.9010009765625 63.77605056762695 76.9010009765625 L 63.77605056762695 76.9010009765625 Z M 5.577649593353271 44.15114974975586 L 63.77625274658203 73.24996185302734 L 97.84328460693359 56.21684265136719 L 39.64467620849609 27.11803436279297 L 5.577649593353271 44.15114974975586 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_75_h"
+                        className="Path_75_h"
                         viewBox="8.533 125.867 62.052 37.921"
                     >
                         <path
@@ -1608,7 +1735,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_76_h"
+                        className="Path_76_h"
                         viewBox="34.133 138.667 56.881 35.335"
                     >
                         <path
@@ -1616,14 +1743,14 @@ export default function Menu() {
                             d="M 91.01439666748047 167.1077117919922 L 91.01439666748047 174.0023651123047 L 34.13299942016602 145.5616607666016 L 34.13299942016602 138.6670074462891 L 91.01439666748047 167.1077117919922 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_77_h" viewBox="0 117.333 65.5 41.368">
+                    <svg className="Path_77_h" viewBox="0 117.333 65.5 41.368">
                         <path
                             id="Path_77_h"
                             d="M 63.77605056762695 158.7013702392578 C 63.50840759277344 158.701171875 63.24459838867188 158.6389465332031 63.00503540039062 158.5195770263672 L 0.9526018500328064 127.4933471679688 C 0.3686383068561554 127.2014694213867 -0.0002020458487095311 126.6043701171875 -5.222649690495018e-08 125.951530456543 L -5.222649690495018e-08 119.0568771362305 C -5.222649690495018e-08 118.4593811035156 0.3092521727085114 117.9047012329102 0.8174680471420288 117.5906066894531 C 1.325684070587158 117.2765045166016 1.960146188735962 117.2478256225586 2.49462103843689 117.5150604248047 L 64.54705047607422 148.5412902832031 C 65.13102722167969 148.8333740234375 65.49986267089844 149.4302520751953 65.49986267089844 150.0830993652344 L 65.49986267089844 156.9777526855469 C 65.49986267089844 157.4348754882812 65.31826782226562 157.8733978271484 64.99507904052734 158.1965942382812 C 64.67168426513672 158.519775390625 64.23336791992188 158.7013702392578 63.77605056762695 158.7013702392578 Z M 3.44742488861084 124.8860092163086 L 62.05244064331055 154.1886291503906 L 62.05244064331055 151.1486206054688 L 3.44742488861084 121.8460083007812 L 3.44742488861084 124.8860092163086 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_78_h"
+                        className="Path_78_h"
                         viewBox="315.733 185.6 37.921 25.855"
                     >
                         <path
@@ -1632,7 +1759,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_79_h"
+                        className="Path_79_h"
                         viewBox="307.2 177.066 41.368 29.303"
                     >
                         <path
@@ -1642,7 +1769,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_16_h">
                         <svg
-                            class="Path_80_ia"
+                            className="Path_80_ia"
                             viewBox="460.8 232.533 3.447 38.783"
                         >
                             <path
@@ -1651,7 +1778,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_81_ib"
+                            className="Path_81_ib"
                             viewBox="341.333 292.267 3.447 38.783"
                         >
                             <path
@@ -1660,7 +1787,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_82_ic"
+                            className="Path_82_ic"
                             viewBox="153.6 232.533 3.447 7.757"
                         >
                             <path
@@ -1669,7 +1796,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_83_id"
+                            className="Path_83_id"
                             viewBox="34.133 172.8 3.447 31.888"
                         >
                             <path
@@ -1680,7 +1807,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_17_ie">
                         <svg
-                            class="Path_84_if"
+                            className="Path_84_if"
                             viewBox="456.533 228.268 5.171 40.506"
                         >
                             <path
@@ -1689,7 +1816,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_85_ig"
+                            className="Path_85_ig"
                             viewBox="439.467 236.801 5.171 38.783"
                         >
                             <path
@@ -1698,7 +1825,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_86_ih"
+                            className="Path_86_ih"
                             viewBox="439.466 241.066 1.724 2.586"
                         >
                             <path
@@ -1707,7 +1834,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_87_ii"
+                            className="Path_87_ii"
                             viewBox="473.6 223.999 1.724 2.586"
                         >
                             <path
@@ -1716,7 +1843,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_88_ij"
+                            className="Path_88_ij"
                             viewBox="456.533 232.533 1.724 2.586"
                         >
                             <path
@@ -1725,7 +1852,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_89_ik"
+                            className="Path_89_ik"
                             viewBox="320 296.534 5.171 38.783"
                         >
                             <path
@@ -1734,7 +1861,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_90_il"
+                            className="Path_90_il"
                             viewBox="320 300.799 1.724 2.586"
                         >
                             <path
@@ -1743,7 +1870,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_91_im"
+                            className="Path_91_im"
                             viewBox="337.066 288.001 5.171 40.506"
                         >
                             <path
@@ -1752,7 +1879,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_92_in"
+                            className="Path_92_in"
                             viewBox="354.133 283.733 1.724 2.586"
                         >
                             <path
@@ -1761,7 +1888,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_93_io"
+                            className="Path_93_io"
                             viewBox="337.066 292.266 1.724 2.586"
                         >
                             <path
@@ -1770,7 +1897,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_94_ip"
+                            className="Path_94_ip"
                             viewBox="149.333 228.267 5.171 9.48"
                         >
                             <path
@@ -1779,7 +1906,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_95_iq"
+                            className="Path_95_iq"
                             viewBox="132.267 219.734 5.171 11.204"
                         >
                             <path
@@ -1788,7 +1915,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_96_ir"
+                            className="Path_96_ir"
                             viewBox="12.8 160.001 5.171 35.335"
                         >
                             <path
@@ -1797,7 +1924,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_97_is"
+                            className="Path_97_is"
                             viewBox="29.866 168.534 5.171 33.612"
                         >
                             <path
@@ -1809,25 +1936,37 @@ export default function Menu() {
                 </div>
             </div>
             <div id="Group_65">
-                <svg class="Path_233_iu" viewBox="251.733 79.275 27.081 45.601">
+                <svg
+                    className="Path_233_iu"
+                    viewBox="251.733 79.275 27.081 45.601"
+                >
                     <path
                         id="Path_233_iu"
                         d="M 278.8139953613281 79.27499389648438 L 278.8139953613281 111.7070007324219 L 252.2288513183594 124.8755493164062 L 251.7328491210938 123.8705596923828 L 251.7328491210938 118.7936096191406 C 251.7284240722656 117.76416015625 252.3108215332031 116.8221893310547 253.2336730957031 116.3661041259766 L 273.3978271484375 106.3038330078125 L 273.3978271484375 83.64702606201172 C 273.3969116210938 82.61863708496094 273.9782409667969 81.6783447265625 274.8986511230469 81.21951293945312 L 278.8139953613281 79.27499389648438 Z"
                     ></path>
                 </svg>
-                <svg class="Path_234_iv" viewBox="110.081 185.26 43.33 29.691">
+                <svg
+                    className="Path_234_iv"
+                    viewBox="110.081 185.26 43.33 29.691"
+                >
                     <path
                         id="Path_234_iv"
                         d="M 153.4106292724609 196.0791778564453 L 133.2466430664062 206.1416015625 C 132.3237915039062 206.5976715087891 131.7413787841797 207.5396423339844 131.7458190917969 208.5691070556641 L 131.7458190917969 213.6460571289062 L 131.9677429199219 214.1029052734375 L 132.2418060302734 214.6510314941406 L 131.6283569335938 214.9512634277344 L 126.3296508789062 212.3018188476562 L 110.0809936523438 204.18408203125 L 110.0809936523438 197.7367706298828 C 110.0808486938477 196.7151184082031 110.6634063720703 195.7829284667969 111.5818252563477 195.3354187011719 L 131.7458190917969 185.2599945068359 L 136.1439971923828 187.4525756835938 L 153.4106292724609 196.0791778564453 Z"
                     ></path>
                 </svg>
-                <svg class="Path_235_iw" viewBox="145.493 199.595 37.914 26.65">
+                <svg
+                    className="Path_235_iw"
+                    viewBox="145.493 199.595 37.914 26.65"
+                >
                     <path
                         id="Path_235_iw"
                         d="M 183.4066162109375 208.2217407226562 L 163.2426300048828 218.2841491699219 C 162.3197631835938 218.740234375 161.7373657226562 219.6822052001953 161.7418060302734 220.711669921875 L 161.7418060302734 225.7886047363281 L 161.9637298583984 226.2454528808594 L 161.7418060302734 226.1279907226562 L 145.4929962158203 218.0100860595703 L 145.4929962158203 211.5627746582031 C 145.4928436279297 210.5411224365234 146.0754089355469 209.6089324951172 146.9938354492188 209.1614227294922 L 166.1398162841797 199.5950012207031 L 183.4066162109375 208.2217407226562 Z"
                     ></path>
                 </svg>
-                <svg class="Path_236_ix" viewBox="251.734 8.533 27.081 37.848">
+                <svg
+                    className="Path_236_ix"
+                    viewBox="251.734 8.533 27.081 37.848"
+                >
                     <path
                         id="Path_236_ix"
                         d="M 278.8148803710938 19.35248947143555 L 274.8995361328125 21.29715728759766 C 273.9790954589844 21.7559871673584 273.3977661132812 22.69627952575684 273.398681640625 23.72466850280762 L 273.398681640625 46.38133239746094 L 251.7338714599609 35.56199264526367 L 251.7338714599609 12.90517997741699 C 251.7300567626953 11.88290977478027 252.3068084716797 10.94689750671387 253.2216949462891 10.49066925048828 L 257.0978698730469 8.532999992370605 L 260.3735961914062 10.16444206237793 L 278.8148803710938 19.35248947143555 Z"
@@ -1835,7 +1974,7 @@ export default function Menu() {
                 </svg>
                 <div id="Group_49_iy">
                     <svg
-                        class="Path_237_iz"
+                        className="Path_237_iz"
                         viewBox="277.334 19.2 23.166 35.564"
                     >
                         <path
@@ -1844,7 +1983,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_238_i"
+                        className="Path_238_i"
                         viewBox="145.493 273.676 13.54 6.741"
                     >
                         <path
@@ -1853,7 +1992,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_239_i"
+                        className="Path_239_i"
                         viewBox="287.147 43.999 13.54 6.741"
                     >
                         <path
@@ -1863,14 +2002,14 @@ export default function Menu() {
                     </svg>
                 </div>
                 <div id="Group_50_i">
-                    <svg class="Path_240_i" viewBox="101.55 0 51.356 59.33">
+                    <svg className="Path_240_i" viewBox="101.55 0 51.356 59.33">
                         <path
                             id="Path_240_i"
                             d="M 124.4021835327148 59.33078384399414 C 124.1995391845703 59.33078384399414 123.9996337890625 59.2836799621582 123.8183975219727 59.19313049316406 L 102.2713470458984 48.42595291137695 C 101.8291931152344 48.20479583740234 101.5499114990234 47.75284957885742 101.5499114990234 47.25854110717773 L 101.5499114990234 40.81123352050781 C 101.5457916259766 39.29143524169922 102.4118957519531 37.90332794189453 103.7790603637695 37.23940277099609 L 123.2142715454102 27.52752685546875 C 123.2119827270508 21.28974723815918 123.2098388671875 15.05181884765625 123.2075500488281 8.814040184020996 C 123.6608657836914 7.851875305175781 124.1141967773438 6.889558792114258 124.5673522949219 5.927393913269043 L 125.8239288330078 6.440212726593018 C 125.8240966796875 13.73819065093994 125.8242492675781 21.03632354736328 125.8243942260742 28.33430290222168 C 125.8245468139648 28.82861328125 125.545280456543 29.28071022033691 125.1029586791992 29.50171661376953 L 104.9386749267578 39.57744216918945 C 104.4633255004883 39.80456161499023 104.1604995727539 40.28433990478516 104.1598815917969 40.81123352050781 L 104.1598815917969 46.45161437988281 L 124.4044799804688 56.56817626953125 L 150.2951049804688 43.74712371826172 L 150.2951049804688 12.93294715881348 L 129.8876342773438 2.765453100204468 L 126.5955352783203 4.42809534072876 C 126.1209564208984 4.663168430328369 125.821647644043 5.148150444030762 125.8243942260742 5.677791118621826 L 125.8243942260742 11.74641609191895 C 125.8243942260742 12.46723556518555 125.2400054931641 13.05147743225098 124.5193405151367 13.05147743225098 C 123.7985153198242 13.05147743225098 123.2142715454102 12.46723556518555 123.2142715454102 11.74641609191895 L 123.2142715454102 5.677791118621826 C 123.2080078125 4.160598278045654 124.0644836425781 2.77187705039978 125.4230728149414 2.09648060798645 L 129.2951354980469 0.1406464129686356 C 129.6632690429688 -0.04517925158143044 130.0973205566406 -0.04624985158443451 130.4663696289062 0.1374346166849136 L 152.1830139160156 10.95677089691162 C 152.6257934570312 11.17777442932129 152.9056854248047 11.63002681732178 152.9056854248047 12.12479686737061 L 152.9056854248047 44.55695724487305 C 152.9056854248047 45.05325698852539 152.6241149902344 45.50642776489258 152.17919921875 45.72636032104492 L 124.9807662963867 59.19512557983398 C 124.8010559082031 59.28444671630859 124.6029968261719 59.33094024658203 124.4021835327148 59.33078384399414 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_241_i"
+                        className="Path_241_i"
                         viewBox="247.475 181.033 22.968 12.118"
                     >
                         <path
@@ -1879,7 +2018,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_242_i"
+                        className="Path_242_i"
                         viewBox="389.116 74.974 6.721 28.339"
                     >
                         <path
@@ -1888,7 +2027,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_243_i"
+                        className="Path_243_i"
                         viewBox="247.466 251.736 22.968 18.877"
                     >
                         <path
@@ -1897,7 +2036,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_244_i"
+                        className="Path_244_i"
                         viewBox="66.133 300.518 24.276 21.531"
                     >
                         <path
@@ -1906,7 +2045,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_245_i"
+                        className="Path_245_i"
                         viewBox="207.784 332.802 36.413 27.407"
                     >
                         <path
@@ -1915,7 +2054,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_246_i"
+                        className="Path_246_i"
                         viewBox="141.227 269.408 14.845 8.047"
                     >
                         <path
@@ -1924,7 +2063,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_247_ja"
+                        className="Path_247_ja"
                         viewBox="282.882 39.732 14.845 8.046"
                     >
                         <path
@@ -1937,7 +2076,7 @@ export default function Menu() {
             <div id="Group_66">
                 <div id="Group_14_jc">
                     <svg
-                        class="Path_68_jd"
+                        className="Path_68_jd"
                         viewBox="443.733 241.067 3.447 37.059"
                     >
                         <path
@@ -1946,7 +2085,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_69_je"
+                        className="Path_69_je"
                         viewBox="324.267 300.8 3.447 37.059"
                     >
                         <path
@@ -1954,7 +2093,10 @@ export default function Menu() {
                             d="M 327.7142333984375 300.7999877929688 L 327.7142333984375 337.8591613769531 L 324.2669982910156 336.1353454589844 L 324.2669982910156 302.5235900878906 L 327.7142333984375 300.7999877929688 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_70_jf" viewBox="136.533 224 3.447 9.48">
+                    <svg
+                        className="Path_70_jf"
+                        viewBox="136.533 224 3.447 9.48"
+                    >
                         <path
                             id="Path_70_jf"
                             d="M 139.9804382324219 225.7236022949219 L 139.9804382324219 233.4801635742188 L 136.5330047607422 231.7565612792969 L 136.5330047607422 224 L 139.9804382324219 225.7236022949219 Z"
@@ -1963,7 +2105,7 @@ export default function Menu() {
                 </div>
                 <div id="Group_15_jg">
                     <svg
-                        class="Path_71_jh"
+                        className="Path_71_jh"
                         viewBox="17.067 164.267 3.447 33.612"
                     >
                         <path
@@ -1971,50 +2113,65 @@ export default function Menu() {
                             d="M 20.51422119140625 165.9906158447266 L 20.51422119140625 197.8787536621094 L 17.0669994354248 196.1549377441406 L 17.0669994354248 164.2669982910156 L 20.51422119140625 165.9906158447266 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_72_ji" viewBox="8.533 32 99.974 49.987">
+                    <svg
+                        className="Path_72_ji"
+                        viewBox="8.533 32 99.974 49.987"
+                    >
                         <path
                             id="Path_72_ji"
                             d="M 108.5065078735352 63.02622222900391 L 70.58544158935547 81.98676300048828 L 8.532999992370605 50.96053314208984 L 46.45407104492188 31.99999237060547 L 108.5065078735352 63.02622222900391 Z"
                         ></path>
                     </svg>
                 </div>
-                <svg class="Path_73_jj" viewBox="34.133 44.8 94.802 47.401">
+                <svg className="Path_73_jj" viewBox="34.133 44.8 94.802 47.401">
                     <path
                         id="Path_73_jj"
                         d="M 128.9354705810547 73.24069976806641 L 91.01439666748047 92.20124816894531 L 34.13299942016602 63.76053619384766 L 72.05406951904297 44.79998779296875 L 128.9354705810547 73.24069976806641 Z"
                     ></path>
                 </svg>
-                <svg class="Path_74_jk" viewBox="0 23.467 103.421 53.434">
+                <svg className="Path_74_jk" viewBox="0 23.467 103.421 53.434">
                     <path
                         id="Path_74_jk"
                         d="M 63.77605056762695 76.9010009765625 C 63.50840759277344 76.9010009765625 63.24440383911133 76.83878326416016 63.00503540039062 76.71920013427734 L 0.9528038501739502 45.69297027587891 C 0.3688403069972992 45.40088653564453 0 44.80399322509766 0 44.15114974975586 C 0 43.49830627441406 0.3688403069972992 42.90141677856445 0.9528038501739502 42.60933303833008 L 38.8736686706543 23.6487922668457 C 39.35905838012695 23.40640068054199 39.93009567260742 23.40640068054199 40.41548919677734 23.6487922668457 L 102.4679260253906 54.67502212524414 C 103.0518951416016 54.96710586547852 103.4207305908203 55.56399917602539 103.4207305908203 56.21684265136719 C 103.4207305908203 56.86968612670898 103.0518951416016 57.46657562255859 102.4679260253906 57.75865936279297 L 64.54705047607422 76.71920013427734 C 64.30769348144531 76.83878326416016 64.04369354248047 76.9010009765625 63.77605056762695 76.9010009765625 L 63.77605056762695 76.9010009765625 Z M 5.577649593353271 44.15114974975586 L 63.77625274658203 73.24996185302734 L 97.84328460693359 56.21684265136719 L 39.64467620849609 27.11803436279297 L 5.577649593353271 44.15114974975586 Z"
                     ></path>
                 </svg>
-                <svg class="Path_75_jl" viewBox="8.533 125.867 62.052 37.921">
+                <svg
+                    className="Path_75_jl"
+                    viewBox="8.533 125.867 62.052 37.921"
+                >
                     <path
                         id="Path_75_jl"
                         d="M 70.58544158935547 156.8932189941406 L 70.58544158935547 163.7878723144531 L 8.532999992370605 132.7616424560547 L 8.532999992370605 125.8669891357422 L 70.58544158935547 156.8932189941406 Z"
                     ></path>
                 </svg>
-                <svg class="Path_76_jm" viewBox="34.133 138.667 56.881 35.335">
+                <svg
+                    className="Path_76_jm"
+                    viewBox="34.133 138.667 56.881 35.335"
+                >
                     <path
                         id="Path_76_jm"
                         d="M 91.01439666748047 167.1077117919922 L 91.01439666748047 174.0023651123047 L 34.13299942016602 145.5616607666016 L 34.13299942016602 138.6670074462891 L 91.01439666748047 167.1077117919922 Z"
                     ></path>
                 </svg>
-                <svg class="Path_77_jn" viewBox="0 117.333 65.5 41.368">
+                <svg className="Path_77_jn" viewBox="0 117.333 65.5 41.368">
                     <path
                         id="Path_77_jn"
                         d="M 63.77605056762695 158.7013702392578 C 63.50840759277344 158.701171875 63.24459838867188 158.6389465332031 63.00503540039062 158.5195770263672 L 0.9526018500328064 127.4933471679688 C 0.3686383068561554 127.2014694213867 -0.0002020458487095311 126.6043701171875 -5.222649690495018e-08 125.951530456543 L -5.222649690495018e-08 119.0568771362305 C -5.222649690495018e-08 118.4593811035156 0.3092521727085114 117.9047012329102 0.8174680471420288 117.5906066894531 C 1.325684070587158 117.2765045166016 1.960146188735962 117.2478256225586 2.49462103843689 117.5150604248047 L 64.54705047607422 148.5412902832031 C 65.13102722167969 148.8333740234375 65.49986267089844 149.4302520751953 65.49986267089844 150.0830993652344 L 65.49986267089844 156.9777526855469 C 65.49986267089844 157.4348754882812 65.31826782226562 157.8733978271484 64.99507904052734 158.1965942382812 C 64.67168426513672 158.519775390625 64.23336791992188 158.7013702392578 63.77605056762695 158.7013702392578 Z M 3.44742488861084 124.8860092163086 L 62.05244064331055 154.1886291503906 L 62.05244064331055 151.1486206054688 L 3.44742488861084 121.8460083007812 L 3.44742488861084 124.8860092163086 Z"
                     ></path>
                 </svg>
-                <svg class="Path_78_jo" viewBox="315.733 185.6 37.921 25.855">
+                <svg
+                    className="Path_78_jo"
+                    viewBox="315.733 185.6 37.921 25.855"
+                >
                     <path
                         id="Path_78_jo"
                         d="M 353.654052734375 185.6000061035156 L 353.654052734375 192.4946594238281 L 315.7330017089844 211.4552001953125 L 315.7330017089844 204.560546875 L 353.654052734375 185.6000061035156 Z"
                     ></path>
                 </svg>
-                <svg class="Path_79_jp" viewBox="307.2 177.066 41.368 29.303">
+                <svg
+                    className="Path_79_jp"
+                    viewBox="307.2 177.066 41.368 29.303"
+                >
                     <path
                         id="Path_79_jp"
                         d="M 308.9236145019531 206.3690032958984 C 308.4664916992188 206.3690032958984 308.0279541015625 206.1874084472656 307.7047729492188 205.8642120361328 C 307.381591796875 205.5410308837891 307.2000122070312 205.1025085449219 307.2000122070312 204.6453857421875 L 307.2000122070312 197.750732421875 C 307.1997985839844 197.097900390625 307.5686645507812 196.5007934570312 308.15283203125 196.2089233398438 L 346.0736694335938 177.2483825683594 C 346.6079711914062 176.9813385009766 347.2426147460938 177.0098266601562 347.7508239746094 177.3239288330078 C 348.259033203125 177.6380157470703 348.5682983398438 178.1927032470703 348.5682983398438 178.7901916503906 L 348.5682983398438 185.6848449707031 C 348.5684814453125 186.3376770019531 348.1996459960938 186.9347839355469 347.615478515625 187.2266693115234 L 309.6946411132812 206.1872100830078 C 309.4552612304688 206.3067932128906 309.1912536621094 206.3690032958984 308.9236145019531 206.3690032958984 Z M 310.6474304199219 198.8162536621094 L 310.6474304199219 201.8562622070312 L 345.1210632324219 184.6195373535156 L 345.1210632324219 181.5795288085938 L 310.6474304199219 198.8162536621094 Z"
@@ -2022,7 +2179,7 @@ export default function Menu() {
                 </svg>
                 <div id="Group_16_jq">
                     <svg
-                        class="Path_80_jr"
+                        className="Path_80_jr"
                         viewBox="460.8 232.533 3.447 38.783"
                     >
                         <path
@@ -2031,7 +2188,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_81_js"
+                        className="Path_81_js"
                         viewBox="341.333 292.267 3.447 38.783"
                     >
                         <path
@@ -2039,13 +2196,19 @@ export default function Menu() {
                             d="M 344.7804260253906 292.2669677734375 L 344.7804260253906 329.3259887695312 L 341.3330078125 331.0498046875 L 341.3330078125 293.9906005859375 L 344.7804260253906 292.2669677734375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_82_jt" viewBox="153.6 232.533 3.447 7.757">
+                    <svg
+                        className="Path_82_jt"
+                        viewBox="153.6 232.533 3.447 7.757"
+                    >
                         <path
                             id="Path_82_jt"
                             d="M 157.0474243164062 234.2568359375 L 157.0474243164062 238.5659484863281 L 153.6000061035156 240.2895812988281 L 153.6000061035156 232.5330200195312 L 157.0474243164062 234.2568359375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_83_ju" viewBox="34.133 172.8 3.447 31.888">
+                    <svg
+                        className="Path_83_ju"
+                        viewBox="34.133 172.8 3.447 31.888"
+                    >
                         <path
                             id="Path_83_ju"
                             d="M 37.58042144775391 174.5236206054688 L 37.58042144775391 202.9643249511719 L 34.13299942016602 204.6881408691406 L 34.13299942016602 172.7999877929688 L 37.58042144775391 174.5236206054688 Z"
@@ -2054,7 +2217,7 @@ export default function Menu() {
                 </div>
                 <div id="Group_17_jv">
                     <svg
-                        class="Path_84_jw"
+                        className="Path_84_jw"
                         viewBox="456.533 228.268 5.171 40.506"
                     >
                         <path
@@ -2063,7 +2226,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_85_jx"
+                        className="Path_85_jx"
                         viewBox="439.467 236.801 5.171 38.783"
                     >
                         <path
@@ -2072,7 +2235,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_86_jy"
+                        className="Path_86_jy"
                         viewBox="439.466 241.066 1.724 2.586"
                     >
                         <path
@@ -2080,14 +2243,17 @@ export default function Menu() {
                             d="M 440.3279113769531 243.6517028808594 C 440.0992431640625 243.6519165039062 439.8800659179688 243.5610046386719 439.71826171875 243.3994140625 C 439.5567016601562 243.2378234863281 439.4658203125 243.0184631347656 439.4660034179688 242.789794921875 L 439.4660034179688 241.9278869628906 C 439.4660034179688 241.4519958496094 439.851806640625 241.0659790039062 440.3279113769531 241.0659790039062 C 440.8040161132812 241.0659790039062 441.1898193359375 241.4518127441406 441.1898193359375 241.9278869628906 L 441.1898193359375 242.789794921875 C 441.1900024414062 243.0184631347656 441.09912109375 243.2376098632812 440.9375305175781 243.3994140625 C 440.7759399414062 243.5610046386719 440.5565795898438 243.6517028808594 440.3279113769531 243.6517028808594 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_87_jz" viewBox="473.6 223.999 1.724 2.586">
+                    <svg
+                        className="Path_87_jz"
+                        viewBox="473.6 223.999 1.724 2.586"
+                    >
                         <path
                             id="Path_87_jz"
                             d="M 474.4619140625 226.584716796875 C 474.2332763671875 226.5849304199219 474.0140991210938 226.4940185546875 473.852294921875 226.3324279785156 C 473.6907348632812 226.1708374023438 473.599853515625 225.9514770507812 473.6000366210938 225.7228088378906 L 473.6000366210938 224.8609008789062 C 473.6000366210938 224.385009765625 473.98583984375 223.9989929199219 474.4619140625 223.9989929199219 C 474.9378051757812 223.9989929199219 475.3238525390625 224.3847961425781 475.3238525390625 224.8609008789062 L 475.3238525390625 225.7228088378906 C 475.3240356445312 225.9514770507812 475.233154296875 226.1706237792969 475.071533203125 226.3324279785156 C 474.9097290039062 226.4940185546875 474.6906127929688 226.5849304199219 474.4619140625 226.584716796875 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_88_j"
+                        className="Path_88_j"
                         viewBox="456.533 232.533 1.724 2.586"
                     >
                         <path
@@ -2095,20 +2261,26 @@ export default function Menu() {
                             d="M 457.3948974609375 235.1185302734375 C 457.166259765625 235.1187438964844 456.9470825195312 235.02783203125 456.7852783203125 234.8662414550781 C 456.6236572265625 234.7046508789062 456.5327758789062 234.4852905273438 456.532958984375 234.2566223144531 L 456.532958984375 233.3949279785156 C 456.532958984375 232.9190368652344 456.9187622070312 232.5330200195312 457.3948974609375 232.5330200195312 C 457.8709716796875 232.5330200195312 458.2567749023438 232.9188232421875 458.2567749023438 233.3949279785156 L 458.2567749023438 234.2568359375 C 458.2570190429688 234.4854736328125 458.1660766601562 234.7046508789062 458.0045166015625 234.866455078125 C 457.8427124023438 235.0280456542969 457.62353515625 235.1187438964844 457.3948974609375 235.1185302734375 L 457.3948974609375 235.1185302734375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_89_j" viewBox="320 296.534 5.171 38.783">
+                    <svg
+                        className="Path_89_j"
+                        viewBox="320 296.534 5.171 38.783"
+                    >
                         <path
                             id="Path_89_j"
                             d="M 324.3091430664062 335.3163757324219 C 324.1754150390625 335.3163757324219 324.0432739257812 335.2852783203125 323.9237060546875 335.2254638671875 L 320.476318359375 333.5018615722656 C 320.1844177246094 333.3558349609375 320 333.0572814941406 320 332.7308654785156 L 320 299.119140625 C 320 298.7926940917969 320.1844177246094 298.494140625 320.476318359375 298.3480834960938 L 323.9237060546875 296.6244812011719 C 324.1909484863281 296.4911499023438 324.5081176757812 296.5055236816406 324.76220703125 296.6624450683594 C 325.0162963867188 296.8194274902344 325.1708374023438 297.0967407226562 325.1710205078125 297.3955078125 L 325.1710205078125 334.4546813964844 C 325.1708374023438 334.9303588867188 324.7850341796875 335.316162109375 324.3091430664062 335.3163757324219 L 324.3091430664062 335.3163757324219 Z M 321.7236022949219 332.1981811523438 L 323.4472045898438 333.0601196289062 L 323.4472045898438 298.7900390625 L 321.7236022949219 299.6519775390625 L 321.7236022949219 332.1981811523438 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_90_j" viewBox="320 300.799 1.724 2.586">
+                    <svg
+                        className="Path_90_j"
+                        viewBox="320 300.799 1.724 2.586"
+                    >
                         <path
                             id="Path_90_j"
                             d="M 320.8618774414062 303.3847351074219 C 320.6332397460938 303.3849487304688 320.4140625 303.2940368652344 320.2522888183594 303.1324462890625 C 320.0905151367188 302.9708251953125 319.9997863769531 302.75146484375 320 302.5228271484375 L 320 301.6609191894531 C 320 301.1850280761719 320.3858032226562 300.7990112304688 320.8618774414062 300.7990112304688 C 321.3380126953125 300.7990112304688 321.7238159179688 301.184814453125 321.7238159179688 301.6609191894531 L 321.7238159179688 302.5228271484375 C 321.7239990234375 302.75146484375 321.6331176757812 302.9706420898438 321.4714965820312 303.1324462890625 C 321.3099365234375 303.2942504882812 321.0903625488281 303.3849487304688 320.8618774414062 303.3847351074219 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_91_j"
+                        className="Path_91_j"
                         viewBox="337.066 288.001 5.171 40.506"
                     >
                         <path
@@ -2117,7 +2289,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_92_j"
+                        className="Path_92_j"
                         viewBox="354.133 283.733 1.724 2.586"
                     >
                         <path
@@ -2126,7 +2298,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_93_j"
+                        className="Path_93_j"
                         viewBox="337.066 292.266 1.724 2.586"
                     >
                         <path
@@ -2134,14 +2306,17 @@ export default function Menu() {
                             d="M 337.9279174804688 294.8516845703125 C 337.6992492675781 294.8519287109375 337.4801025390625 294.7610168457031 337.3182983398438 294.5994262695312 C 337.156494140625 294.4378356933594 337.0657958984375 294.2184448242188 337.0659790039062 293.9898071289062 L 337.0659790039062 293.1278686523438 C 337.0659790039062 292.6519775390625 337.4517822265625 292.2659912109375 337.9279174804688 292.2659912109375 C 338.4039916992188 292.2659912109375 338.789794921875 292.6517944335938 338.789794921875 293.1278686523438 L 338.789794921875 293.9898071289062 C 338.7900390625 294.2184448242188 338.6990966796875 294.4376220703125 338.5375366210938 294.5994262695312 C 338.3759155273438 294.76123046875 338.1565551757812 294.8516845703125 337.9279174804688 294.8516845703125 L 337.9279174804688 294.8516845703125 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_94_j" viewBox="149.333 228.267 5.171 9.48">
+                    <svg
+                        className="Path_94_j"
+                        viewBox="149.333 228.267 5.171 9.48"
+                    >
                         <path
                             id="Path_94_j"
                             d="M 150.1949005126953 237.7469787597656 C 149.718994140625 237.7467651367188 149.3334045410156 237.3609619140625 149.3329925537109 236.8850708007812 L 149.3329925537109 229.1285095214844 C 149.3331909179688 228.8297424316406 149.4879150390625 228.5526123046875 149.7418212890625 228.3954772949219 C 149.9959411621094 228.238525390625 150.3130645751953 228.2241821289062 150.5802917480469 228.3574829101562 L 154.0277252197266 230.0811157226562 C 154.3196105957031 230.2271423339844 154.5040283203125 230.5256958007812 154.5040283203125 230.8521118164062 L 154.5040283203125 235.1614379882812 C 154.5040283203125 235.4878845214844 154.3196105957031 235.7864074707031 154.0277252197266 235.9324645996094 L 150.5802917480469 237.6560668945312 C 150.4607238769531 237.7158508300781 150.32861328125 237.7469787597656 150.1949005126953 237.7469787597656 L 150.1949005126953 237.7469787597656 Z M 151.0568084716797 230.5232849121094 L 151.0568084716797 235.4906921386719 L 152.7804107666016 234.6287841796875 L 152.7804107666016 231.3851928710938 L 151.0568084716797 230.5232849121094 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_95_j"
+                        className="Path_95_j"
                         viewBox="132.267 219.734 5.171 11.204"
                     >
                         <path
@@ -2149,14 +2324,17 @@ export default function Menu() {
                             d="M 136.5761260986328 230.9375915527344 C 136.4424133300781 230.9375915527344 136.310302734375 230.9064636230469 136.1907348632812 230.8466796875 L 132.7433013916016 229.123046875 C 132.451416015625 228.9770202636719 132.2669982910156 228.678466796875 132.2669982910156 228.35205078125 L 132.2669982910156 220.5954895019531 C 132.2671966552734 220.2967529296875 132.4219207763672 220.0196228027344 132.6758270263672 219.8624572753906 C 132.9299468994141 219.7055053710938 133.2470703125 219.6911773681641 133.5143127441406 219.8244934082031 L 136.9617309570312 221.548095703125 C 137.2536163330078 221.6941375732422 137.4380340576172 221.9926910400391 137.4380340576172 222.3191223144531 L 137.4380340576172 230.07568359375 C 137.4376373291016 230.5515747070312 137.0520324707031 230.9373779296875 136.5761260986328 230.9375915527344 Z M 133.9906005859375 227.8193969726562 L 135.7142181396484 228.6813049316406 L 135.7142181396484 222.8521728515625 L 133.9906005859375 221.9902648925781 L 133.9906005859375 227.8193969726562 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_96_j" viewBox="12.8 160.001 5.171 35.335">
+                    <svg
+                        className="Path_96_j"
+                        viewBox="12.8 160.001 5.171 35.335"
+                    >
                         <path
                             id="Path_96_j"
                             d="M 17.109130859375 195.3359527587891 C 16.97541046142578 195.3359527587891 16.84330749511719 195.3048400878906 16.72372436523438 195.2450561523438 L 13.27630043029785 193.5214538574219 C 12.98442077636719 193.3753967285156 12.80000114440918 193.0768585205078 12.80000114440918 192.7504272460938 L 12.80000114440918 160.8624877929688 C 12.80020236968994 160.5637512207031 12.95492935180664 160.28662109375 13.20883560180664 160.1294555664062 C 13.46294403076172 159.9725036621094 13.78007411956787 159.9581756591797 14.0473108291626 160.0914916992188 L 17.49473571777344 161.8150939941406 C 17.78661727905273 161.9611511230469 17.97103691101074 162.2596893310547 17.97103691101074 162.5861206054688 L 17.97103691101074 194.4742431640625 C 17.97083473205566 194.949951171875 17.58502578735352 195.3357543945312 17.109130859375 195.3359527587891 Z M 14.5236120223999 192.2177734375 L 16.24722290039062 193.0796813964844 L 16.24722290039062 163.1189727783203 L 14.5236120223999 162.2570648193359 L 14.5236120223999 192.2177734375 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_97_j"
+                        className="Path_97_j"
                         viewBox="29.866 168.534 5.171 33.612"
                     >
                         <path
@@ -2169,7 +2347,7 @@ export default function Menu() {
             <div id="Group_67">
                 <div id="Group_54_kb">
                     <svg
-                        class="Path_233_kc"
+                        className="Path_233_kc"
                         viewBox="251.733 79.275 27.081 45.601"
                     >
                         <path
@@ -2178,7 +2356,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_234_kd"
+                        className="Path_234_kd"
                         viewBox="110.081 185.26 43.33 29.691"
                     >
                         <path
@@ -2187,7 +2365,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_235_ke"
+                        className="Path_235_ke"
                         viewBox="145.493 199.595 37.914 26.65"
                     >
                         <path
@@ -2196,7 +2374,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_236_kf"
+                        className="Path_236_kf"
                         viewBox="251.734 8.533 27.081 37.848"
                     >
                         <path
@@ -2206,7 +2384,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_49_kg">
                         <svg
-                            class="Path_237_kh"
+                            className="Path_237_kh"
                             viewBox="277.334 19.2 23.166 35.564"
                         >
                             <path
@@ -2215,7 +2393,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_238_ki"
+                            className="Path_238_ki"
                             viewBox="145.493 273.676 13.54 6.741"
                         >
                             <path
@@ -2224,7 +2402,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_239_kj"
+                            className="Path_239_kj"
                             viewBox="287.147 43.999 13.54 6.741"
                         >
                             <path
@@ -2235,7 +2413,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_50_kk">
                         <svg
-                            class="Path_240_kl"
+                            className="Path_240_kl"
                             viewBox="101.55 0 51.356 59.33"
                         >
                             <path
@@ -2244,7 +2422,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_241_km"
+                            className="Path_241_km"
                             viewBox="247.475 181.033 22.968 12.118"
                         >
                             <path
@@ -2253,7 +2431,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_242_kn"
+                            className="Path_242_kn"
                             viewBox="389.116 74.974 6.721 28.339"
                         >
                             <path
@@ -2262,7 +2440,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_243_ko"
+                            className="Path_243_ko"
                             viewBox="247.466 251.736 22.968 18.877"
                         >
                             <path
@@ -2271,7 +2449,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_244_kp"
+                            className="Path_244_kp"
                             viewBox="66.133 300.518 24.276 21.531"
                         >
                             <path
@@ -2280,7 +2458,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_245_kq"
+                            className="Path_245_kq"
                             viewBox="207.784 332.802 36.413 27.407"
                         >
                             <path
@@ -2289,7 +2467,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_246_kr"
+                            className="Path_246_kr"
                             viewBox="141.227 269.408 14.845 8.047"
                         >
                             <path
@@ -2298,7 +2476,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_247_ks"
+                            className="Path_247_ks"
                             viewBox="282.882 39.732 14.845 8.046"
                         >
                             <path
@@ -2311,7 +2489,7 @@ export default function Menu() {
                 <div id="Group_55_kt">
                     <div id="Group_14_ku">
                         <svg
-                            class="Path_68_kv"
+                            className="Path_68_kv"
                             viewBox="443.733 241.067 3.447 37.059"
                         >
                             <path
@@ -2320,7 +2498,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_69_kw"
+                            className="Path_69_kw"
                             viewBox="324.267 300.8 3.447 37.059"
                         >
                             <path
@@ -2329,7 +2507,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_70_kx"
+                            className="Path_70_kx"
                             viewBox="136.533 224 3.447 9.48"
                         >
                             <path
@@ -2340,7 +2518,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_15_ky">
                         <svg
-                            class="Path_71_kz"
+                            className="Path_71_kz"
                             viewBox="17.067 164.267 3.447 33.612"
                         >
                             <path
@@ -2348,27 +2526,36 @@ export default function Menu() {
                                 d="M 20.51422119140625 165.9906158447266 L 20.51422119140625 197.8787536621094 L 17.0669994354248 196.1549377441406 L 17.0669994354248 164.2669982910156 L 20.51422119140625 165.9906158447266 Z"
                             ></path>
                         </svg>
-                        <svg class="Path_72_k" viewBox="8.533 32 99.974 49.987">
+                        <svg
+                            className="Path_72_k"
+                            viewBox="8.533 32 99.974 49.987"
+                        >
                             <path
                                 id="Path_72_k"
                                 d="M 108.5065078735352 63.02622222900391 L 70.58544158935547 81.98676300048828 L 8.532999992370605 50.96053314208984 L 46.45407104492188 31.99999237060547 L 108.5065078735352 63.02622222900391 Z"
                             ></path>
                         </svg>
                     </div>
-                    <svg class="Path_73_k" viewBox="34.133 44.8 94.802 47.401">
+                    <svg
+                        className="Path_73_k"
+                        viewBox="34.133 44.8 94.802 47.401"
+                    >
                         <path
                             id="Path_73_k"
                             d="M 128.9354705810547 73.24069976806641 L 91.01439666748047 92.20124816894531 L 34.13299942016602 63.76053619384766 L 72.05406951904297 44.79998779296875 L 128.9354705810547 73.24069976806641 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_74_k" viewBox="0 23.467 103.421 53.434">
+                    <svg
+                        className="Path_74_k"
+                        viewBox="0 23.467 103.421 53.434"
+                    >
                         <path
                             id="Path_74_k"
                             d="M 63.77605056762695 76.9010009765625 C 63.50840759277344 76.9010009765625 63.24440383911133 76.83878326416016 63.00503540039062 76.71920013427734 L 0.9528038501739502 45.69297027587891 C 0.3688403069972992 45.40088653564453 0 44.80399322509766 0 44.15114974975586 C 0 43.49830627441406 0.3688403069972992 42.90141677856445 0.9528038501739502 42.60933303833008 L 38.8736686706543 23.6487922668457 C 39.35905838012695 23.40640068054199 39.93009567260742 23.40640068054199 40.41548919677734 23.6487922668457 L 102.4679260253906 54.67502212524414 C 103.0518951416016 54.96710586547852 103.4207305908203 55.56399917602539 103.4207305908203 56.21684265136719 C 103.4207305908203 56.86968612670898 103.0518951416016 57.46657562255859 102.4679260253906 57.75865936279297 L 64.54705047607422 76.71920013427734 C 64.30769348144531 76.83878326416016 64.04369354248047 76.9010009765625 63.77605056762695 76.9010009765625 L 63.77605056762695 76.9010009765625 Z M 5.577649593353271 44.15114974975586 L 63.77625274658203 73.24996185302734 L 97.84328460693359 56.21684265136719 L 39.64467620849609 27.11803436279297 L 5.577649593353271 44.15114974975586 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_75_k"
+                        className="Path_75_k"
                         viewBox="8.533 125.867 62.052 37.921"
                     >
                         <path
@@ -2377,7 +2564,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_76_k"
+                        className="Path_76_k"
                         viewBox="34.133 138.667 56.881 35.335"
                     >
                         <path
@@ -2385,14 +2572,14 @@ export default function Menu() {
                             d="M 91.01439666748047 167.1077117919922 L 91.01439666748047 174.0023651123047 L 34.13299942016602 145.5616607666016 L 34.13299942016602 138.6670074462891 L 91.01439666748047 167.1077117919922 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_77_k" viewBox="0 117.333 65.5 41.368">
+                    <svg className="Path_77_k" viewBox="0 117.333 65.5 41.368">
                         <path
                             id="Path_77_k"
                             d="M 63.77605056762695 158.7013702392578 C 63.50840759277344 158.701171875 63.24459838867188 158.6389465332031 63.00503540039062 158.5195770263672 L 0.9526018500328064 127.4933471679688 C 0.3686383068561554 127.2014694213867 -0.0002020458487095311 126.6043701171875 -5.222649690495018e-08 125.951530456543 L -5.222649690495018e-08 119.0568771362305 C -5.222649690495018e-08 118.4593811035156 0.3092521727085114 117.9047012329102 0.8174680471420288 117.5906066894531 C 1.325684070587158 117.2765045166016 1.960146188735962 117.2478256225586 2.49462103843689 117.5150604248047 L 64.54705047607422 148.5412902832031 C 65.13102722167969 148.8333740234375 65.49986267089844 149.4302520751953 65.49986267089844 150.0830993652344 L 65.49986267089844 156.9777526855469 C 65.49986267089844 157.4348754882812 65.31826782226562 157.8733978271484 64.99507904052734 158.1965942382812 C 64.67168426513672 158.519775390625 64.23336791992188 158.7013702392578 63.77605056762695 158.7013702392578 Z M 3.44742488861084 124.8860092163086 L 62.05244064331055 154.1886291503906 L 62.05244064331055 151.1486206054688 L 3.44742488861084 121.8460083007812 L 3.44742488861084 124.8860092163086 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_78_k"
+                        className="Path_78_k"
                         viewBox="315.733 185.6 37.921 25.855"
                     >
                         <path
@@ -2401,7 +2588,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_79_k"
+                        className="Path_79_k"
                         viewBox="307.2 177.066 41.368 29.303"
                     >
                         <path
@@ -2411,7 +2598,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_16_k">
                         <svg
-                            class="Path_80_k"
+                            className="Path_80_k"
                             viewBox="460.8 232.533 3.447 38.783"
                         >
                             <path
@@ -2420,7 +2607,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_81_la"
+                            className="Path_81_la"
                             viewBox="341.333 292.267 3.447 38.783"
                         >
                             <path
@@ -2429,7 +2616,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_82_lb"
+                            className="Path_82_lb"
                             viewBox="153.6 232.533 3.447 7.757"
                         >
                             <path
@@ -2438,7 +2625,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_83_lc"
+                            className="Path_83_lc"
                             viewBox="34.133 172.8 3.447 31.888"
                         >
                             <path
@@ -2449,7 +2636,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_17_ld">
                         <svg
-                            class="Path_84_le"
+                            className="Path_84_le"
                             viewBox="456.533 228.268 5.171 40.506"
                         >
                             <path
@@ -2458,7 +2645,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_85_lf"
+                            className="Path_85_lf"
                             viewBox="439.467 236.801 5.171 38.783"
                         >
                             <path
@@ -2467,7 +2654,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_86_lg"
+                            className="Path_86_lg"
                             viewBox="439.466 241.066 1.724 2.586"
                         >
                             <path
@@ -2476,7 +2663,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_87_lh"
+                            className="Path_87_lh"
                             viewBox="473.6 223.999 1.724 2.586"
                         >
                             <path
@@ -2485,7 +2672,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_88_li"
+                            className="Path_88_li"
                             viewBox="456.533 232.533 1.724 2.586"
                         >
                             <path
@@ -2494,7 +2681,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_89_lj"
+                            className="Path_89_lj"
                             viewBox="320 296.534 5.171 38.783"
                         >
                             <path
@@ -2503,7 +2690,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_90_lk"
+                            className="Path_90_lk"
                             viewBox="320 300.799 1.724 2.586"
                         >
                             <path
@@ -2512,7 +2699,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_91_ll"
+                            className="Path_91_ll"
                             viewBox="337.066 288.001 5.171 40.506"
                         >
                             <path
@@ -2521,7 +2708,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_92_lm"
+                            className="Path_92_lm"
                             viewBox="354.133 283.733 1.724 2.586"
                         >
                             <path
@@ -2530,7 +2717,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_93_ln"
+                            className="Path_93_ln"
                             viewBox="337.066 292.266 1.724 2.586"
                         >
                             <path
@@ -2539,7 +2726,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_94_lo"
+                            className="Path_94_lo"
                             viewBox="149.333 228.267 5.171 9.48"
                         >
                             <path
@@ -2548,7 +2735,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_95_lp"
+                            className="Path_95_lp"
                             viewBox="132.267 219.734 5.171 11.204"
                         >
                             <path
@@ -2557,7 +2744,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_96_lq"
+                            className="Path_96_lq"
                             viewBox="12.8 160.001 5.171 35.335"
                         >
                             <path
@@ -2566,7 +2753,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_97_lr"
+                            className="Path_97_lr"
                             viewBox="29.866 168.534 5.171 33.612"
                         >
                             <path
@@ -2580,7 +2767,7 @@ export default function Menu() {
             <div id="Group_73">
                 <div id="Group_7_lt">
                     <svg
-                        class="Path_3_lu"
+                        className="Path_3_lu"
                         viewBox="8.534 119.047 31.292 59.413"
                     >
                         <path
@@ -2590,7 +2777,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_lv">
                         <svg
-                            class="Path_4_lw"
+                            className="Path_4_lw"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -2599,7 +2786,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_lx"
+                            className="Path_5_lx"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -2608,7 +2795,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_ly"
+                            className="Path_6_ly"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -2618,7 +2805,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_7_lz"
+                        className="Path_7_lz"
                         viewBox="8.534 286.897 31.292 65.726"
                     >
                         <path
@@ -2628,7 +2815,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_l">
                         <svg
-                            class="Path_8_l"
+                            className="Path_8_l"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -2637,7 +2824,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_l"
+                            className="Path_9_l"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -2647,7 +2834,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_l"
+                        className="Path_10_l"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -2657,7 +2844,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_l">
                         <svg
-                            class="Path_11_l"
+                            className="Path_11_l"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -2666,7 +2853,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_l"
+                            className="Path_12_l"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -2675,7 +2862,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_l"
+                            className="Path_13_l"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -2684,7 +2871,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_l"
+                            className="Path_14_l"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -2694,7 +2881,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_l"
+                        className="Path_15_l"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -2704,7 +2891,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_ma">
                         <svg
-                            class="Path_16_mb"
+                            className="Path_16_mb"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -2713,7 +2900,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_mc"
+                            className="Path_17_mc"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -2722,7 +2909,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_md"
+                            className="Path_18_md"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -2731,7 +2918,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_me"
+                            className="Path_19_me"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -2742,7 +2929,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_mf">
                         <svg
-                            class="Path_20_mg"
+                            className="Path_20_mg"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -2751,7 +2938,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_mh"
+                            className="Path_21_mh"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -2762,7 +2949,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_mi">
                         <svg
-                            class="Path_22_mj"
+                            className="Path_22_mj"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -2771,7 +2958,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_mk"
+                            className="Path_23_mk"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -2780,7 +2967,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_ml"
+                            className="Path_24_ml"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -2789,7 +2976,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_mm"
+                            className="Path_25_mm"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -2798,7 +2985,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_mn"
+                            className="Path_26_mn"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -2807,7 +2994,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_mo"
+                            className="Path_27_mo"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -2816,7 +3003,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_mp"
+                            className="Path_28_mp"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -2825,7 +3012,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_mq"
+                            className="Path_29_mq"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -2834,7 +3021,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_mr"
+                            className="Path_30_mr"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -2843,7 +3030,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_ms"
+                            className="Path_31_ms"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -2852,7 +3039,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_mt"
+                            className="Path_32_mt"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -2861,7 +3048,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_mu"
+                            className="Path_33_mu"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -2870,7 +3057,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_mv"
+                            className="Path_34_mv"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -2879,7 +3066,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_mw"
+                            className="Path_35_mw"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -2888,7 +3075,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_mx"
+                            className="Path_36_mx"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -2898,7 +3085,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_my" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_my" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_my"
                         d="M -19.27598762512207 295.5069885253906"
@@ -2907,7 +3094,10 @@ export default function Menu() {
             </div>
             <div id="Group_74">
                 <div id="Group_7_m">
-                    <svg class="Path_3_m" viewBox="8.534 119.047 31.292 59.413">
+                    <svg
+                        className="Path_3_m"
+                        viewBox="8.534 119.047 31.292 59.413"
+                    >
                         <path
                             id="Path_3_m"
                             d="M 8.534000396728516 119.0469970703125 L 8.534000396728516 162.8137359619141 L 39.82600402832031 178.4595794677734 L 39.82600402832031 134.6627502441406 L 14.7863826751709 122.157958984375 L 8.534000396728516 119.0469970703125 Z"
@@ -2915,7 +3105,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_m">
                         <svg
-                            class="Path_4_m"
+                            className="Path_4_m"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -2924,7 +3114,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_m"
+                            className="Path_5_m"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -2933,7 +3123,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_m"
+                            className="Path_6_m"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -2942,7 +3132,10 @@ export default function Menu() {
                             ></path>
                         </svg>
                     </div>
-                    <svg class="Path_7_m" viewBox="8.534 286.897 31.292 65.726">
+                    <svg
+                        className="Path_7_m"
+                        viewBox="8.534 286.897 31.292 65.726"
+                    >
                         <path
                             id="Path_7_m"
                             d="M 8.534000396728516 302.5431823730469 L 8.534000396728516 352.6228332519531 L 39.82600402832031 336.9766235351562 L 39.82600402832031 286.89697265625 L 8.534000396728516 302.5431823730469 Z"
@@ -2950,7 +3143,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_m">
                         <svg
-                            class="Path_8_m"
+                            className="Path_8_m"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -2959,7 +3152,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_m"
+                            className="Path_9_m"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -2969,7 +3162,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_na"
+                        className="Path_10_na"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -2979,7 +3172,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_nb">
                         <svg
-                            class="Path_11_nc"
+                            className="Path_11_nc"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -2988,7 +3181,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_nd"
+                            className="Path_12_nd"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -2997,7 +3190,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_ne"
+                            className="Path_13_ne"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -3006,7 +3199,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_nf"
+                            className="Path_14_nf"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -3016,7 +3209,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_ng"
+                        className="Path_15_ng"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -3026,7 +3219,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_nh">
                         <svg
-                            class="Path_16_ni"
+                            className="Path_16_ni"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -3035,7 +3228,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_nj"
+                            className="Path_17_nj"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -3044,7 +3237,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_nk"
+                            className="Path_18_nk"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -3053,7 +3246,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_nl"
+                            className="Path_19_nl"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -3064,7 +3257,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_nm">
                         <svg
-                            class="Path_20_nn"
+                            className="Path_20_nn"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -3073,7 +3266,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_no"
+                            className="Path_21_no"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -3084,7 +3277,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_np">
                         <svg
-                            class="Path_22_nq"
+                            className="Path_22_nq"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -3093,7 +3286,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_nr"
+                            className="Path_23_nr"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -3102,7 +3295,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_ns"
+                            className="Path_24_ns"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -3111,7 +3304,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_nt"
+                            className="Path_25_nt"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -3120,7 +3313,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_nu"
+                            className="Path_26_nu"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -3129,7 +3322,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_nv"
+                            className="Path_27_nv"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -3138,7 +3331,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_nw"
+                            className="Path_28_nw"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -3147,7 +3340,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_nx"
+                            className="Path_29_nx"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -3156,7 +3349,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_ny"
+                            className="Path_30_ny"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -3165,7 +3358,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_nz"
+                            className="Path_31_nz"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -3174,7 +3367,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_n"
+                            className="Path_32_n"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -3183,7 +3376,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_n"
+                            className="Path_33_n"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -3192,7 +3385,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_n"
+                            className="Path_34_n"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -3201,7 +3394,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_n"
+                            className="Path_35_n"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -3210,7 +3403,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_n"
+                            className="Path_36_n"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -3220,7 +3413,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_n" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_n" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_n"
                         d="M -19.27598762512207 295.5069885253906"
@@ -3229,7 +3422,10 @@ export default function Menu() {
             </div>
             <div id="Group_75">
                 <div id="Group_7_n">
-                    <svg class="Path_3_n" viewBox="8.534 119.047 31.292 59.413">
+                    <svg
+                        className="Path_3_n"
+                        viewBox="8.534 119.047 31.292 59.413"
+                    >
                         <path
                             id="Path_3_n"
                             d="M 8.534000396728516 119.0469970703125 L 8.534000396728516 162.8137359619141 L 39.82600402832031 178.4595794677734 L 39.82600402832031 134.6627502441406 L 14.7863826751709 122.157958984375 L 8.534000396728516 119.0469970703125 Z"
@@ -3237,7 +3433,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_n">
                         <svg
-                            class="Path_4_oa"
+                            className="Path_4_oa"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -3246,7 +3442,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_ob"
+                            className="Path_5_ob"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -3255,7 +3451,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_oc"
+                            className="Path_6_oc"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -3265,7 +3461,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_7_od"
+                        className="Path_7_od"
                         viewBox="8.534 286.897 31.292 65.726"
                     >
                         <path
@@ -3275,7 +3471,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_oe">
                         <svg
-                            class="Path_8_of"
+                            className="Path_8_of"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -3284,7 +3480,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_og"
+                            className="Path_9_og"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -3294,7 +3490,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_oh"
+                        className="Path_10_oh"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -3304,7 +3500,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_oi">
                         <svg
-                            class="Path_11_oj"
+                            className="Path_11_oj"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -3313,7 +3509,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_ok"
+                            className="Path_12_ok"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -3322,7 +3518,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_ol"
+                            className="Path_13_ol"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -3331,7 +3527,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_om"
+                            className="Path_14_om"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -3341,7 +3537,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_on"
+                        className="Path_15_on"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -3351,7 +3547,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_oo">
                         <svg
-                            class="Path_16_op"
+                            className="Path_16_op"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -3360,7 +3556,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_oq"
+                            className="Path_17_oq"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -3369,7 +3565,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_or"
+                            className="Path_18_or"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -3378,7 +3574,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_os"
+                            className="Path_19_os"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -3389,7 +3585,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_ot">
                         <svg
-                            class="Path_20_ou"
+                            className="Path_20_ou"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -3398,7 +3594,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_ov"
+                            className="Path_21_ov"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -3409,7 +3605,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_ow">
                         <svg
-                            class="Path_22_ox"
+                            className="Path_22_ox"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -3418,7 +3614,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_oy"
+                            className="Path_23_oy"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -3427,7 +3623,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_oz"
+                            className="Path_24_oz"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -3436,7 +3632,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_o"
+                            className="Path_25_o"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -3445,7 +3641,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_o"
+                            className="Path_26_o"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -3454,7 +3650,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_o"
+                            className="Path_27_o"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -3463,7 +3659,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_o"
+                            className="Path_28_o"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -3472,7 +3668,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_o"
+                            className="Path_29_o"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -3481,7 +3677,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_o"
+                            className="Path_30_o"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -3490,7 +3686,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_o"
+                            className="Path_31_o"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -3499,7 +3695,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_o"
+                            className="Path_32_o"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -3508,7 +3704,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_o"
+                            className="Path_33_o"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -3517,7 +3713,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_o"
+                            className="Path_34_o"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -3526,7 +3722,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_pa"
+                            className="Path_35_pa"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -3535,7 +3731,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_pb"
+                            className="Path_36_pb"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -3545,7 +3741,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_pc" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_pc" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_pc"
                         d="M -19.27598762512207 295.5069885253906"
@@ -3555,7 +3751,7 @@ export default function Menu() {
             <div id="Group_76">
                 <div id="Group_7_pe">
                     <svg
-                        class="Path_3_pf"
+                        className="Path_3_pf"
                         viewBox="8.534 119.047 31.292 59.413"
                     >
                         <path
@@ -3565,7 +3761,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_pg">
                         <svg
-                            class="Path_4_ph"
+                            className="Path_4_ph"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -3574,7 +3770,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_pi"
+                            className="Path_5_pi"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -3583,7 +3779,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_pj"
+                            className="Path_6_pj"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -3593,7 +3789,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_7_pk"
+                        className="Path_7_pk"
                         viewBox="8.534 286.897 31.292 65.726"
                     >
                         <path
@@ -3603,7 +3799,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_pl">
                         <svg
-                            class="Path_8_pm"
+                            className="Path_8_pm"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -3612,7 +3808,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_pn"
+                            className="Path_9_pn"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -3622,7 +3818,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_po"
+                        className="Path_10_po"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -3632,7 +3828,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_pp">
                         <svg
-                            class="Path_11_pq"
+                            className="Path_11_pq"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -3641,7 +3837,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_pr"
+                            className="Path_12_pr"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -3650,7 +3846,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_ps"
+                            className="Path_13_ps"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -3659,7 +3855,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_pt"
+                            className="Path_14_pt"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -3669,7 +3865,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_pu"
+                        className="Path_15_pu"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -3679,7 +3875,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_pv">
                         <svg
-                            class="Path_16_pw"
+                            className="Path_16_pw"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -3688,7 +3884,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_px"
+                            className="Path_17_px"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -3697,7 +3893,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_py"
+                            className="Path_18_py"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -3706,7 +3902,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_pz"
+                            className="Path_19_pz"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -3717,7 +3913,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_p">
                         <svg
-                            class="Path_20_p"
+                            className="Path_20_p"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -3726,7 +3922,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_p"
+                            className="Path_21_p"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -3737,7 +3933,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_p">
                         <svg
-                            class="Path_22_p"
+                            className="Path_22_p"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -3746,7 +3942,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_p"
+                            className="Path_23_p"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -3755,7 +3951,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_p"
+                            className="Path_24_p"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -3764,7 +3960,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_p"
+                            className="Path_25_p"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -3773,7 +3969,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_p"
+                            className="Path_26_p"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -3782,7 +3978,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_p"
+                            className="Path_27_p"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -3791,7 +3987,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_qa"
+                            className="Path_28_qa"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -3800,7 +3996,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_qb"
+                            className="Path_29_qb"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -3809,7 +4005,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_qc"
+                            className="Path_30_qc"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -3818,7 +4014,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_qd"
+                            className="Path_31_qd"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -3827,7 +4023,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_qe"
+                            className="Path_32_qe"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -3836,7 +4032,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_qf"
+                            className="Path_33_qf"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -3845,7 +4041,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_qg"
+                            className="Path_34_qg"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -3854,7 +4050,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_qh"
+                            className="Path_35_qh"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -3863,7 +4059,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_qi"
+                            className="Path_36_qi"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -3873,7 +4069,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_qj" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_qj" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_qj"
                         d="M -19.27598762512207 295.5069885253906"
@@ -3881,25 +4077,37 @@ export default function Menu() {
                 </svg>
             </div>
             <div id="Group_80">
-                <svg class="Path_233_ql" viewBox="251.733 79.275 27.081 45.601">
+                <svg
+                    className="Path_233_ql"
+                    viewBox="251.733 79.275 27.081 45.601"
+                >
                     <path
                         id="Path_233_ql"
                         d="M 278.8139953613281 79.27499389648438 L 278.8139953613281 111.7070007324219 L 252.2288513183594 124.8755493164062 L 251.7328491210938 123.8705596923828 L 251.7328491210938 118.7936096191406 C 251.7284240722656 117.76416015625 252.3108215332031 116.8221893310547 253.2336730957031 116.3661041259766 L 273.3978271484375 106.3038330078125 L 273.3978271484375 83.64702606201172 C 273.3969116210938 82.61863708496094 273.9782409667969 81.6783447265625 274.8986511230469 81.21951293945312 L 278.8139953613281 79.27499389648438 Z"
                     ></path>
                 </svg>
-                <svg class="Path_234_qm" viewBox="110.081 185.26 43.33 29.691">
+                <svg
+                    className="Path_234_qm"
+                    viewBox="110.081 185.26 43.33 29.691"
+                >
                     <path
                         id="Path_234_qm"
                         d="M 153.4106292724609 196.0791778564453 L 133.2466430664062 206.1416015625 C 132.3237915039062 206.5976715087891 131.7413787841797 207.5396423339844 131.7458190917969 208.5691070556641 L 131.7458190917969 213.6460571289062 L 131.9677429199219 214.1029052734375 L 132.2418060302734 214.6510314941406 L 131.6283569335938 214.9512634277344 L 126.3296508789062 212.3018188476562 L 110.0809936523438 204.18408203125 L 110.0809936523438 197.7367706298828 C 110.0808486938477 196.7151184082031 110.6634063720703 195.7829284667969 111.5818252563477 195.3354187011719 L 131.7458190917969 185.2599945068359 L 136.1439971923828 187.4525756835938 L 153.4106292724609 196.0791778564453 Z"
                     ></path>
                 </svg>
-                <svg class="Path_235_qn" viewBox="145.493 199.595 37.914 26.65">
+                <svg
+                    className="Path_235_qn"
+                    viewBox="145.493 199.595 37.914 26.65"
+                >
                     <path
                         id="Path_235_qn"
                         d="M 183.4066162109375 208.2217407226562 L 163.2426300048828 218.2841491699219 C 162.3197631835938 218.740234375 161.7373657226562 219.6822052001953 161.7418060302734 220.711669921875 L 161.7418060302734 225.7886047363281 L 161.9637298583984 226.2454528808594 L 161.7418060302734 226.1279907226562 L 145.4929962158203 218.0100860595703 L 145.4929962158203 211.5627746582031 C 145.4928436279297 210.5411224365234 146.0754089355469 209.6089324951172 146.9938354492188 209.1614227294922 L 166.1398162841797 199.5950012207031 L 183.4066162109375 208.2217407226562 Z"
                     ></path>
                 </svg>
-                <svg class="Path_236_qo" viewBox="251.734 8.533 27.081 37.848">
+                <svg
+                    className="Path_236_qo"
+                    viewBox="251.734 8.533 27.081 37.848"
+                >
                     <path
                         id="Path_236_qo"
                         d="M 278.8148803710938 19.35248947143555 L 274.8995361328125 21.29715728759766 C 273.9790954589844 21.7559871673584 273.3977661132812 22.69627952575684 273.398681640625 23.72466850280762 L 273.398681640625 46.38133239746094 L 251.7338714599609 35.56199264526367 L 251.7338714599609 12.90517997741699 C 251.7300567626953 11.88290977478027 252.3068084716797 10.94689750671387 253.2216949462891 10.49066925048828 L 257.0978698730469 8.532999992370605 L 260.3735961914062 10.16444206237793 L 278.8148803710938 19.35248947143555 Z"
@@ -3907,7 +4115,7 @@ export default function Menu() {
                 </svg>
                 <div id="Group_49_qp">
                     <svg
-                        class="Path_237_qq"
+                        className="Path_237_qq"
                         viewBox="277.334 19.2 23.166 35.564"
                     >
                         <path
@@ -3916,7 +4124,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_238_qr"
+                        className="Path_238_qr"
                         viewBox="145.493 273.676 13.54 6.741"
                     >
                         <path
@@ -3925,7 +4133,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_239_qs"
+                        className="Path_239_qs"
                         viewBox="287.147 43.999 13.54 6.741"
                     >
                         <path
@@ -3935,14 +4143,17 @@ export default function Menu() {
                     </svg>
                 </div>
                 <div id="Group_50_qt">
-                    <svg class="Path_240_qu" viewBox="101.55 0 51.356 59.33">
+                    <svg
+                        className="Path_240_qu"
+                        viewBox="101.55 0 51.356 59.33"
+                    >
                         <path
                             id="Path_240_qu"
                             d="M 124.4021835327148 59.33078384399414 C 124.1995391845703 59.33078384399414 123.9996337890625 59.2836799621582 123.8183975219727 59.19313049316406 L 102.2713470458984 48.42595291137695 C 101.8291931152344 48.20479583740234 101.5499114990234 47.75284957885742 101.5499114990234 47.25854110717773 L 101.5499114990234 40.81123352050781 C 101.5457916259766 39.29143524169922 102.4118957519531 37.90332794189453 103.7790603637695 37.23940277099609 L 123.2142715454102 27.52752685546875 C 123.2119827270508 21.28974723815918 123.2098388671875 15.05181884765625 123.2075500488281 8.814040184020996 C 123.6608657836914 7.851875305175781 124.1141967773438 6.889558792114258 124.5673522949219 5.927393913269043 L 125.8239288330078 6.440212726593018 C 125.8240966796875 13.73819065093994 125.8242492675781 21.03632354736328 125.8243942260742 28.33430290222168 C 125.8245468139648 28.82861328125 125.545280456543 29.28071022033691 125.1029586791992 29.50171661376953 L 104.9386749267578 39.57744216918945 C 104.4633255004883 39.80456161499023 104.1604995727539 40.28433990478516 104.1598815917969 40.81123352050781 L 104.1598815917969 46.45161437988281 L 124.4044799804688 56.56817626953125 L 150.2951049804688 43.74712371826172 L 150.2951049804688 12.93294715881348 L 129.8876342773438 2.765453100204468 L 126.5955352783203 4.42809534072876 C 126.1209564208984 4.663168430328369 125.821647644043 5.148150444030762 125.8243942260742 5.677791118621826 L 125.8243942260742 11.74641609191895 C 125.8243942260742 12.46723556518555 125.2400054931641 13.05147743225098 124.5193405151367 13.05147743225098 C 123.7985153198242 13.05147743225098 123.2142715454102 12.46723556518555 123.2142715454102 11.74641609191895 L 123.2142715454102 5.677791118621826 C 123.2080078125 4.160598278045654 124.0644836425781 2.77187705039978 125.4230728149414 2.09648060798645 L 129.2951354980469 0.1406464129686356 C 129.6632690429688 -0.04517925158143044 130.0973205566406 -0.04624985158443451 130.4663696289062 0.1374346166849136 L 152.1830139160156 10.95677089691162 C 152.6257934570312 11.17777442932129 152.9056854248047 11.63002681732178 152.9056854248047 12.12479686737061 L 152.9056854248047 44.55695724487305 C 152.9056854248047 45.05325698852539 152.6241149902344 45.50642776489258 152.17919921875 45.72636032104492 L 124.9807662963867 59.19512557983398 C 124.8010559082031 59.28444671630859 124.6029968261719 59.33094024658203 124.4021835327148 59.33078384399414 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_241_qv"
+                        className="Path_241_qv"
                         viewBox="247.475 181.033 22.968 12.118"
                     >
                         <path
@@ -3951,7 +4162,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_242_qw"
+                        className="Path_242_qw"
                         viewBox="389.116 74.974 6.721 28.339"
                     >
                         <path
@@ -3960,7 +4171,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_243_qx"
+                        className="Path_243_qx"
                         viewBox="247.466 251.736 22.968 18.877"
                     >
                         <path
@@ -3969,7 +4180,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_244_qy"
+                        className="Path_244_qy"
                         viewBox="66.133 300.518 24.276 21.531"
                     >
                         <path
@@ -3978,7 +4189,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_245_qz"
+                        className="Path_245_qz"
                         viewBox="207.784 332.802 36.413 27.407"
                     >
                         <path
@@ -3987,7 +4198,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_246_q"
+                        className="Path_246_q"
                         viewBox="141.227 269.408 14.845 8.047"
                     >
                         <path
@@ -3996,7 +4207,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_247_q"
+                        className="Path_247_q"
                         viewBox="282.882 39.732 14.845 8.046"
                     >
                         <path
@@ -4007,31 +4218,34 @@ export default function Menu() {
                 </div>
             </div>
             <div id="Group_81">
-                <svg class="Path_185" viewBox="8.533 72.533 36.2 21.91">
+                <svg className="Path_185" viewBox="8.533 72.533 36.2 21.91">
                     <path
                         id="Path_185"
                         d="M 44.73273468017578 72.53298950195312 L 44.73273468017578 80.15410614013672 L 16.15411186218262 94.44341278076172 L 8.532999992370605 90.63286590576172 L 44.73273468017578 72.53298950195312 Z"
                     ></path>
                 </svg>
-                <svg class="Path_186" viewBox="34.133 55.467 36.2 21.91">
+                <svg className="Path_186" viewBox="34.133 55.467 36.2 21.91">
                     <path
                         id="Path_186"
                         d="M 70.33272552490234 55.46699142456055 L 70.33272552490234 63.08787536621094 L 41.75411605834961 77.37718963623047 L 34.13299942016602 73.56662750244141 L 70.33272552490234 55.46699142456055 Z"
                     ></path>
                 </svg>
-                <svg class="Path_187" viewBox="213.333 256 36.2 24.768">
+                <svg className="Path_187" viewBox="213.333 256 36.2 24.768">
                     <path
                         id="Path_187"
                         d="M 249.5327301025391 259.810546875 L 234.2907257080078 267.4314270019531 L 234.2907257080078 280.76806640625 L 213.3329925537109 270.2892761230469 L 241.9116058349609 256 L 249.5327301025391 259.810546875 Z"
                     ></path>
                 </svg>
-                <svg class="Path_188" viewBox="217.6 256 28.579 20.958">
+                <svg className="Path_188" viewBox="217.6 256 28.579 20.958">
                     <path
                         id="Path_188"
                         d="M 246.1786346435547 256.4762268066406 L 231.8893127441406 263.6208801269531 L 231.8893127441406 276.9577026367188 L 217.6000061035156 269.8130493164062 L 245.2259368896484 256 L 246.1786346435547 256.4762268066406 Z"
                     ></path>
                 </svg>
-                <svg class="Path_189" viewBox="341.333 119.467 19.053 34.294">
+                <svg
+                    className="Path_189"
+                    viewBox="341.333 119.467 19.053 34.294"
+                >
                     <path
                         id="Path_189"
                         d="M 360.3855895996094 128.9930572509766 L 360.3855895996094 148.0455932617188 L 348.9541320800781 153.7613372802734 L 347.7538452148438 153.1515808105469 L 341.3330383300781 149.9507904052734 L 341.3330383300781 119.4669952392578 L 360.3855895996094 128.9930572509766 Z"
@@ -4039,7 +4253,7 @@ export default function Menu() {
                 </svg>
                 <div id="Group_36">
                     <svg
-                        class="Path_190"
+                        className="Path_190"
                         viewBox="341.333 125.184 13.337 32.408"
                     >
                         <path
@@ -4047,14 +4261,17 @@ export default function Menu() {
                             d="M 354.6698303222656 132.595458984375 L 354.6698303222656 153.7626190185547 L 347.7538452148438 157.5921478271484 L 341.3330383300781 154.391357421875 L 341.3330383300781 125.1839904785156 L 354.6698303222656 132.595458984375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_191" viewBox="170.667 34.133 19.052 40.01">
+                    <svg
+                        className="Path_191"
+                        viewBox="170.667 34.133 19.052 40.01"
+                    >
                         <path
                             id="Path_191"
                             d="M 189.7193450927734 43.65927505493164 L 189.7193450927734 74.14305114746094 L 170.6670227050781 64.61700439453125 L 170.6670227050781 34.13299179077148 L 189.7193450927734 43.65927505493164 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_192"
+                        className="Path_192"
                         viewBox="42.667 170.667 47.631 23.815"
                     >
                         <path
@@ -4063,7 +4280,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_193"
+                        className="Path_193"
                         viewBox="42.667 234.667 59.062 37.152"
                     >
                         <path
@@ -4071,13 +4288,16 @@ export default function Menu() {
                             d="M 101.7294082641602 264.1981201171875 L 101.7294082641602 271.8192138671875 L 42.66699981689453 242.2879028320312 L 42.66699981689453 234.6669921875 L 101.7294082641602 264.1981201171875 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_194" viewBox="256 76.8 19.052 40.01">
+                    <svg className="Path_194" viewBox="256 76.8 19.052 40.01">
                         <path
                             id="Path_194"
                             d="M 275.0523376464844 86.32628631591797 L 275.0523376464844 116.81005859375 L 256 107.2837905883789 L 256 76.80000305175781 L 275.0523376464844 86.32628631591797 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_195" viewBox="128 213.333 47.631 23.816">
+                    <svg
+                        className="Path_195"
+                        viewBox="128 213.333 47.631 23.816"
+                    >
                         <path
                             id="Path_195"
                             d="M 175.6309509277344 222.8592834472656 L 147.0523376464844 237.1485900878906 L 128 227.6222991943359 L 156.57861328125 213.3329925537109 L 175.6309509277344 222.8592834472656 Z"
@@ -4085,14 +4305,17 @@ export default function Menu() {
                     </svg>
                 </div>
                 <div id="Group_37">
-                    <svg class="Path_196" viewBox="341.333 243.2 36.2 47.631">
+                    <svg
+                        className="Path_196"
+                        viewBox="341.333 243.2 36.2 47.631"
+                    >
                         <path
                             id="Path_196"
                             d="M 377.5327758789062 243.2000122070312 L 377.5327758789062 272.7312927246094 L 341.3330383300781 290.8309631347656 L 341.3330383300781 261.2998657226562 L 377.5327758789062 243.2000122070312 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_197"
+                        className="Path_197"
                         viewBox="426.667 136.533 11.431 24.768"
                     >
                         <path
@@ -4101,7 +4324,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_198"
+                        className="Path_198"
                         viewBox="42.667 106.667 28.579 28.579"
                     >
                         <path
@@ -4110,67 +4333,76 @@ export default function Menu() {
                         ></path>
                     </svg>
                 </div>
-                <svg class="Path_199" viewBox="332.8 234.666 40.01 51.442">
+                <svg className="Path_199" viewBox="332.8 234.666 40.01 51.442">
                     <path
                         id="Path_199"
                         d="M 334.7052001953125 286.1080932617188 C 334.1999206542969 286.1080932617188 333.7152099609375 285.9074096679688 333.3579406738281 285.5501403808594 C 333.000732421875 285.1929321289062 332.8000183105469 284.7082214355469 332.8000183105469 284.2029418945312 L 332.8000183105469 254.671630859375 C 332.7997741699219 253.9500427246094 333.2074890136719 253.2900390625 333.8531799316406 252.9674072265625 L 370.0526733398438 234.8675537109375 C 370.6432495117188 234.5723876953125 371.3447570800781 234.6038665771484 371.906494140625 234.9510498046875 C 372.4682312011719 235.2982330322266 372.81005859375 235.9113311767578 372.81005859375 236.57177734375 L 372.81005859375 266.1030883789062 C 372.810302734375 266.8246765136719 372.402587890625 267.4847106933594 371.7568664550781 267.8073120117188 L 335.5574035644531 285.9071655273438 C 335.2928161621094 286.0391540527344 335.0010070800781 286.10791015625 334.7052001953125 286.1080932617188 L 334.7052001953125 286.1080932617188 Z M 336.6105651855469 255.8493957519531 L 336.6105651855469 281.1197814941406 L 368.999755859375 264.9253234863281 L 368.999755859375 239.6546936035156 L 336.6105651855469 255.8493957519531 Z"
                     ></path>
                 </svg>
-                <svg class="Path_200" viewBox="307.2 307.2 7.621 33.342">
+                <svg className="Path_200" viewBox="307.2 307.2 7.621 33.342">
                     <path
                         id="Path_200"
                         d="M 314.8208923339844 311.0105895996094 L 314.8208923339844 340.5416870117188 L 307.2000427246094 336.7313537597656 L 307.2000427246094 307.2000427246094 L 314.8208923339844 311.0105895996094 Z"
                     ></path>
                 </svg>
-                <svg class="Path_201" viewBox="8.533 153.6 7.621 34.294">
+                <svg className="Path_201" viewBox="8.533 153.6 7.621 34.294">
                     <path
                         id="Path_201"
                         d="M 16.15411186218262 157.4105834960938 L 16.15411186218262 187.8943481445312 L 8.532999992370605 184.0837860107422 L 8.532999992370605 153.6000213623047 L 16.15411186218262 157.4105834960938 Z"
                     ></path>
                 </svg>
-                <svg class="Path_202" viewBox="42.667 268.8 59.062 38.105">
+                <svg className="Path_202" viewBox="42.667 268.8 59.062 38.105">
                     <path
                         id="Path_202"
                         d="M 101.7294082641602 298.3312683105469 L 101.7294082641602 306.9049072265625 L 52.57417678833008 282.3272705078125 L 42.66699981689453 277.3735961914062 L 42.66699981689453 268.7999877929688 L 101.7294082641602 298.3312683105469 Z"
                     ></path>
                 </svg>
-                <svg class="Path_203" viewBox="298.666 298.666 11.431 37.152">
+                <svg
+                    className="Path_203"
+                    viewBox="298.666 298.666 11.431 37.152"
+                >
                     <path
                         id="Path_203"
                         d="M 308.1922912597656 335.8184814453125 C 307.8964538574219 335.8182373046875 307.6048583984375 335.7494812011719 307.3400573730469 335.6175231933594 L 299.7191467285156 331.8069763183594 C 299.0736999511719 331.4841613769531 298.666015625 330.8243408203125 298.666015625 330.1027526855469 L 298.666015625 300.5714416503906 C 298.666015625 299.9110107421875 299.0078430175781 299.2979125976562 299.569580078125 298.9507446289062 C 300.13134765625 298.603515625 300.8326416015625 298.5718383789062 301.4234008789062 298.8672180175781 L 309.0442810058594 302.6777648925781 C 309.6897583007812 303.0006103515625 310.0974731445312 303.660400390625 310.0974731445312 304.3820190429688 L 310.0974731445312 333.913330078125 C 310.0974731445312 334.4185791015625 309.8967590332031 334.9033203125 309.5394897460938 335.2605285644531 C 309.1822814941406 335.6177673339844 308.6977844238281 335.8184814453125 308.1922912597656 335.8184814453125 L 308.1922912597656 335.8184814453125 Z M 302.4765625 328.9250183105469 L 306.287109375 330.8302001953125 L 306.287109375 305.5597534179688 L 302.4765625 303.6545715332031 L 302.4765625 328.9250183105469 Z"
                     ></path>
                 </svg>
-                <svg class="Path_204" viewBox="42.667 307.2 9.907 10.479">
+                <svg className="Path_204" viewBox="42.667 307.2 9.907 10.479">
                     <path
                         id="Path_204"
                         d="M 52.57417678833008 312.1537170410156 L 52.19305419921875 312.9157409667969 L 42.66699981689453 317.6787719726562 L 42.66699981689453 307.2000427246094 L 52.57417678833008 312.1537170410156 Z"
                     ></path>
                 </svg>
-                <svg class="Path_205" viewBox="8.533 290.133 7.621 14.289">
+                <svg className="Path_205" viewBox="8.533 290.133 7.621 14.289">
                     <path
                         id="Path_205"
                         d="M 16.15411186218262 293.9435729980469 L 16.15411186218262 304.4223022460938 L 8.532999992370605 300.6119995117188 L 8.532999992370605 290.1330261230469 L 16.15411186218262 293.9435729980469 Z"
                     ></path>
                 </svg>
-                <svg class="Path_206" viewBox="307.2 439.467 7.621 14.289">
+                <svg className="Path_206" viewBox="307.2 439.467 7.621 14.289">
                     <path
                         id="Path_206"
                         d="M 314.8208923339844 443.27734375 L 314.8208923339844 453.75634765625 L 307.2000427246094 449.9457702636719 L 307.2000427246094 439.4670104980469 L 314.8208923339844 443.27734375 Z"
                     ></path>
                 </svg>
-                <svg class="Path_207" viewBox="341.333 439.467 7.621 14.289">
+                <svg
+                    className="Path_207"
+                    viewBox="341.333 439.467 7.621 14.289"
+                >
                     <path
                         id="Path_207"
                         d="M 348.9541320800781 439.4670104980469 L 348.9541320800781 449.9457702636719 L 341.3330383300781 453.75634765625 L 341.3330383300781 443.27734375 L 348.9541320800781 439.4670104980469 Z"
                     ></path>
                 </svg>
-                <svg class="Path_208" viewBox="435.2 392.533 7.621 10.479">
+                <svg className="Path_208" viewBox="435.2 392.533 7.621 10.479">
                     <path
                         id="Path_208"
                         d="M 442.8208923339844 392.532958984375 L 442.8208923339844 403.0119323730469 L 435.2000122070312 399.2013854980469 L 435.2000122070312 396.3435363769531 L 442.8208923339844 392.532958984375 Z"
                     ></path>
                 </svg>
-                <svg class="Path_209" viewBox="469.333 375.467 7.621 14.289">
+                <svg
+                    className="Path_209"
+                    viewBox="469.333 375.467 7.621 14.289"
+                >
                     <path
                         id="Path_209"
                         d="M 476.9541320800781 375.4670104980469 L 476.9541320800781 385.9457397460938 L 469.3330383300781 389.7563171386719 L 469.3330383300781 379.27734375 L 476.9541320800781 375.4670104980469 Z"
@@ -4178,7 +4410,7 @@ export default function Menu() {
                 </svg>
                 <div id="Group_38">
                     <svg
-                        class="Path_210"
+                        className="Path_210"
                         viewBox="34.134 298.666 13.718 14.289"
                     >
                         <path
@@ -4186,14 +4418,17 @@ export default function Menu() {
                             d="M 36.03916168212891 312.95556640625 C 35.53390502929688 312.95556640625 35.0491828918457 312.7548522949219 34.69195175170898 312.3976440429688 C 34.33472061157227 312.0403747558594 34.13399887084961 311.5556640625 34.13399887084961 311.0504150390625 L 34.13399887084961 300.5714416503906 C 34.13399887084961 299.9110107421875 34.47582626342773 299.2979125976562 35.03757095336914 298.9507446289062 C 35.59932327270508 298.603515625 36.30061721801758 298.5718383789062 36.89139175415039 298.8672180175781 L 46.79901504516602 303.8211669921875 C 47.25113677978516 304.0473327636719 47.59475326538086 304.44384765625 47.75439071655273 304.9234313964844 C 47.91402816772461 305.4030151367188 47.87651824951172 305.9263610839844 47.65011978149414 306.3784790039062 L 47.26877593994141 307.1402893066406 C 47.08457946777344 307.5086975097656 46.78584289550781 307.8074035644531 46.41744613647461 307.9916076660156 L 36.89116668701172 312.7546691894531 C 36.62659072875977 312.8865966796875 36.33477401733398 312.9553527832031 36.03916168212891 312.95556640625 Z M 37.94433212280273 303.6543579101562 L 37.94433212280273 307.9672546386719 L 42.25814056396484 305.8109436035156 L 37.94433212280273 303.6543579101562 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_211" viewBox="34.133 25.599 89.546 94.31">
+                    <svg
+                        className="Path_211"
+                        viewBox="34.133 25.599 89.546 94.31"
+                    >
                         <path
                             id="Path_211"
                             d="M 95.10079956054688 119.9087295532227 C 94.80496215820312 119.9085006713867 94.51336669921875 119.8397445678711 94.24856567382812 119.7077789306641 L 35.18616485595703 90.17646789550781 C 34.54069137573242 89.85362243652344 34.13299942016602 89.19386291503906 34.13299942016602 88.47225189208984 L 34.13299942016602 72.27777099609375 C 34.13277816772461 71.55615997314453 34.54047012329102 70.89617156982422 35.18616485595703 70.57354736328125 L 62.71161651611328 56.81070709228516 L 62.71161651611328 27.50445556640625 C 62.71161651611328 26.84402084350586 63.05344390869141 26.23091888427734 63.61518859863281 25.88373374938965 C 64.17694091796875 25.53654861450195 64.87823486328125 25.50484466552734 65.46900177001953 25.80023193359375 L 122.6262435913086 54.37884521484375 C 123.2717132568359 54.70169448852539 123.6794052124023 55.36145782470703 123.6794052124023 56.08306884765625 L 123.6794052124023 75.13541412353516 C 123.6796264648438 75.85702514648438 123.2719421386719 76.51701354980469 122.6262435913086 76.83963012695312 L 97.00595855712891 89.64977264404297 L 97.00595855712891 118.0033416748047 C 97.00595855712891 118.5085983276367 96.80523681640625 118.9933166503906 96.44800567626953 119.3505477905273 C 96.09077453613281 119.7077789306641 95.60604858398438 119.9087295532227 95.10079956054688 119.9087295532227 L 95.10079956054688 119.9087295532227 Z M 37.94355392456055 87.29449462890625 L 93.19561767578125 114.92041015625 L 93.19561767578125 88.47225189208984 C 93.19540405273438 87.75063323974609 93.60308837890625 87.09065246582031 94.24878692626953 86.76802062988281 L 119.8690719604492 73.95787811279297 L 119.8690719604492 57.26103973388672 L 66.52217102050781 30.58759498596191 L 66.52217102050781 57.98846054077148 C 66.52239227294922 58.71006774902344 66.11470031738281 59.37005615234375 65.46900177001953 59.69268035888672 L 37.94355392456055 73.45552062988281 L 37.94355392456055 87.29449462890625 Z"
                         ></path>
                     </svg>
                 </div>
-                <svg class="Path_212" viewBox="307.2 224 43.821 22.387">
+                <svg className="Path_212" viewBox="307.2 224 43.821 22.387">
                     <path
                         id="Path_212"
                         d="M 351.0206604003906 227.3341217041016 L 351.0206604003906 228.2868041992188 L 314.8208923339844 246.3866729736328 L 307.2000427246094 242.5761260986328 L 344.3522338867188 224.0000152587891 L 344.9237976074219 224.2857971191406 L 351.0206604003906 227.3341217041016 Z"
@@ -4201,7 +4436,7 @@ export default function Menu() {
                 </svg>
                 <div id="Group_39">
                     <svg
-                        class="Path_213"
+                        className="Path_213"
                         viewBox="298.666 215.467 47.631 26.197"
                     >
                         <path
@@ -4209,38 +4444,44 @@ export default function Menu() {
                             d="M 308.1922912597656 241.6639862060547 C 307.8964538574219 241.6639862060547 307.6046447753906 241.5952301025391 307.3400573730469 241.4630584716797 L 299.7191467285156 237.6524810791016 C 299.0736999511719 237.3296508789062 298.666015625 236.6698913574219 298.666015625 235.9482727050781 C 298.666015625 235.2266540527344 299.0736999511719 234.56689453125 299.7191467285156 234.2440490722656 L 336.8713684082031 215.6679382324219 C 337.4079284667969 215.4000244140625 338.0390625 215.4000244140625 338.5755920410156 215.6679382324219 L 345.2440490722656 219.0020446777344 C 345.8894958496094 219.3246612548828 346.2971801757812 219.9846343994141 346.2971801757812 220.7062683105469 L 346.2971801757812 221.6589508056641 C 346.2974243164062 222.3805847167969 345.8897094726562 223.0405578613281 345.2440490722656 223.3631744384766 L 309.0445251464844 241.4630584716797 C 308.7799072265625 241.5952301025391 308.4881286621094 241.6639862060547 308.1922912597656 241.6639862060547 L 308.1922912597656 241.6639862060547 Z M 304.8311767578125 235.9482727050781 L 308.1922912597656 237.6283874511719 L 341.084716796875 221.1827087402344 L 337.7236022949219 219.5026092529297 L 304.8311767578125 235.9482727050781 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_214" viewBox="0 63.999 40.01 25.721">
+                    <svg className="Path_214" viewBox="0 63.999 40.01 25.721">
                         <path
                             id="Path_214"
                             d="M 9.526279449462891 89.72035980224609 C 9.230446815490723 89.72035980224609 8.938632011413574 89.65159606933594 8.674056053161621 89.5194091796875 L 1.053166627883911 85.7088623046875 C 0.4076918065547943 85.38600158691406 0 84.72624206542969 0 84.004638671875 C 0 83.28302001953125 0.4076918065547943 82.62326049804688 1.053166627883911 82.30040740966797 L 37.2526741027832 64.20054626464844 C 37.84321975708008 63.90538024902344 38.54473876953125 63.93686676025391 39.10648727416992 64.28404998779297 C 39.66823577880859 64.63124084472656 40.01006317138672 65.24456024169922 40.01006317138672 65.90476989746094 L 40.01006317138672 73.52565765380859 C 40.01028442382812 74.24726867675781 39.60259628295898 74.90725708007812 38.95689392089844 75.22988891601562 L 10.37828063964844 89.51918792724609 C 10.11370372772217 89.65159606933594 9.822113037109375 89.72035980224609 9.526279449462891 89.72035980224609 Z M 6.165166854858398 84.004638671875 L 9.526279449462891 85.68473815917969 L 36.19972991943359 72.34813690185547 L 36.19972991943359 68.9879150390625 L 6.165166854858398 84.004638671875 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_215" viewBox="0 145.066 11.431 38.105">
+                    <svg className="Path_215" viewBox="0 145.066 11.431 38.105">
                         <path
                             id="Path_215"
                             d="M 9.526279449462891 183.1709747314453 C 9.230446815490723 183.1707611083984 8.938854217529297 183.1019897460938 8.674056053161621 182.9700317382812 L 1.053166627883911 179.1596984863281 C 0.4076918065547943 178.8368530273438 0 178.1770935058594 0 177.4554595947266 L 0.0004465409147087485 148.89404296875 C 0.4318050146102905 147.4577484130859 1.158103823661804 146.292724609375 1.864084959030151 146.2980804443359 C 2.701348781585693 146.3045654296875 3.666770458221436 147.9576416015625 3.832213878631592 150.5152130126953 L 3.810333251953125 176.2777252197266 L 7.620889663696289 178.1828765869141 L 7.620889663696289 151.9597778320312 L 3.810333251953125 150.0546112060547 L 3.810333251953125 152.6871948242188 C 3.810333251953125 153.7394561767578 2.95721697807312 154.5923614501953 1.905166625976562 154.5923614501953 C 0.8531163930892944 154.5923614501953 0 153.7394561767578 0 152.6871948242188 L 0 146.9714660644531 C 0 146.31103515625 0.3418270647525787 145.6979370117188 0.9035754203796387 145.3507537841797 C 1.465323925018311 145.0035552978516 2.166616678237915 144.9718475341797 2.757390022277832 145.2672424316406 L 10.37828063964844 149.0777893066406 C 11.02375507354736 149.4006500244141 11.43144607543945 150.0604248046875 11.43144607543945 150.7820281982422 L 11.43144607543945 181.2657928466797 C 11.43144607543945 181.7710571289062 11.23072528839111 182.2557830810547 10.87349414825439 182.6130218505859 C 10.51603698730469 182.9704742431641 10.03154182434082 183.1709747314453 9.526279449462891 183.1709747314453 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_216" viewBox="0 281.6 11.431 18.1">
+                    <svg className="Path_216" viewBox="0 281.6 11.431 18.1">
                         <path
                             id="Path_216"
                             d="M 9.526279449462891 299.6999206542969 C 9.230446815490723 299.6996765136719 8.938854217529297 299.6309204101562 8.674056053161621 299.4989624023438 L 1.053166627883911 295.6884155273438 C 0.4076918065547943 295.3655700683594 0 294.705810546875 0 293.9841918945312 L 0 283.5054626464844 C 0 282.8450012207031 0.3418270647525787 282.2319030761719 0.9035754203796387 281.8847351074219 C 1.465323925018311 281.5375366210938 2.166616678237915 281.5058288574219 2.757390022277832 281.8012084960938 L 10.37828063964844 285.6117858886719 C 11.02375507354736 285.9346313476562 11.43144607543945 286.5943603515625 11.43144607543945 287.3159790039062 L 11.43144607543945 297.7947692871094 C 11.43144607543945 298.3000183105469 11.23072528839111 298.7847595214844 10.87349414825439 299.1419372558594 C 10.51603698730469 299.4991760253906 10.03154182434082 299.6999206542969 9.526279449462891 299.6999206542969 L 9.526279449462891 299.6999206542969 Z M 3.810556173324585 292.8064575195312 L 7.62111234664917 294.7116088867188 L 7.62111234664917 288.4935302734375 L 3.810556173324585 286.5883483886719 L 3.810556173324585 292.8064575195312 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_217" viewBox="298.666 430.933 11.432 18.1">
+                    <svg
+                        className="Path_217"
+                        viewBox="298.666 430.933 11.432 18.1"
+                    >
                         <path
                             id="Path_217"
                             d="M 308.1922912597656 449.0328979492188 C 307.8964538574219 449.03271484375 307.6048583984375 448.9639282226562 307.3400573730469 448.8320007324219 L 299.7191467285156 445.0214233398438 C 299.0736999511719 444.6985778808594 298.666015625 444.038818359375 298.666015625 443.3172302246094 L 298.666015625 432.8384399414062 C 298.666015625 432.1780395507812 299.0078430175781 431.56494140625 299.569580078125 431.2177734375 C 300.13134765625 430.87060546875 300.8326416015625 430.8388671875 301.4234008789062 431.1342468261719 L 309.0445251464844 434.9445495605469 C 309.6899719238281 435.2674255371094 310.09765625 435.9271850585938 310.09765625 436.6488342285156 L 310.09765625 447.1275634765625 C 310.09765625 447.6328125 309.8969421386719 448.1175231933594 309.5397338867188 448.4747619628906 C 309.1824951171875 448.8320007324219 308.6977844238281 449.0328979492188 308.1922912597656 449.0328979492188 L 308.1922912597656 449.0328979492188 Z M 302.4765625 442.1394958496094 L 306.287109375 444.0446472167969 L 306.287109375 437.8265686035156 L 302.4765625 435.92138671875 L 302.4765625 442.1394958496094 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_218" viewBox="332.8 430.934 11.431 18.1">
+                    <svg
+                        className="Path_218"
+                        viewBox="332.8 430.934 11.431 18.1"
+                    >
                         <path
                             id="Path_218"
                             d="M 334.7052001953125 449.0332641601562 C 334.1999206542969 449.0332641601562 333.7152099609375 448.8325500488281 333.3579406738281 448.4753112792969 C 333.000732421875 448.1180725097656 332.8000183105469 447.6333618164062 332.8000183105469 447.1280822753906 L 332.8000183105469 436.6493530273438 C 332.7997741699219 435.927734375 333.2074890136719 435.2677307128906 333.8531799316406 434.9450988769531 L 341.4740600585938 431.1345520019531 C 342.0646362304688 430.8393859863281 342.7661437988281 430.8708801269531 343.327880859375 431.2180480957031 C 343.8896179199219 431.5652465820312 344.2314453125 432.1785583496094 344.2314453125 432.8387756347656 L 344.2314453125 443.3175354003906 C 344.231689453125 444.0391235351562 343.823974609375 444.6991271972656 343.1782531738281 445.0217590332031 L 335.5574035644531 448.832275390625 C 335.2928161621094 448.9642944335938 335.0010070800781 449.0330200195312 334.7052001953125 449.0332641601562 Z M 336.6105651855469 437.8268432617188 L 336.6105651855469 444.0449523925781 L 340.4211120605469 442.1397705078125 L 340.4211120605469 435.9216613769531 L 336.6105651855469 437.8268432617188 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_219"
+                        className="Path_219"
                         viewBox="426.666 383.999 11.431 14.289"
                     >
                         <path
@@ -4248,13 +4489,19 @@ export default function Menu() {
                             d="M 436.1922607421875 398.2888793945312 C 435.8963928222656 398.2886657714844 435.6048583984375 398.2199096679688 435.3400268554688 398.0879516601562 L 427.7191772460938 394.2773742675781 C 427.0736694335938 393.9545593261719 426.6659851074219 393.2947692871094 426.6659851074219 392.5731811523438 L 426.6659851074219 389.71533203125 C 426.665771484375 388.9936828613281 427.0734558105469 388.3337097167969 427.7191772460938 388.0110778808594 L 435.3400268554688 384.2005004882812 C 435.9306030273438 383.9053955078125 436.6321105957031 383.9368591308594 437.19384765625 384.2840270996094 C 437.7555847167969 384.6311950683594 438.097412109375 385.2445373535156 438.097412109375 385.90478515625 L 438.097412109375 396.3835144042969 C 438.097412109375 396.8887634277344 437.8966979980469 397.3734741210938 437.5394897460938 397.730712890625 C 437.1822204589844 398.0881652832031 436.69775390625 398.2888793945312 436.1922607421875 398.2888793945312 L 436.1922607421875 398.2888793945312 Z M 430.4765625 391.3954162597656 L 434.287109375 393.3005981445312 L 434.287109375 388.9876708984375 L 430.4765625 390.892822265625 L 430.4765625 391.3954162597656 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_220" viewBox="460.8 366.934 11.431 18.1">
+                    <svg
+                        className="Path_220"
+                        viewBox="460.8 366.934 11.431 18.1"
+                    >
                         <path
                             id="Path_220"
                             d="M 462.7052001953125 385.0332641601562 C 462.1999206542969 385.0332641601562 461.7152099609375 384.8325500488281 461.3579406738281 384.4752807617188 C 461.000732421875 384.1180725097656 460.8000183105469 383.6333312988281 460.8000183105469 383.1280822753906 L 460.8000183105469 372.6492919921875 C 460.7998046875 371.927734375 461.2074584960938 371.2677001953125 461.8531799316406 370.9450988769531 L 469.4740600585938 367.134521484375 C 470.0646362304688 366.8393859863281 470.7661437988281 366.8708801269531 471.327880859375 367.2180480957031 C 471.8896179199219 367.5652160644531 472.2314453125 368.1785278320312 472.2314453125 368.8387756347656 L 472.2314453125 379.3175048828125 C 472.2316589355469 380.0391235351562 471.8240051269531 380.6990966796875 471.1782836914062 381.0217590332031 L 463.5574035644531 384.832275390625 C 463.2928466796875 384.9642639160156 463.0010070800781 385.0329895019531 462.7052001953125 385.0332641601562 Z M 464.610595703125 373.8268432617188 L 464.610595703125 380.044921875 L 468.4211120605469 378.1397705078125 L 468.4211120605469 371.9216613769531 L 464.610595703125 373.8268432617188 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_221" viewBox="418.134 128 15.242 28.579">
+                    <svg
+                        className="Path_221"
+                        viewBox="418.134 128 15.242 28.579"
+                    >
                         <path
                             id="Path_221"
                             d="M 420.0391845703125 156.5789947509766 C 419.5338745117188 156.5789947509766 419.0491943359375 156.3782806396484 418.6919250488281 156.0210571289062 C 418.334716796875 155.663818359375 418.1339721679688 155.1790771484375 418.1339721679688 154.673828125 L 418.1339721679688 135.6214904785156 C 418.1337585449219 134.8998870849609 418.5414428710938 134.2398986816406 419.1871643066406 133.9172668457031 L 430.6185913085938 128.2015380859375 C 431.2091674804688 127.9063873291016 431.9106750488281 127.9378662109375 432.472412109375 128.2850341796875 C 433.0341491699219 128.6322326660156 433.3759765625 129.2455596923828 433.3759765625 129.90576171875 L 433.3759765625 148.9581146240234 C 433.376220703125 149.6797180175781 432.968505859375 150.3397064208984 432.3228149414062 150.6623229980469 L 420.891357421875 156.3780670166016 C 420.6265869140625 156.5099792480469 420.3347473144531 156.5787658691406 420.0391845703125 156.5789947509766 L 420.0391845703125 156.5789947509766 Z M 421.9443359375 136.7990264892578 L 421.9443359375 151.5906829833984 L 429.5652160644531 147.7801361083984 L 429.5652160644531 132.9884643554688 L 421.9443359375 136.7990264892578 Z"
@@ -4262,26 +4509,32 @@ export default function Menu() {
                     </svg>
                 </div>
                 <div id="Group_40">
-                    <svg class="Path_222" viewBox="170.667 8.533 68.589 34.294">
+                    <svg
+                        className="Path_222"
+                        viewBox="170.667 8.533 68.589 34.294"
+                    >
                         <path
                             id="Path_222"
                             d="M 239.2557067871094 37.11161041259766 L 227.8242340087891 42.82733154296875 L 170.6670227050781 14.2487154006958 L 182.0984649658203 8.532993316650391 L 239.2557067871094 37.11161041259766 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_223" viewBox="170.667 8.533 30.484 15.242">
+                    <svg
+                        className="Path_223"
+                        viewBox="170.667 8.533 30.484 15.242"
+                    >
                         <path
                             id="Path_223"
                             d="M 201.1508026123047 18.05927085876465 L 189.7193450927734 23.77499580383301 L 170.6670227050781 14.2487154006958 L 182.0984649658203 8.532993316650391 L 201.1508026123047 18.05927085876465 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_224" viewBox="256 51.2 30.484 15.242">
+                    <svg className="Path_224" viewBox="256 51.2 30.484 15.242">
                         <path
                             id="Path_224"
                             d="M 286.4837646484375 60.72626495361328 L 275.0523376464844 66.44199371337891 L 256 56.91571807861328 L 267.4314270019531 51.19998931884766 L 286.4837646484375 60.72626495361328 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_225"
+                        className="Path_225"
                         viewBox="341.333 93.867 30.484 15.242"
                     >
                         <path
@@ -4290,14 +4543,14 @@ export default function Menu() {
                         ></path>
                     </svg>
                 </div>
-                <svg class="Path_226" viewBox="162.133 0.001 72.399 38.105">
+                <svg className="Path_226" viewBox="162.133 0.001 72.399 38.105">
                     <path
                         id="Path_226"
                         d="M 221.1956176757812 38.10567474365234 C 220.8997802734375 38.10567474365234 220.6079864501953 38.03690338134766 220.3434143066406 37.90472793579102 L 163.1861724853516 9.326112747192383 C 162.5406951904297 9.003264427185059 162.1330108642578 8.343499183654785 162.1330108642578 7.621889591217041 C 162.1330108642578 6.900279521942139 162.5406951904297 6.24051570892334 163.1861724853516 5.917666435241699 L 174.6176147460938 0.2019433826208115 C 175.1541442871094 -0.06598114222288132 175.7853240966797 -0.06598114222288132 176.3218383789062 0.2019433826208115 L 233.4790802001953 28.78055953979492 C 234.1245422363281 29.10340881347656 234.5322265625 29.76317596435547 234.5322265625 30.48478507995605 C 234.5322265625 31.20639610290527 234.1245422363281 31.86615753173828 233.4790802001953 32.18900680541992 L 222.0476226806641 37.90472793579102 C 221.7830657958984 38.03690338134766 221.491455078125 38.10567474365234 221.1956176757812 38.10567474365234 Z M 168.2981719970703 7.621665954589844 L 221.1956176757812 34.0698356628418 L 228.3672943115234 30.48456192016602 L 175.4698486328125 4.036389827728271 L 168.2981719970703 7.621665954589844 Z"
                     ></path>
                 </svg>
                 <svg
-                    class="SVGCleanerId_0"
+                    className="SVGCleanerId_0"
                     viewBox="337.068 115.201 20.957 36.199"
                 >
                     <path
@@ -4306,7 +4559,7 @@ export default function Menu() {
                     ></path>
                 </svg>
                 <svg
-                    class="SVGCleanerId_1"
+                    className="SVGCleanerId_1"
                     viewBox="166.401 29.866 20.958 41.915"
                 >
                     <path
@@ -4315,7 +4568,7 @@ export default function Menu() {
                     ></path>
                 </svg>
                 <svg
-                    class="SVGCleanerId_2"
+                    className="SVGCleanerId_2"
                     viewBox="38.401 166.399 49.536 25.721"
                 >
                     <path
@@ -4324,7 +4577,7 @@ export default function Menu() {
                     ></path>
                 </svg>
                 <svg
-                    class="SVGCleanerId_3"
+                    className="SVGCleanerId_3"
                     viewBox="38.4 230.401 60.968 39.057"
                 >
                     <path
@@ -4333,7 +4586,7 @@ export default function Menu() {
                     ></path>
                 </svg>
                 <svg
-                    class="SVGCleanerId_4"
+                    className="SVGCleanerId_4"
                     viewBox="251.734 72.534 20.958 41.915"
                 >
                     <path
@@ -4342,7 +4595,7 @@ export default function Menu() {
                     ></path>
                 </svg>
                 <svg
-                    class="SVGCleanerId_5"
+                    className="SVGCleanerId_5"
                     viewBox="123.734 209.066 49.536 25.721"
                 >
                     <path
@@ -4352,7 +4605,7 @@ export default function Menu() {
                 </svg>
                 <div id="Group_41">
                     <svg
-                        class="SVGCleanerId_0_sl"
+                        className="SVGCleanerId_0_sl"
                         viewBox="337.068 115.201 20.957 36.199"
                     >
                         <path
@@ -4363,7 +4616,7 @@ export default function Menu() {
                 </div>
                 <div id="Group_42">
                     <svg
-                        class="SVGCleanerId_1_sn"
+                        className="SVGCleanerId_1_sn"
                         viewBox="166.401 29.866 20.958 41.915"
                     >
                         <path
@@ -4374,7 +4627,7 @@ export default function Menu() {
                 </div>
                 <div id="Group_43">
                     <svg
-                        class="SVGCleanerId_2_sp"
+                        className="SVGCleanerId_2_sp"
                         viewBox="38.401 166.399 49.536 25.721"
                     >
                         <path
@@ -4383,7 +4636,10 @@ export default function Menu() {
                         ></path>
                     </svg>
                 </div>
-                <svg class="Path_227" viewBox="209.067 251.733 38.105 26.673">
+                <svg
+                    className="Path_227"
+                    viewBox="209.067 251.733 38.105 26.673"
+                >
                     <path
                         id="Path_227"
                         d="M 230.9772033691406 278.406494140625 C 230.8293762207031 278.406494140625 230.683349609375 278.3720703125 230.5512084960938 278.3059997558594 L 209.5934600830078 267.8272399902344 C 209.2708435058594 267.6658020019531 209.0669860839844 267.3358459472656 209.0669860839844 266.9750061035156 C 209.0669860839844 266.6142272949219 209.2708435058594 266.2842102050781 209.5934600830078 266.1227722167969 L 238.1720733642578 251.8334655761719 C 238.4402160644531 251.6995239257812 238.7559204101562 251.6995239257812 239.0243072509766 251.8334655761719 L 246.6451873779297 255.64404296875 C 246.9678192138672 255.8054809570312 247.1716766357422 256.1354370117188 247.1716766357422 256.4962768554688 C 247.1716766357422 256.8570556640625 246.9678192138672 257.1870727539062 246.6451873779297 257.3484802246094 L 231.9299011230469 264.7061462402344 L 231.9299011230469 277.4539794921875 C 231.929443359375 277.9797973632812 231.5032043457031 278.4062194824219 230.9772033691406 278.406494140625 L 230.9772033691406 278.406494140625 Z M 212.1499176025391 266.9750061035156 L 230.0244903564453 275.9122924804688 L 230.0244903564453 264.1171264648438 C 230.0244903564453 263.75634765625 230.2283477783203 263.4263305664062 230.5509643554688 263.2649536132812 L 244.0885162353516 256.4960327148438 L 238.5978393554688 253.7507019042969 L 212.1499176025391 266.9750061035156 Z"
@@ -4391,7 +4647,7 @@ export default function Menu() {
                 </svg>
                 <div id="Group_44">
                     <svg
-                        class="SVGCleanerId_3_ss"
+                        className="SVGCleanerId_3_ss"
                         viewBox="38.4 230.401 60.968 39.057"
                     >
                         <path
@@ -4401,20 +4657,26 @@ export default function Menu() {
                     </svg>
                 </div>
                 <div id="Group_45">
-                    <svg class="Path_228" viewBox="38.4 264.533 60.968 40.01">
+                    <svg
+                        className="Path_228"
+                        viewBox="38.4 264.533 60.968 40.01"
+                    >
                         <path
                             id="Path_228"
                             d="M 98.41510009765625 304.5433349609375 C 98.26729583740234 304.5433349609375 98.12127685546875 304.5089416503906 97.98909759521484 304.44287109375 L 38.92647552490234 274.9117736816406 C 38.60384750366211 274.7503662109375 38.40000534057617 274.4203491210938 38.40000534057617 274.0595397949219 L 38.40000534057617 265.4859619140625 C 38.40022277832031 265.1559753417969 38.57125473022461 264.8493957519531 38.85190200805664 264.6756896972656 C 39.13277435302734 264.5022277832031 39.48331069946289 264.4861450195312 39.7786979675293 264.6337280273438 L 98.84110260009766 294.1650390625 C 99.16371917724609 294.3264465332031 99.36756896972656 294.6564636230469 99.36756896972656 295.0172729492188 L 99.36756896972656 303.5908813476562 C 99.36734008789062 304.1166381835938 98.94111633300781 304.5430908203125 98.41510009765625 304.5433349609375 Z M 40.30517196655273 273.4707946777344 L 97.46240997314453 302.0494079589844 L 97.46240997314453 295.6062316894531 L 40.30517196655273 267.0276184082031 L 40.30517196655273 273.4707946777344 L 40.30517196655273 273.4707946777344 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_229" viewBox="166.4 4.266 32.389 17.147">
+                    <svg
+                        className="Path_229"
+                        viewBox="166.4 4.266 32.389 17.147"
+                    >
                         <path
                             id="Path_229"
                             d="M 186.405029296875 21.41339492797852 C 186.2572479248047 21.41339492797852 186.1112060546875 21.3790111541748 185.9790344238281 21.31292152404785 L 166.9264678955078 11.78664207458496 C 166.6038513183594 11.62521648406982 166.4000091552734 11.29522323608398 166.4000091552734 10.93441772460938 C 166.4000091552734 10.57361316680908 166.6038513183594 10.24361991882324 166.9264678955078 10.08219432830811 L 178.35791015625 4.366471767425537 C 178.6260681152344 4.232509136199951 178.9417724609375 4.232509136199951 179.2101440429688 4.366471767425537 L 198.2624816894531 13.89275074005127 C 198.5851135253906 14.05417537689209 198.7889556884766 14.38416957855225 198.7889556884766 14.74497509002686 C 198.7889556884766 15.10578060150146 198.5851135253906 15.4357738494873 198.2624816894531 15.59719753265381 L 186.8310394287109 21.31292152404785 C 186.6988677978516 21.3790111541748 186.5528411865234 21.41339492797852 186.405029296875 21.41339492797852 Z M 169.48291015625 10.93441772460938 L 186.405029296875 19.39547538757324 L 195.7060241699219 14.74497509002686 L 178.7839202880859 6.283918380737305 L 169.48291015625 10.93441772460938 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_230"
+                        className="Path_230"
                         viewBox="251.734 46.932 32.389 17.147"
                     >
                         <path
@@ -4423,7 +4685,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_231"
+                        className="Path_231"
                         viewBox="337.068 89.599 32.389 17.147"
                     >
                         <path
@@ -4431,7 +4693,10 @@ export default function Menu() {
                             d="M 357.0728149414062 106.7463912963867 C 356.9250183105469 106.7463912963867 356.7789916992188 106.7120132446289 356.6468200683594 106.6459274291992 L 337.5944519042969 97.11964416503906 C 337.2718505859375 96.95821380615234 337.0679931640625 96.62822723388672 337.0679931640625 96.26741790771484 C 337.0679931640625 95.9066162109375 337.2718505859375 95.57661437988281 337.5944519042969 95.41519927978516 L 349.0259094238281 89.69947814941406 C 349.2943115234375 89.56551361083984 349.6097412109375 89.56551361083984 349.878173828125 89.69947814941406 L 368.9305114746094 99.22575378417969 C 369.2530822753906 99.38718414306641 369.4569702148438 99.71717071533203 369.4569702148438 100.0779800415039 C 369.4569702148438 100.4387817382812 369.2530822753906 100.7687759399414 368.9305114746094 100.9301986694336 L 357.4990234375 106.6459274291992 C 357.3666687011719 106.7120132446289 357.2206115722656 106.7463912963867 357.0728149414062 106.7463912963867 L 357.0728149414062 106.7463912963867 Z M 340.1506958007812 96.26763916015625 L 357.0728149414062 104.7287063598633 L 366.3738098144531 100.0782012939453 L 349.4517211914062 91.61714172363281 L 340.1506958007812 96.26763916015625 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_232" viewBox="34.134 98.133 32.389 32.389">
+                    <svg
+                        className="Path_232"
+                        viewBox="34.134 98.133 32.389 32.389"
+                    >
                         <path
                             id="Path_232"
                             d="M 36.03916168212891 130.5225372314453 C 35.53390502929688 130.5225372314453 35.0491828918457 130.3218231201172 34.69195175170898 129.964599609375 C 34.33472061157227 129.6073608398438 34.13399887084961 129.1226348876953 34.13399887084961 128.6173858642578 L 34.13399887084961 114.3280715942383 C 34.13377380371094 113.6064605712891 34.54146575927734 112.9464721679688 35.18716812133789 112.6238403320312 L 63.76577758789062 98.33453369140625 C 64.35633087158203 98.03937530517578 65.05784606933594 98.07085418701172 65.61959838867188 98.41803741455078 C 66.18133544921875 98.76522827148438 66.52317047119141 99.37854766845703 66.52317047119141 100.0387725830078 L 66.52317047119141 114.3280715942383 C 66.52339935302734 115.0496826171875 66.11569976806641 115.7096710205078 65.47000122070312 116.0322952270508 L 36.89139175415039 130.3216094970703 C 36.62659072875977 130.4535675048828 36.33477401733398 130.5223236083984 36.03916168212891 130.5225372314453 L 36.03916168212891 130.5225372314453 Z M 37.94433212280273 115.5058212280273 L 37.94433212280273 125.5344543457031 L 62.71239471435547 113.1503219604492 L 62.71239471435547 103.1216812133789 L 37.94433212280273 115.5058212280273 Z"
@@ -4440,7 +4705,7 @@ export default function Menu() {
                 </div>
                 <div id="Group_46">
                     <svg
-                        class="SVGCleanerId_4_s"
+                        className="SVGCleanerId_4_s"
                         viewBox="251.734 72.534 20.958 41.915"
                     >
                         <path
@@ -4451,7 +4716,7 @@ export default function Menu() {
                 </div>
                 <div id="Group_47">
                     <svg
-                        class="SVGCleanerId_5_s"
+                        className="SVGCleanerId_5_s"
                         viewBox="123.734 209.066 49.536 25.721"
                     >
                         <path
@@ -4463,7 +4728,10 @@ export default function Menu() {
             </div>
             <div id="Group_192">
                 <div id="Group_7_s">
-                    <svg class="Path_3_s" viewBox="8.534 119.047 31.292 59.413">
+                    <svg
+                        className="Path_3_s"
+                        viewBox="8.534 119.047 31.292 59.413"
+                    >
                         <path
                             id="Path_3_s"
                             d="M 8.534000396728516 119.0469970703125 L 8.534000396728516 162.8137359619141 L 39.82600402832031 178.4595794677734 L 39.82600402832031 134.6627502441406 L 14.7863826751709 122.157958984375 L 8.534000396728516 119.0469970703125 Z"
@@ -4471,7 +4739,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_s">
                         <svg
-                            class="Path_4_s"
+                            className="Path_4_s"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -4480,7 +4748,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_s"
+                            className="Path_5_s"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -4489,7 +4757,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_s"
+                            className="Path_6_s"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -4499,7 +4767,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_7_ta"
+                        className="Path_7_ta"
                         viewBox="8.534 286.897 31.292 65.726"
                     >
                         <path
@@ -4509,7 +4777,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_tb">
                         <svg
-                            class="Path_8_tc"
+                            className="Path_8_tc"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -4518,7 +4786,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_td"
+                            className="Path_9_td"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -4528,7 +4796,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_te"
+                        className="Path_10_te"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -4538,7 +4806,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_tf">
                         <svg
-                            class="Path_11_tg"
+                            className="Path_11_tg"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -4547,7 +4815,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_th"
+                            className="Path_12_th"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -4556,7 +4824,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_ti"
+                            className="Path_13_ti"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -4565,7 +4833,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_tj"
+                            className="Path_14_tj"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -4575,7 +4843,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_tk"
+                        className="Path_15_tk"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -4585,7 +4853,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_tl">
                         <svg
-                            class="Path_16_tm"
+                            className="Path_16_tm"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -4594,7 +4862,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_tn"
+                            className="Path_17_tn"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -4603,7 +4871,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_to"
+                            className="Path_18_to"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -4612,7 +4880,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_tp"
+                            className="Path_19_tp"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -4623,7 +4891,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_tq">
                         <svg
-                            class="Path_20_tr"
+                            className="Path_20_tr"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -4632,7 +4900,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_ts"
+                            className="Path_21_ts"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -4643,7 +4911,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_tt">
                         <svg
-                            class="Path_22_tu"
+                            className="Path_22_tu"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -4652,7 +4920,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_tv"
+                            className="Path_23_tv"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -4661,7 +4929,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_tw"
+                            className="Path_24_tw"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -4670,7 +4938,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_tx"
+                            className="Path_25_tx"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -4679,7 +4947,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_ty"
+                            className="Path_26_ty"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -4688,7 +4956,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_tz"
+                            className="Path_27_tz"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -4697,7 +4965,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_t"
+                            className="Path_28_t"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -4706,7 +4974,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_t"
+                            className="Path_29_t"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -4715,7 +4983,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_t"
+                            className="Path_30_t"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -4724,7 +4992,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_t"
+                            className="Path_31_t"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -4733,7 +5001,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_t"
+                            className="Path_32_t"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -4742,7 +5010,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_t"
+                            className="Path_33_t"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -4751,7 +5019,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_t"
+                            className="Path_34_t"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -4760,7 +5028,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_t"
+                            className="Path_35_t"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -4769,7 +5037,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_t"
+                            className="Path_36_t"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -4779,7 +5047,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_t" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_t" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_t"
                         d="M -19.27598762512207 295.5069885253906"
@@ -4789,7 +5057,7 @@ export default function Menu() {
             <div id="Group_193">
                 <div id="Group_7_ub">
                     <svg
-                        class="Path_3_uc"
+                        className="Path_3_uc"
                         viewBox="8.534 119.047 31.292 59.413"
                     >
                         <path
@@ -4799,7 +5067,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_ud">
                         <svg
-                            class="Path_4_ue"
+                            className="Path_4_ue"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -4808,7 +5076,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_uf"
+                            className="Path_5_uf"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -4817,7 +5085,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_ug"
+                            className="Path_6_ug"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -4827,7 +5095,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_7_uh"
+                        className="Path_7_uh"
                         viewBox="8.534 286.897 31.292 65.726"
                     >
                         <path
@@ -4837,7 +5105,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_ui">
                         <svg
-                            class="Path_8_uj"
+                            className="Path_8_uj"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -4846,7 +5114,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_uk"
+                            className="Path_9_uk"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -4856,7 +5124,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_ul"
+                        className="Path_10_ul"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -4866,7 +5134,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_um">
                         <svg
-                            class="Path_11_un"
+                            className="Path_11_un"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -4875,7 +5143,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_uo"
+                            className="Path_12_uo"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -4884,7 +5152,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_up"
+                            className="Path_13_up"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -4893,7 +5161,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_uq"
+                            className="Path_14_uq"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -4903,7 +5171,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_ur"
+                        className="Path_15_ur"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -4913,7 +5181,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_us">
                         <svg
-                            class="Path_16_ut"
+                            className="Path_16_ut"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -4922,7 +5190,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_uu"
+                            className="Path_17_uu"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -4931,7 +5199,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_uv"
+                            className="Path_18_uv"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -4940,7 +5208,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_uw"
+                            className="Path_19_uw"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -4951,7 +5219,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_ux">
                         <svg
-                            class="Path_20_uy"
+                            className="Path_20_uy"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -4960,7 +5228,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_uz"
+                            className="Path_21_uz"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -4971,7 +5239,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_u">
                         <svg
-                            class="Path_22_u"
+                            className="Path_22_u"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -4980,7 +5248,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_u"
+                            className="Path_23_u"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -4989,7 +5257,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_u"
+                            className="Path_24_u"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -4998,7 +5266,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_u"
+                            className="Path_25_u"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -5007,7 +5275,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_u"
+                            className="Path_26_u"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -5016,7 +5284,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_u"
+                            className="Path_27_u"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -5025,7 +5293,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_u"
+                            className="Path_28_u"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -5034,7 +5302,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_u"
+                            className="Path_29_u"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -5043,7 +5311,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_u"
+                            className="Path_30_u"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -5052,7 +5320,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_va"
+                            className="Path_31_va"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -5061,7 +5329,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_vb"
+                            className="Path_32_vb"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -5070,7 +5338,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_vc"
+                            className="Path_33_vc"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -5079,7 +5347,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_vd"
+                            className="Path_34_vd"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -5088,7 +5356,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_ve"
+                            className="Path_35_ve"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -5097,7 +5365,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_vf"
+                            className="Path_36_vf"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -5107,7 +5375,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_vg" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_vg" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_vg"
                         d="M -19.27598762512207 295.5069885253906"
@@ -5117,7 +5385,7 @@ export default function Menu() {
             <div id="Group_194">
                 <div id="Group_7_vi">
                     <svg
-                        class="Path_3_vj"
+                        className="Path_3_vj"
                         viewBox="8.534 119.047 31.292 59.413"
                     >
                         <path
@@ -5127,7 +5395,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_vk">
                         <svg
-                            class="Path_4_vl"
+                            className="Path_4_vl"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -5136,7 +5404,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_vm"
+                            className="Path_5_vm"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -5145,7 +5413,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_vn"
+                            className="Path_6_vn"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -5155,7 +5423,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_7_vo"
+                        className="Path_7_vo"
                         viewBox="8.534 286.897 31.292 65.726"
                     >
                         <path
@@ -5165,7 +5433,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_vp">
                         <svg
-                            class="Path_8_vq"
+                            className="Path_8_vq"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -5174,7 +5442,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_vr"
+                            className="Path_9_vr"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -5184,7 +5452,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_vs"
+                        className="Path_10_vs"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -5194,7 +5462,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_vt">
                         <svg
-                            class="Path_11_vu"
+                            className="Path_11_vu"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -5203,7 +5471,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_vv"
+                            className="Path_12_vv"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -5212,7 +5480,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_vw"
+                            className="Path_13_vw"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -5221,7 +5489,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_vx"
+                            className="Path_14_vx"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -5231,7 +5499,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_vy"
+                        className="Path_15_vy"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -5241,7 +5509,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_vz">
                         <svg
-                            class="Path_16_v"
+                            className="Path_16_v"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -5250,7 +5518,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_v"
+                            className="Path_17_v"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -5259,7 +5527,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_v"
+                            className="Path_18_v"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -5268,7 +5536,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_v"
+                            className="Path_19_v"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -5279,7 +5547,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_v">
                         <svg
-                            class="Path_20_v"
+                            className="Path_20_v"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -5288,7 +5556,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_v"
+                            className="Path_21_v"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -5299,7 +5567,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_v">
                         <svg
-                            class="Path_22_v"
+                            className="Path_22_v"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -5308,7 +5576,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_v"
+                            className="Path_23_v"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -5317,7 +5585,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_wa"
+                            className="Path_24_wa"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -5326,7 +5594,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_wb"
+                            className="Path_25_wb"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -5335,7 +5603,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_wc"
+                            className="Path_26_wc"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -5344,7 +5612,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_wd"
+                            className="Path_27_wd"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -5353,7 +5621,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_we"
+                            className="Path_28_we"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -5362,7 +5630,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_wf"
+                            className="Path_29_wf"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -5371,7 +5639,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_wg"
+                            className="Path_30_wg"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -5380,7 +5648,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_wh"
+                            className="Path_31_wh"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -5389,7 +5657,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_wi"
+                            className="Path_32_wi"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -5398,7 +5666,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_wj"
+                            className="Path_33_wj"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -5407,7 +5675,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_wk"
+                            className="Path_34_wk"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -5416,7 +5684,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_wl"
+                            className="Path_35_wl"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -5425,7 +5693,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_wm"
+                            className="Path_36_wm"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -5435,7 +5703,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_wn" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_wn" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_wn"
                         d="M -19.27598762512207 295.5069885253906"
@@ -5445,7 +5713,7 @@ export default function Menu() {
             <div id="Group_195">
                 <div id="Group_7_wp">
                     <svg
-                        class="Path_3_wq"
+                        className="Path_3_wq"
                         viewBox="8.534 119.047 31.292 59.413"
                     >
                         <path
@@ -5455,7 +5723,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_wr">
                         <svg
-                            class="Path_4_ws"
+                            className="Path_4_ws"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -5464,7 +5732,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_wt"
+                            className="Path_5_wt"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -5473,7 +5741,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_wu"
+                            className="Path_6_wu"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -5483,7 +5751,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_7_wv"
+                        className="Path_7_wv"
                         viewBox="8.534 286.897 31.292 65.726"
                     >
                         <path
@@ -5493,7 +5761,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_ww">
                         <svg
-                            class="Path_8_wx"
+                            className="Path_8_wx"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -5502,7 +5770,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_wy"
+                            className="Path_9_wy"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -5512,7 +5780,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_wz"
+                        className="Path_10_wz"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -5522,7 +5790,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_w">
                         <svg
-                            class="Path_11_w"
+                            className="Path_11_w"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -5531,7 +5799,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_w"
+                            className="Path_12_w"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -5540,7 +5808,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_w"
+                            className="Path_13_w"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -5549,7 +5817,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_w"
+                            className="Path_14_w"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -5559,7 +5827,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_w"
+                        className="Path_15_w"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -5569,7 +5837,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_w">
                         <svg
-                            class="Path_16_w"
+                            className="Path_16_w"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -5578,7 +5846,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_w"
+                            className="Path_17_w"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -5587,7 +5855,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_w"
+                            className="Path_18_w"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -5596,7 +5864,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_xa"
+                            className="Path_19_xa"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -5607,7 +5875,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_xb">
                         <svg
-                            class="Path_20_xc"
+                            className="Path_20_xc"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -5616,7 +5884,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_xd"
+                            className="Path_21_xd"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -5627,7 +5895,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_xe">
                         <svg
-                            class="Path_22_xf"
+                            className="Path_22_xf"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -5636,7 +5904,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_xg"
+                            className="Path_23_xg"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -5645,7 +5913,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_xh"
+                            className="Path_24_xh"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -5654,7 +5922,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_xi"
+                            className="Path_25_xi"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -5663,7 +5931,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_xj"
+                            className="Path_26_xj"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -5672,7 +5940,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_xk"
+                            className="Path_27_xk"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -5681,7 +5949,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_xl"
+                            className="Path_28_xl"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -5690,7 +5958,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_xm"
+                            className="Path_29_xm"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -5699,7 +5967,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_xn"
+                            className="Path_30_xn"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -5708,7 +5976,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_xo"
+                            className="Path_31_xo"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -5717,7 +5985,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_xp"
+                            className="Path_32_xp"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -5726,7 +5994,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_xq"
+                            className="Path_33_xq"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -5735,7 +6003,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_xr"
+                            className="Path_34_xr"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -5744,7 +6012,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_xs"
+                            className="Path_35_xs"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -5753,7 +6021,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_xt"
+                            className="Path_36_xt"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -5763,7 +6031,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_xu" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_xu" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_xu"
                         d="M -19.27598762512207 295.5069885253906"
@@ -5773,7 +6041,7 @@ export default function Menu() {
             <div id="Group_196">
                 <div id="Group_7_xw">
                     <svg
-                        class="Path_3_xx"
+                        className="Path_3_xx"
                         viewBox="8.534 119.047 31.292 59.413"
                     >
                         <path
@@ -5783,7 +6051,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_xy">
                         <svg
-                            class="Path_4_xz"
+                            className="Path_4_xz"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -5792,7 +6060,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_x"
+                            className="Path_5_x"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -5801,7 +6069,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_x"
+                            className="Path_6_x"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -5810,7 +6078,10 @@ export default function Menu() {
                             ></path>
                         </svg>
                     </div>
-                    <svg class="Path_7_x" viewBox="8.534 286.897 31.292 65.726">
+                    <svg
+                        className="Path_7_x"
+                        viewBox="8.534 286.897 31.292 65.726"
+                    >
                         <path
                             id="Path_7_x"
                             d="M 8.534000396728516 302.5431823730469 L 8.534000396728516 352.6228332519531 L 39.82600402832031 336.9766235351562 L 39.82600402832031 286.89697265625 L 8.534000396728516 302.5431823730469 Z"
@@ -5818,7 +6089,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_x">
                         <svg
-                            class="Path_8_x"
+                            className="Path_8_x"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -5827,7 +6098,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_x"
+                            className="Path_9_x"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -5837,7 +6108,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_x"
+                        className="Path_10_x"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -5847,7 +6118,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_x">
                         <svg
-                            class="Path_11_x"
+                            className="Path_11_x"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -5856,7 +6127,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_x"
+                            className="Path_12_x"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -5865,7 +6136,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_ya"
+                            className="Path_13_ya"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -5874,7 +6145,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_yb"
+                            className="Path_14_yb"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -5884,7 +6155,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_yc"
+                        className="Path_15_yc"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -5894,7 +6165,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_yd">
                         <svg
-                            class="Path_16_ye"
+                            className="Path_16_ye"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -5903,7 +6174,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_yf"
+                            className="Path_17_yf"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -5912,7 +6183,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_yg"
+                            className="Path_18_yg"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -5921,7 +6192,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_yh"
+                            className="Path_19_yh"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -5932,7 +6203,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_yi">
                         <svg
-                            class="Path_20_yj"
+                            className="Path_20_yj"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -5941,7 +6212,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_yk"
+                            className="Path_21_yk"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -5952,7 +6223,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_yl">
                         <svg
-                            class="Path_22_ym"
+                            className="Path_22_ym"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -5961,7 +6232,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_yn"
+                            className="Path_23_yn"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -5970,7 +6241,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_yo"
+                            className="Path_24_yo"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -5979,7 +6250,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_yp"
+                            className="Path_25_yp"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -5988,7 +6259,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_yq"
+                            className="Path_26_yq"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -5997,7 +6268,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_yr"
+                            className="Path_27_yr"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -6006,7 +6277,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_ys"
+                            className="Path_28_ys"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -6015,7 +6286,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_yt"
+                            className="Path_29_yt"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -6024,7 +6295,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_yu"
+                            className="Path_30_yu"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -6033,7 +6304,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_yv"
+                            className="Path_31_yv"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -6042,7 +6313,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_yw"
+                            className="Path_32_yw"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -6051,7 +6322,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_yx"
+                            className="Path_33_yx"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -6060,7 +6331,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_yy"
+                            className="Path_34_yy"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -6069,7 +6340,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_yz"
+                            className="Path_35_yz"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -6078,7 +6349,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_y"
+                            className="Path_36_y"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -6088,7 +6359,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_y" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_y" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_y"
                         d="M -19.27598762512207 295.5069885253906"
@@ -6097,7 +6368,10 @@ export default function Menu() {
             </div>
             <div id="Group_197">
                 <div id="Group_7_y">
-                    <svg class="Path_3_y" viewBox="8.534 119.047 31.292 59.413">
+                    <svg
+                        className="Path_3_y"
+                        viewBox="8.534 119.047 31.292 59.413"
+                    >
                         <path
                             id="Path_3_y"
                             d="M 8.534000396728516 119.0469970703125 L 8.534000396728516 162.8137359619141 L 39.82600402832031 178.4595794677734 L 39.82600402832031 134.6627502441406 L 14.7863826751709 122.157958984375 L 8.534000396728516 119.0469970703125 Z"
@@ -6105,7 +6379,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_y">
                         <svg
-                            class="Path_4_y"
+                            className="Path_4_y"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -6114,7 +6388,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_y"
+                            className="Path_5_y"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -6123,7 +6397,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_y"
+                            className="Path_6_y"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -6132,7 +6406,10 @@ export default function Menu() {
                             ></path>
                         </svg>
                     </div>
-                    <svg class="Path_7_y" viewBox="8.534 286.897 31.292 65.726">
+                    <svg
+                        className="Path_7_y"
+                        viewBox="8.534 286.897 31.292 65.726"
+                    >
                         <path
                             id="Path_7_y"
                             d="M 8.534000396728516 302.5431823730469 L 8.534000396728516 352.6228332519531 L 39.82600402832031 336.9766235351562 L 39.82600402832031 286.89697265625 L 8.534000396728516 302.5431823730469 Z"
@@ -6140,7 +6417,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_za">
                         <svg
-                            class="Path_8_zb"
+                            className="Path_8_zb"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -6149,7 +6426,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_zc"
+                            className="Path_9_zc"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -6159,7 +6436,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_zd"
+                        className="Path_10_zd"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -6169,7 +6446,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_ze">
                         <svg
-                            class="Path_11_zf"
+                            className="Path_11_zf"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -6178,7 +6455,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_zg"
+                            className="Path_12_zg"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -6187,7 +6464,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_zh"
+                            className="Path_13_zh"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -6196,7 +6473,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_zi"
+                            className="Path_14_zi"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -6206,7 +6483,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_zj"
+                        className="Path_15_zj"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -6216,7 +6493,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_zk">
                         <svg
-                            class="Path_16_zl"
+                            className="Path_16_zl"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -6225,7 +6502,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_zm"
+                            className="Path_17_zm"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -6234,7 +6511,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_zn"
+                            className="Path_18_zn"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -6243,7 +6520,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_zo"
+                            className="Path_19_zo"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -6254,7 +6531,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_zp">
                         <svg
-                            class="Path_20_zq"
+                            className="Path_20_zq"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -6263,7 +6540,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_zr"
+                            className="Path_21_zr"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -6274,7 +6551,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_zs">
                         <svg
-                            class="Path_22_zt"
+                            className="Path_22_zt"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -6283,7 +6560,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_zu"
+                            className="Path_23_zu"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -6292,7 +6569,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_zv"
+                            className="Path_24_zv"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -6301,7 +6578,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_zw"
+                            className="Path_25_zw"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -6310,7 +6587,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_zx"
+                            className="Path_26_zx"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -6319,7 +6596,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_zy"
+                            className="Path_27_zy"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -6328,7 +6605,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_zz"
+                            className="Path_28_zz"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -6337,7 +6614,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_z"
+                            className="Path_29_z"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -6346,7 +6623,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_z"
+                            className="Path_30_z"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -6355,7 +6632,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_z"
+                            className="Path_31_z"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -6364,7 +6641,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_z"
+                            className="Path_32_z"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -6373,7 +6650,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_z"
+                            className="Path_33_z"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -6382,7 +6659,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_z"
+                            className="Path_34_z"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -6391,7 +6668,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_z"
+                            className="Path_35_z"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -6400,7 +6677,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_z"
+                            className="Path_36_z"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -6410,7 +6687,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_z" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_z" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_z"
                         d="M -19.27598762512207 295.5069885253906"
@@ -6419,7 +6696,10 @@ export default function Menu() {
             </div>
             <div id="Group_198">
                 <div id="Group_7_a">
-                    <svg class="Path_3_b" viewBox="8.534 119.047 31.292 59.413">
+                    <svg
+                        className="Path_3_b"
+                        viewBox="8.534 119.047 31.292 59.413"
+                    >
                         <path
                             id="Path_3_b"
                             d="M 8.534000396728516 119.0469970703125 L 8.534000396728516 162.8137359619141 L 39.82600402832031 178.4595794677734 L 39.82600402832031 134.6627502441406 L 14.7863826751709 122.157958984375 L 8.534000396728516 119.0469970703125 Z"
@@ -6427,7 +6707,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_d">
                         <svg
-                            class="Path_4_d"
+                            className="Path_4_d"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -6436,7 +6716,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_e"
+                            className="Path_5_e"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -6445,7 +6725,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_f"
+                            className="Path_6_f"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -6454,7 +6734,10 @@ export default function Menu() {
                             ></path>
                         </svg>
                     </div>
-                    <svg class="Path_7_g" viewBox="8.534 286.897 31.292 65.726">
+                    <svg
+                        className="Path_7_g"
+                        viewBox="8.534 286.897 31.292 65.726"
+                    >
                         <path
                             id="Path_7_g"
                             d="M 8.534000396728516 302.5431823730469 L 8.534000396728516 352.6228332519531 L 39.82600402832031 336.9766235351562 L 39.82600402832031 286.89697265625 L 8.534000396728516 302.5431823730469 Z"
@@ -6462,7 +6745,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_h">
                         <svg
-                            class="Path_8_i"
+                            className="Path_8_i"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -6471,7 +6754,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_j"
+                            className="Path_9_j"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -6481,7 +6764,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_k"
+                        className="Path_10_k"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -6491,7 +6774,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_m">
                         <svg
-                            class="Path_11_m"
+                            className="Path_11_m"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -6500,7 +6783,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_n"
+                            className="Path_12_n"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -6509,7 +6792,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_o"
+                            className="Path_13_o"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -6518,7 +6801,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_p"
+                            className="Path_14_p"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -6528,7 +6811,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_q"
+                        className="Path_15_q"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -6538,7 +6821,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_r">
                         <svg
-                            class="Path_16_s"
+                            className="Path_16_s"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -6547,7 +6830,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_t"
+                            className="Path_17_t"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -6556,7 +6839,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_u"
+                            className="Path_18_u"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -6565,7 +6848,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_w"
+                            className="Path_19_w"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -6576,7 +6859,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_w">
                         <svg
-                            class="Path_20_x"
+                            className="Path_20_x"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -6585,7 +6868,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_y"
+                            className="Path_21_y"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -6595,14 +6878,17 @@ export default function Menu() {
                         </svg>
                     </div>
                     <div id="Group_6_z">
-                        <svg class="Path_22_" viewBox="0 154.674 181.229 65.48">
+                        <svg
+                            className="Path_22_"
+                            viewBox="0 154.674 181.229 65.48"
+                        >
                             <path
                                 id="Path_22_"
                                 d="M 34.30350112915039 220.1538391113281 C 34.77250671386719 220.1538391113281 35.23512268066406 220.0448150634766 35.65457534790039 219.8352813720703 L 90.61459350585938 192.3561096191406 L 145.5742645263672 219.8352813720703 C 146.4248352050781 220.2600250244141 147.4254913330078 220.2600250244141 148.2760467529297 219.8352813720703 L 179.5592041015625 204.1929779052734 C 180.58251953125 203.68115234375 181.2288513183594 202.6351928710938 181.2288513183594 201.4911804199219 C 181.2288513183594 200.3471832275391 180.58251953125 199.3012084960938 179.5592041015625 198.7893829345703 L 91.96530914306641 154.9925689697266 C 91.11473846435547 154.5678253173828 90.11408996582031 154.5678253173828 89.26353454589844 154.9925689697266 L 1.669628262519836 198.7893829345703 C 0.646321177482605 199.3012084960938 0 200.3471832275391 0 201.4911804199219 C 0 202.6351928710938 0.646321177482605 203.68115234375 1.669628262519836 204.1929779052734 L 32.95243835449219 219.8352813720703 C 33.37222671508789 220.0448150634766 33.83450698852539 220.1538391113281 34.30350112915039 220.1538391113281 Z M 90.61459350585938 185.958251953125 C 90.14559173583984 185.958251953125 89.68296813964844 186.0672912597656 89.26353454589844 186.2768096923828 L 34.30350112915039 213.7559661865234 L 9.773924827575684 201.4911804199219 L 90.61459350585938 161.0715179443359 L 171.4548950195312 201.4911804199219 L 146.9253387451172 213.7559661865234 L 91.96530914306641 186.2768096923828 C 91.54586791992188 186.0672912597656 91.08324432373047 185.9579010009766 90.61459350585938 185.958251953125 L 90.61459350585938 185.958251953125 Z"
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_"
+                            className="Path_23_"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -6611,7 +6897,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_"
+                            className="Path_24_"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -6619,14 +6905,17 @@ export default function Menu() {
                                 d="M 253.2433319091797 82.02352905273438 C 253.6440124511719 82.02388000488281 254.0280609130859 81.86460876464844 254.3115844726562 81.58143615722656 C 254.5947418212891 81.29826354980469 254.7540283203125 80.91386413574219 254.7536773681641 80.51316833496094 L 254.7536773681641 36.71636199951172 C 254.7536773681641 35.88242340087891 254.0776214599609 35.20600128173828 253.2433319091797 35.20600128173828 C 252.4090423583984 35.20600128173828 251.7329711914062 35.88207244873047 251.7329711914062 36.71636199951172 L 251.7329711914062 80.51316833496094 C 251.7326202392578 80.91386413574219 251.8919067382812 81.29791259765625 252.1750640869141 81.58143615722656 C 252.4582366943359 81.86495971679688 252.8426513671875 82.02388000488281 253.2433319091797 82.02352905273438 Z"
                             ></path>
                         </svg>
-                        <svg class="Path_25_" viewBox="0 30.885 93.644 105.359">
+                        <svg
+                            className="Path_25_"
+                            viewBox="0 30.885 93.644 105.359"
+                        >
                             <path
                                 id="Path_25_"
                                 d="M 90.62342834472656 136.2434844970703 C 91.42444610595703 136.2438354492188 92.19288635253906 135.9256286621094 92.75958251953125 135.3589172363281 C 93.325927734375 134.7925872802734 93.64413452148438 134.0241394042969 93.64413452148438 133.2227783203125 L 93.64413452148438 77.70696258544922 C 93.64413452148438 76.56260681152344 92.99709320068359 75.51628875732422 91.97308349609375 75.00516510009766 L 4.380595207214355 31.20800018310547 C 3.414637565612793 30.72130012512207 2.262487411499023 30.78784561157227 1.359179139137268 31.38285636901855 C 0.4558643400669098 31.97786903381348 -0.06021467223763466 33.0103759765625 0.005622682627290487 34.08960723876953 C 0.07146676629781723 35.169189453125 0.7096633911132812 36.13090896606445 1.678459048271179 36.61158752441406 L 87.60306549072266 79.57411193847656 L 87.60306549072266 133.2231140136719 C 87.60271453857422 134.0241394042969 87.92092895507812 134.7925872802734 88.48761749267578 135.3592681884766 C 89.053955078125 135.9256286621094 89.82241058349609 136.2438354492188 90.62342834472656 136.2434844970703 Z"
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_"
+                            className="Path_26_"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -6635,7 +6924,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_"
+                            className="Path_27_"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -6644,7 +6933,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_"
+                            className="Path_28_"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -6653,7 +6942,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_"
+                            className="Path_29_"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -6662,7 +6951,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_"
+                            className="Path_30_"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -6671,7 +6960,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_"
+                            className="Path_31_"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -6680,7 +6969,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_a"
+                            className="Path_32_a"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -6689,7 +6978,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_b"
+                            className="Path_33_b"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -6698,7 +6987,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_c"
+                            className="Path_34_c"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -6707,7 +6996,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_e"
+                            className="Path_35_e"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -6716,7 +7005,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_e"
+                            className="Path_36_e"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -6726,7 +7015,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_f" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_f" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_f"
                         d="M -19.27598762512207 295.5069885253906"
@@ -6735,7 +7024,10 @@ export default function Menu() {
             </div>
             <div id="Group_199">
                 <div id="Group_7_h">
-                    <svg class="Path_3_i" viewBox="8.534 119.047 31.292 59.413">
+                    <svg
+                        className="Path_3_i"
+                        viewBox="8.534 119.047 31.292 59.413"
+                    >
                         <path
                             id="Path_3_i"
                             d="M 8.534000396728516 119.0469970703125 L 8.534000396728516 162.8137359619141 L 39.82600402832031 178.4595794677734 L 39.82600402832031 134.6627502441406 L 14.7863826751709 122.157958984375 L 8.534000396728516 119.0469970703125 Z"
@@ -6743,7 +7035,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_1_j">
                         <svg
-                            class="Path_4_k"
+                            className="Path_4_k"
                             viewBox="34.134 109.489 31.292 59.413"
                         >
                             <path
@@ -6752,7 +7044,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_5_l"
+                            className="Path_5_l"
                             viewBox="96.939 74.844 31.262 59.413"
                         >
                             <path
@@ -6761,7 +7053,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_6_n"
+                            className="Path_6_n"
                             viewBox="185.259 39.431 25.04 56.332"
                         >
                             <path
@@ -6770,7 +7062,10 @@ export default function Menu() {
                             ></path>
                         </svg>
                     </div>
-                    <svg class="Path_7_n" viewBox="8.534 286.897 31.292 65.726">
+                    <svg
+                        className="Path_7_n"
+                        viewBox="8.534 286.897 31.292 65.726"
+                    >
                         <path
                             id="Path_7_n"
                             d="M 8.534000396728516 302.5431823730469 L 8.534000396728516 352.6228332519531 L 39.82600402832031 336.9766235351562 L 39.82600402832031 286.89697265625 L 8.534000396728516 302.5431823730469 Z"
@@ -6778,7 +7073,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_2_o">
                         <svg
-                            class="Path_8_p"
+                            className="Path_8_p"
                             viewBox="34.134 299.697 22.231 60.047"
                         >
                             <path
@@ -6787,7 +7082,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_9_q"
+                            className="Path_9_q"
                             viewBox="96.939 295.772 25.01 50.049"
                         >
                             <path
@@ -6797,7 +7092,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_10_r"
+                        className="Path_10_r"
                         viewBox="167.595 251.569 31.292 33.286"
                     >
                         <path
@@ -6807,7 +7102,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_3_s">
                         <svg
-                            class="Path_11_t"
+                            className="Path_11_t"
                             viewBox="349.867 328.54 12.082 15.102"
                         >
                             <path
@@ -6816,7 +7111,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_12_u"
+                            className="Path_12_u"
                             viewBox="349.867 388.273 12.082 15.103"
                         >
                             <path
@@ -6825,7 +7120,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_13_v"
+                            className="Path_13_v"
                             viewBox="256 39.431 25.04 56.332"
                         >
                             <path
@@ -6834,7 +7129,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_14_x"
+                            className="Path_14_x"
                             viewBox="326.742 74.844 31.262 59.413"
                         >
                             <path
@@ -6844,7 +7139,7 @@ export default function Menu() {
                         </svg>
                     </div>
                     <svg
-                        class="Path_15_x"
+                        className="Path_15_x"
                         viewBox="415.062 118.961 31.292 59.443"
                     >
                         <path
@@ -6854,7 +7149,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_4_y">
                         <svg
-                            class="Path_16_z"
+                            className="Path_16_z"
                             viewBox="415.062 123.228 22.231 53.402"
                         >
                             <path
@@ -6863,7 +7158,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_17_"
+                            className="Path_17_"
                             viewBox="8.534 163.164 175.187 59.443"
                         >
                             <path
@@ -6872,7 +7167,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_18_"
+                            className="Path_18_"
                             viewBox="256 251.569 25.04 29.782"
                         >
                             <path
@@ -6881,7 +7176,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_19_"
+                            className="Path_19_"
                             viewBox="326.742 286.983 31.262 65.695"
                         >
                             <path
@@ -6892,7 +7187,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_5_">
                         <svg
-                            class="Path_20_"
+                            className="Path_20_"
                             viewBox="415.062 286.897 31.292 65.726"
                         >
                             <path
@@ -6901,7 +7196,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_21_"
+                            className="Path_21_"
                             viewBox="415.062 299.697 22.231 59.685"
                         >
                             <path
@@ -6912,7 +7207,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_6_">
                         <svg
-                            class="Path_22_a"
+                            className="Path_22_a"
                             viewBox="0 154.674 181.229 65.48"
                         >
                             <path
@@ -6921,7 +7216,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_23_a"
+                            className="Path_23_a"
                             viewBox="318.172 278.407 37.326 71.736"
                         >
                             <path
@@ -6930,7 +7225,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_24_a"
+                            className="Path_24_a"
                             viewBox="251.733 35.206 3.021 46.818"
                         >
                             <path
@@ -6939,7 +7234,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_25_a"
+                            className="Path_25_a"
                             viewBox="0 30.885 93.644 105.359"
                         >
                             <path
@@ -6948,7 +7243,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_26_b"
+                            className="Path_26_b"
                             viewBox="-0.087 289.981 37.363 67.654"
                         >
                             <path
@@ -6957,7 +7252,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_27_c"
+                            className="Path_27_c"
                             viewBox="88.354 287.249 31.078 56.094"
                         >
                             <path
@@ -6966,7 +7261,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_28_f"
+                            className="Path_28_f"
                             viewBox="159.086 291.82 62.343 22.059"
                         >
                             <path
@@ -6975,7 +7270,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_29_e"
+                            className="Path_29_e"
                             viewBox="345.592 324.27 15.105 18.124"
                         >
                             <path
@@ -6984,7 +7279,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_30_f"
+                            className="Path_30_f"
                             viewBox="345.601 384.004 15.102 18.124"
                         >
                             <path
@@ -6993,7 +7288,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_31_g"
+                            className="Path_31_g"
                             viewBox="251.733 247.323 3.021 21.197"
                         >
                             <path
@@ -7002,7 +7297,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_32_h"
+                            className="Path_32_h"
                             viewBox="92.646 114.748 3.021 46.818"
                         >
                             <path
@@ -7011,7 +7306,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_33_i"
+                            className="Path_33_i"
                             viewBox="181.025 70.556 3.022 46.818"
                         >
                             <path
@@ -7020,7 +7315,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_34_j"
+                            className="Path_34_j"
                             viewBox="410.821 114.748 3.021 46.818"
                         >
                             <path
@@ -7029,7 +7324,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_35_k"
+                            className="Path_35_k"
                             viewBox="322.438 70.556 3.022 46.818"
                         >
                             <path
@@ -7038,7 +7333,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_36_l"
+                            className="Path_36_l"
                             viewBox="247.442 30.928 93.644 159.334"
                         >
                             <path
@@ -7048,7 +7343,7 @@ export default function Menu() {
                         </svg>
                     </div>
                 </div>
-                <svg class="Path_37_m" viewBox="-19.276 295.507 1 1">
+                <svg className="Path_37_m" viewBox="-19.276 295.507 1 1">
                     <path
                         id="Path_37_m"
                         d="M -19.27598762512207 295.5069885253906"
@@ -7056,25 +7351,37 @@ export default function Menu() {
                 </svg>
             </div>
             <div id="Group_200">
-                <svg class="Path_233_o" viewBox="251.733 79.275 27.081 45.601">
+                <svg
+                    className="Path_233_o"
+                    viewBox="251.733 79.275 27.081 45.601"
+                >
                     <path
                         id="Path_233_o"
                         d="M 278.8139953613281 79.27499389648438 L 278.8139953613281 111.7070007324219 L 252.2288513183594 124.8755493164062 L 251.7328491210938 123.8705596923828 L 251.7328491210938 118.7936096191406 C 251.7284240722656 117.76416015625 252.3108215332031 116.8221893310547 253.2336730957031 116.3661041259766 L 273.3978271484375 106.3038330078125 L 273.3978271484375 83.64702606201172 C 273.3969116210938 82.61863708496094 273.9782409667969 81.6783447265625 274.8986511230469 81.21951293945312 L 278.8139953613281 79.27499389648438 Z"
                     ></path>
                 </svg>
-                <svg class="Path_234_p" viewBox="110.081 185.26 43.33 29.691">
+                <svg
+                    className="Path_234_p"
+                    viewBox="110.081 185.26 43.33 29.691"
+                >
                     <path
                         id="Path_234_p"
                         d="M 153.4106292724609 196.0791778564453 L 133.2466430664062 206.1416015625 C 132.3237915039062 206.5976715087891 131.7413787841797 207.5396423339844 131.7458190917969 208.5691070556641 L 131.7458190917969 213.6460571289062 L 131.9677429199219 214.1029052734375 L 132.2418060302734 214.6510314941406 L 131.6283569335938 214.9512634277344 L 126.3296508789062 212.3018188476562 L 110.0809936523438 204.18408203125 L 110.0809936523438 197.7367706298828 C 110.0808486938477 196.7151184082031 110.6634063720703 195.7829284667969 111.5818252563477 195.3354187011719 L 131.7458190917969 185.2599945068359 L 136.1439971923828 187.4525756835938 L 153.4106292724609 196.0791778564453 Z"
                     ></path>
                 </svg>
-                <svg class="Path_235_q" viewBox="145.493 199.595 37.914 26.65">
+                <svg
+                    className="Path_235_q"
+                    viewBox="145.493 199.595 37.914 26.65"
+                >
                     <path
                         id="Path_235_q"
                         d="M 183.4066162109375 208.2217407226562 L 163.2426300048828 218.2841491699219 C 162.3197631835938 218.740234375 161.7373657226562 219.6822052001953 161.7418060302734 220.711669921875 L 161.7418060302734 225.7886047363281 L 161.9637298583984 226.2454528808594 L 161.7418060302734 226.1279907226562 L 145.4929962158203 218.0100860595703 L 145.4929962158203 211.5627746582031 C 145.4928436279297 210.5411224365234 146.0754089355469 209.6089324951172 146.9938354492188 209.1614227294922 L 166.1398162841797 199.5950012207031 L 183.4066162109375 208.2217407226562 Z"
                     ></path>
                 </svg>
-                <svg class="Path_236_r" viewBox="251.734 8.533 27.081 37.848">
+                <svg
+                    className="Path_236_r"
+                    viewBox="251.734 8.533 27.081 37.848"
+                >
                     <path
                         id="Path_236_r"
                         d="M 278.8148803710938 19.35248947143555 L 274.8995361328125 21.29715728759766 C 273.9790954589844 21.7559871673584 273.3977661132812 22.69627952575684 273.398681640625 23.72466850280762 L 273.398681640625 46.38133239746094 L 251.7338714599609 35.56199264526367 L 251.7338714599609 12.90517997741699 C 251.7300567626953 11.88290977478027 252.3068084716797 10.94689750671387 253.2216949462891 10.49066925048828 L 257.0978698730469 8.532999992370605 L 260.3735961914062 10.16444206237793 L 278.8148803710938 19.35248947143555 Z"
@@ -7082,7 +7389,7 @@ export default function Menu() {
                 </svg>
                 <div id="Group_49_s">
                     <svg
-                        class="Path_237_t"
+                        className="Path_237_t"
                         viewBox="277.334 19.2 23.166 35.564"
                     >
                         <path
@@ -7091,7 +7398,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_238_u"
+                        className="Path_238_u"
                         viewBox="145.493 273.676 13.54 6.741"
                     >
                         <path
@@ -7100,7 +7407,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_239_v"
+                        className="Path_239_v"
                         viewBox="287.147 43.999 13.54 6.741"
                     >
                         <path
@@ -7110,14 +7417,14 @@ export default function Menu() {
                     </svg>
                 </div>
                 <div id="Group_50_w">
-                    <svg class="Path_240_x" viewBox="101.55 0 51.356 59.33">
+                    <svg className="Path_240_x" viewBox="101.55 0 51.356 59.33">
                         <path
                             id="Path_240_x"
                             d="M 124.4021835327148 59.33078384399414 C 124.1995391845703 59.33078384399414 123.9996337890625 59.2836799621582 123.8183975219727 59.19313049316406 L 102.2713470458984 48.42595291137695 C 101.8291931152344 48.20479583740234 101.5499114990234 47.75284957885742 101.5499114990234 47.25854110717773 L 101.5499114990234 40.81123352050781 C 101.5457916259766 39.29143524169922 102.4118957519531 37.90332794189453 103.7790603637695 37.23940277099609 L 123.2142715454102 27.52752685546875 C 123.2119827270508 21.28974723815918 123.2098388671875 15.05181884765625 123.2075500488281 8.814040184020996 C 123.6608657836914 7.851875305175781 124.1141967773438 6.889558792114258 124.5673522949219 5.927393913269043 L 125.8239288330078 6.440212726593018 C 125.8240966796875 13.73819065093994 125.8242492675781 21.03632354736328 125.8243942260742 28.33430290222168 C 125.8245468139648 28.82861328125 125.545280456543 29.28071022033691 125.1029586791992 29.50171661376953 L 104.9386749267578 39.57744216918945 C 104.4633255004883 39.80456161499023 104.1604995727539 40.28433990478516 104.1598815917969 40.81123352050781 L 104.1598815917969 46.45161437988281 L 124.4044799804688 56.56817626953125 L 150.2951049804688 43.74712371826172 L 150.2951049804688 12.93294715881348 L 129.8876342773438 2.765453100204468 L 126.5955352783203 4.42809534072876 C 126.1209564208984 4.663168430328369 125.821647644043 5.148150444030762 125.8243942260742 5.677791118621826 L 125.8243942260742 11.74641609191895 C 125.8243942260742 12.46723556518555 125.2400054931641 13.05147743225098 124.5193405151367 13.05147743225098 C 123.7985153198242 13.05147743225098 123.2142715454102 12.46723556518555 123.2142715454102 11.74641609191895 L 123.2142715454102 5.677791118621826 C 123.2080078125 4.160598278045654 124.0644836425781 2.77187705039978 125.4230728149414 2.09648060798645 L 129.2951354980469 0.1406464129686356 C 129.6632690429688 -0.04517925158143044 130.0973205566406 -0.04624985158443451 130.4663696289062 0.1374346166849136 L 152.1830139160156 10.95677089691162 C 152.6257934570312 11.17777442932129 152.9056854248047 11.63002681732178 152.9056854248047 12.12479686737061 L 152.9056854248047 44.55695724487305 C 152.9056854248047 45.05325698852539 152.6241149902344 45.50642776489258 152.17919921875 45.72636032104492 L 124.9807662963867 59.19512557983398 C 124.8010559082031 59.28444671630859 124.6029968261719 59.33094024658203 124.4021835327148 59.33078384399414 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_241_y"
+                        className="Path_241_y"
                         viewBox="247.475 181.033 22.968 12.118"
                     >
                         <path
@@ -7126,7 +7433,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_242_z"
+                        className="Path_242_z"
                         viewBox="389.116 74.974 6.721 28.339"
                     >
                         <path
@@ -7135,7 +7442,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_243_"
+                        className="Path_243_"
                         viewBox="247.466 251.736 22.968 18.877"
                     >
                         <path
@@ -7144,7 +7451,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_244_"
+                        className="Path_244_"
                         viewBox="66.133 300.518 24.276 21.531"
                     >
                         <path
@@ -7153,7 +7460,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_245_"
+                        className="Path_245_"
                         viewBox="207.784 332.802 36.413 27.407"
                     >
                         <path
@@ -7162,7 +7469,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_246_"
+                        className="Path_246_"
                         viewBox="141.227 269.408 14.845 8.047"
                     >
                         <path
@@ -7171,7 +7478,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_247_"
+                        className="Path_247_"
                         viewBox="282.882 39.732 14.845 8.046"
                     >
                         <path
@@ -7184,7 +7491,7 @@ export default function Menu() {
             <div id="Group_201">
                 <div id="Group_14_">
                     <svg
-                        class="Path_68_"
+                        className="Path_68_"
                         viewBox="443.733 241.067 3.447 37.059"
                     >
                         <path
@@ -7192,13 +7499,16 @@ export default function Menu() {
                             d="M 447.180419921875 241.0670166015625 L 447.180419921875 278.1259765625 L 443.7330017089844 276.4023742675781 L 443.7330017089844 242.7906188964844 L 447.180419921875 241.0670166015625 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_69_" viewBox="324.267 300.8 3.447 37.059">
+                    <svg
+                        className="Path_69_"
+                        viewBox="324.267 300.8 3.447 37.059"
+                    >
                         <path
                             id="Path_69_"
                             d="M 327.7142333984375 300.7999877929688 L 327.7142333984375 337.8591613769531 L 324.2669982910156 336.1353454589844 L 324.2669982910156 302.5235900878906 L 327.7142333984375 300.7999877929688 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_70_" viewBox="136.533 224 3.447 9.48">
+                    <svg className="Path_70_" viewBox="136.533 224 3.447 9.48">
                         <path
                             id="Path_70_"
                             d="M 139.9804382324219 225.7236022949219 L 139.9804382324219 233.4801635742188 L 136.5330047607422 231.7565612792969 L 136.5330047607422 224 L 139.9804382324219 225.7236022949219 Z"
@@ -7207,7 +7517,7 @@ export default function Menu() {
                 </div>
                 <div id="Group_15_a">
                     <svg
-                        class="Path_71_b"
+                        className="Path_71_b"
                         viewBox="17.067 164.267 3.447 33.612"
                     >
                         <path
@@ -7215,64 +7525,79 @@ export default function Menu() {
                             d="M 20.51422119140625 165.9906158447266 L 20.51422119140625 197.8787536621094 L 17.0669994354248 196.1549377441406 L 17.0669994354248 164.2669982910156 L 20.51422119140625 165.9906158447266 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_72_c" viewBox="8.533 32 99.974 49.987">
+                    <svg className="Path_72_c" viewBox="8.533 32 99.974 49.987">
                         <path
                             id="Path_72_c"
                             d="M 108.5065078735352 63.02622222900391 L 70.58544158935547 81.98676300048828 L 8.532999992370605 50.96053314208984 L 46.45407104492188 31.99999237060547 L 108.5065078735352 63.02622222900391 Z"
                         ></path>
                     </svg>
                 </div>
-                <svg class="Path_73_d" viewBox="34.133 44.8 94.802 47.401">
+                <svg className="Path_73_d" viewBox="34.133 44.8 94.802 47.401">
                     <path
                         id="Path_73_d"
                         d="M 128.9354705810547 73.24069976806641 L 91.01439666748047 92.20124816894531 L 34.13299942016602 63.76053619384766 L 72.05406951904297 44.79998779296875 L 128.9354705810547 73.24069976806641 Z"
                     ></path>
                 </svg>
-                <svg class="Path_74_e" viewBox="0 23.467 103.421 53.434">
+                <svg className="Path_74_e" viewBox="0 23.467 103.421 53.434">
                     <path
                         id="Path_74_e"
                         d="M 63.77605056762695 76.9010009765625 C 63.50840759277344 76.9010009765625 63.24440383911133 76.83878326416016 63.00503540039062 76.71920013427734 L 0.9528038501739502 45.69297027587891 C 0.3688403069972992 45.40088653564453 0 44.80399322509766 0 44.15114974975586 C 0 43.49830627441406 0.3688403069972992 42.90141677856445 0.9528038501739502 42.60933303833008 L 38.8736686706543 23.6487922668457 C 39.35905838012695 23.40640068054199 39.93009567260742 23.40640068054199 40.41548919677734 23.6487922668457 L 102.4679260253906 54.67502212524414 C 103.0518951416016 54.96710586547852 103.4207305908203 55.56399917602539 103.4207305908203 56.21684265136719 C 103.4207305908203 56.86968612670898 103.0518951416016 57.46657562255859 102.4679260253906 57.75865936279297 L 64.54705047607422 76.71920013427734 C 64.30769348144531 76.83878326416016 64.04369354248047 76.9010009765625 63.77605056762695 76.9010009765625 L 63.77605056762695 76.9010009765625 Z M 5.577649593353271 44.15114974975586 L 63.77625274658203 73.24996185302734 L 97.84328460693359 56.21684265136719 L 39.64467620849609 27.11803436279297 L 5.577649593353271 44.15114974975586 Z"
                     ></path>
                 </svg>
-                <svg class="Path_75_f" viewBox="8.533 125.867 62.052 37.921">
+                <svg
+                    className="Path_75_f"
+                    viewBox="8.533 125.867 62.052 37.921"
+                >
                     <path
                         id="Path_75_f"
                         d="M 70.58544158935547 156.8932189941406 L 70.58544158935547 163.7878723144531 L 8.532999992370605 132.7616424560547 L 8.532999992370605 125.8669891357422 L 70.58544158935547 156.8932189941406 Z"
                     ></path>
                 </svg>
-                <svg class="Path_76_g" viewBox="34.133 138.667 56.881 35.335">
+                <svg
+                    className="Path_76_g"
+                    viewBox="34.133 138.667 56.881 35.335"
+                >
                     <path
                         id="Path_76_g"
                         d="M 91.01439666748047 167.1077117919922 L 91.01439666748047 174.0023651123047 L 34.13299942016602 145.5616607666016 L 34.13299942016602 138.6670074462891 L 91.01439666748047 167.1077117919922 Z"
                     ></path>
                 </svg>
-                <svg class="Path_77_i" viewBox="0 117.333 65.5 41.368">
+                <svg className="Path_77_i" viewBox="0 117.333 65.5 41.368">
                     <path
                         id="Path_77_i"
                         d="M 63.77605056762695 158.7013702392578 C 63.50840759277344 158.701171875 63.24459838867188 158.6389465332031 63.00503540039062 158.5195770263672 L 0.9526018500328064 127.4933471679688 C 0.3686383068561554 127.2014694213867 -0.0002020458487095311 126.6043701171875 -5.222649690495018e-08 125.951530456543 L -5.222649690495018e-08 119.0568771362305 C -5.222649690495018e-08 118.4593811035156 0.3092521727085114 117.9047012329102 0.8174680471420288 117.5906066894531 C 1.325684070587158 117.2765045166016 1.960146188735962 117.2478256225586 2.49462103843689 117.5150604248047 L 64.54705047607422 148.5412902832031 C 65.13102722167969 148.8333740234375 65.49986267089844 149.4302520751953 65.49986267089844 150.0830993652344 L 65.49986267089844 156.9777526855469 C 65.49986267089844 157.4348754882812 65.31826782226562 157.8733978271484 64.99507904052734 158.1965942382812 C 64.67168426513672 158.519775390625 64.23336791992188 158.7013702392578 63.77605056762695 158.7013702392578 Z M 3.44742488861084 124.8860092163086 L 62.05244064331055 154.1886291503906 L 62.05244064331055 151.1486206054688 L 3.44742488861084 121.8460083007812 L 3.44742488861084 124.8860092163086 Z"
                     ></path>
                 </svg>
-                <svg class="Path_78_i" viewBox="315.733 185.6 37.921 25.855">
+                <svg
+                    className="Path_78_i"
+                    viewBox="315.733 185.6 37.921 25.855"
+                >
                     <path
                         id="Path_78_i"
                         d="M 353.654052734375 185.6000061035156 L 353.654052734375 192.4946594238281 L 315.7330017089844 211.4552001953125 L 315.7330017089844 204.560546875 L 353.654052734375 185.6000061035156 Z"
                     ></path>
                 </svg>
-                <svg class="Path_79_j" viewBox="307.2 177.066 41.368 29.303">
+                <svg
+                    className="Path_79_j"
+                    viewBox="307.2 177.066 41.368 29.303"
+                >
                     <path
                         id="Path_79_j"
                         d="M 308.9236145019531 206.3690032958984 C 308.4664916992188 206.3690032958984 308.0279541015625 206.1874084472656 307.7047729492188 205.8642120361328 C 307.381591796875 205.5410308837891 307.2000122070312 205.1025085449219 307.2000122070312 204.6453857421875 L 307.2000122070312 197.750732421875 C 307.1997985839844 197.097900390625 307.5686645507812 196.5007934570312 308.15283203125 196.2089233398438 L 346.0736694335938 177.2483825683594 C 346.6079711914062 176.9813385009766 347.2426147460938 177.0098266601562 347.7508239746094 177.3239288330078 C 348.259033203125 177.6380157470703 348.5682983398438 178.1927032470703 348.5682983398438 178.7901916503906 L 348.5682983398438 185.6848449707031 C 348.5684814453125 186.3376770019531 348.1996459960938 186.9347839355469 347.615478515625 187.2266693115234 L 309.6946411132812 206.1872100830078 C 309.4552612304688 206.3067932128906 309.1912536621094 206.3690032958984 308.9236145019531 206.3690032958984 Z M 310.6474304199219 198.8162536621094 L 310.6474304199219 201.8562622070312 L 345.1210632324219 184.6195373535156 L 345.1210632324219 181.5795288085938 L 310.6474304199219 198.8162536621094 Z"
                     ></path>
                 </svg>
                 <div id="Group_16_l">
-                    <svg class="Path_80_l" viewBox="460.8 232.533 3.447 38.783">
+                    <svg
+                        className="Path_80_l"
+                        viewBox="460.8 232.533 3.447 38.783"
+                    >
                         <path
                             id="Path_80_l"
                             d="M 464.2474060058594 232.5330200195312 L 464.2474060058594 269.5921936035156 L 460.7999877929688 271.3157958984375 L 460.7999877929688 234.2568359375 L 464.2474060058594 232.5330200195312 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_81_m"
+                        className="Path_81_m"
                         viewBox="341.333 292.267 3.447 38.783"
                     >
                         <path
@@ -7280,13 +7605,19 @@ export default function Menu() {
                             d="M 344.7804260253906 292.2669677734375 L 344.7804260253906 329.3259887695312 L 341.3330078125 331.0498046875 L 341.3330078125 293.9906005859375 L 344.7804260253906 292.2669677734375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_82_n" viewBox="153.6 232.533 3.447 7.757">
+                    <svg
+                        className="Path_82_n"
+                        viewBox="153.6 232.533 3.447 7.757"
+                    >
                         <path
                             id="Path_82_n"
                             d="M 157.0474243164062 234.2568359375 L 157.0474243164062 238.5659484863281 L 153.6000061035156 240.2895812988281 L 153.6000061035156 232.5330200195312 L 157.0474243164062 234.2568359375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_83_o" viewBox="34.133 172.8 3.447 31.888">
+                    <svg
+                        className="Path_83_o"
+                        viewBox="34.133 172.8 3.447 31.888"
+                    >
                         <path
                             id="Path_83_o"
                             d="M 37.58042144775391 174.5236206054688 L 37.58042144775391 202.9643249511719 L 34.13299942016602 204.6881408691406 L 34.13299942016602 172.7999877929688 L 37.58042144775391 174.5236206054688 Z"
@@ -7295,7 +7626,7 @@ export default function Menu() {
                 </div>
                 <div id="Group_17_p">
                     <svg
-                        class="Path_84_q"
+                        className="Path_84_q"
                         viewBox="456.533 228.268 5.171 40.506"
                     >
                         <path
@@ -7304,7 +7635,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_85_r"
+                        className="Path_85_r"
                         viewBox="439.467 236.801 5.171 38.783"
                     >
                         <path
@@ -7313,7 +7644,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_86_s"
+                        className="Path_86_s"
                         viewBox="439.466 241.066 1.724 2.586"
                     >
                         <path
@@ -7321,14 +7652,17 @@ export default function Menu() {
                             d="M 440.3279113769531 243.6517028808594 C 440.0992431640625 243.6519165039062 439.8800659179688 243.5610046386719 439.71826171875 243.3994140625 C 439.5567016601562 243.2378234863281 439.4658203125 243.0184631347656 439.4660034179688 242.789794921875 L 439.4660034179688 241.9278869628906 C 439.4660034179688 241.4519958496094 439.851806640625 241.0659790039062 440.3279113769531 241.0659790039062 C 440.8040161132812 241.0659790039062 441.1898193359375 241.4518127441406 441.1898193359375 241.9278869628906 L 441.1898193359375 242.789794921875 C 441.1900024414062 243.0184631347656 441.09912109375 243.2376098632812 440.9375305175781 243.3994140625 C 440.7759399414062 243.5610046386719 440.5565795898438 243.6517028808594 440.3279113769531 243.6517028808594 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_87_t" viewBox="473.6 223.999 1.724 2.586">
+                    <svg
+                        className="Path_87_t"
+                        viewBox="473.6 223.999 1.724 2.586"
+                    >
                         <path
                             id="Path_87_t"
                             d="M 474.4619140625 226.584716796875 C 474.2332763671875 226.5849304199219 474.0140991210938 226.4940185546875 473.852294921875 226.3324279785156 C 473.6907348632812 226.1708374023438 473.599853515625 225.9514770507812 473.6000366210938 225.7228088378906 L 473.6000366210938 224.8609008789062 C 473.6000366210938 224.385009765625 473.98583984375 223.9989929199219 474.4619140625 223.9989929199219 C 474.9378051757812 223.9989929199219 475.3238525390625 224.3847961425781 475.3238525390625 224.8609008789062 L 475.3238525390625 225.7228088378906 C 475.3240356445312 225.9514770507812 475.233154296875 226.1706237792969 475.071533203125 226.3324279785156 C 474.9097290039062 226.4940185546875 474.6906127929688 226.5849304199219 474.4619140625 226.584716796875 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_88_u"
+                        className="Path_88_u"
                         viewBox="456.533 232.533 1.724 2.586"
                     >
                         <path
@@ -7336,20 +7670,26 @@ export default function Menu() {
                             d="M 457.3948974609375 235.1185302734375 C 457.166259765625 235.1187438964844 456.9470825195312 235.02783203125 456.7852783203125 234.8662414550781 C 456.6236572265625 234.7046508789062 456.5327758789062 234.4852905273438 456.532958984375 234.2566223144531 L 456.532958984375 233.3949279785156 C 456.532958984375 232.9190368652344 456.9187622070312 232.5330200195312 457.3948974609375 232.5330200195312 C 457.8709716796875 232.5330200195312 458.2567749023438 232.9188232421875 458.2567749023438 233.3949279785156 L 458.2567749023438 234.2568359375 C 458.2570190429688 234.4854736328125 458.1660766601562 234.7046508789062 458.0045166015625 234.866455078125 C 457.8427124023438 235.0280456542969 457.62353515625 235.1187438964844 457.3948974609375 235.1185302734375 L 457.3948974609375 235.1185302734375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_89_v" viewBox="320 296.534 5.171 38.783">
+                    <svg
+                        className="Path_89_v"
+                        viewBox="320 296.534 5.171 38.783"
+                    >
                         <path
                             id="Path_89_v"
                             d="M 324.3091430664062 335.3163757324219 C 324.1754150390625 335.3163757324219 324.0432739257812 335.2852783203125 323.9237060546875 335.2254638671875 L 320.476318359375 333.5018615722656 C 320.1844177246094 333.3558349609375 320 333.0572814941406 320 332.7308654785156 L 320 299.119140625 C 320 298.7926940917969 320.1844177246094 298.494140625 320.476318359375 298.3480834960938 L 323.9237060546875 296.6244812011719 C 324.1909484863281 296.4911499023438 324.5081176757812 296.5055236816406 324.76220703125 296.6624450683594 C 325.0162963867188 296.8194274902344 325.1708374023438 297.0967407226562 325.1710205078125 297.3955078125 L 325.1710205078125 334.4546813964844 C 325.1708374023438 334.9303588867188 324.7850341796875 335.316162109375 324.3091430664062 335.3163757324219 L 324.3091430664062 335.3163757324219 Z M 321.7236022949219 332.1981811523438 L 323.4472045898438 333.0601196289062 L 323.4472045898438 298.7900390625 L 321.7236022949219 299.6519775390625 L 321.7236022949219 332.1981811523438 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_90_w" viewBox="320 300.799 1.724 2.586">
+                    <svg
+                        className="Path_90_w"
+                        viewBox="320 300.799 1.724 2.586"
+                    >
                         <path
                             id="Path_90_w"
                             d="M 320.8618774414062 303.3847351074219 C 320.6332397460938 303.3849487304688 320.4140625 303.2940368652344 320.2522888183594 303.1324462890625 C 320.0905151367188 302.9708251953125 319.9997863769531 302.75146484375 320 302.5228271484375 L 320 301.6609191894531 C 320 301.1850280761719 320.3858032226562 300.7990112304688 320.8618774414062 300.7990112304688 C 321.3380126953125 300.7990112304688 321.7238159179688 301.184814453125 321.7238159179688 301.6609191894531 L 321.7238159179688 302.5228271484375 C 321.7239990234375 302.75146484375 321.6331176757812 302.9706420898438 321.4714965820312 303.1324462890625 C 321.3099365234375 303.2942504882812 321.0903625488281 303.3849487304688 320.8618774414062 303.3847351074219 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_91_x"
+                        className="Path_91_x"
                         viewBox="337.066 288.001 5.171 40.506"
                     >
                         <path
@@ -7358,7 +7698,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_92_y"
+                        className="Path_92_y"
                         viewBox="354.133 283.733 1.724 2.586"
                     >
                         <path
@@ -7367,7 +7707,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_93_z"
+                        className="Path_93_z"
                         viewBox="337.066 292.266 1.724 2.586"
                     >
                         <path
@@ -7375,14 +7715,17 @@ export default function Menu() {
                             d="M 337.9279174804688 294.8516845703125 C 337.6992492675781 294.8519287109375 337.4801025390625 294.7610168457031 337.3182983398438 294.5994262695312 C 337.156494140625 294.4378356933594 337.0657958984375 294.2184448242188 337.0659790039062 293.9898071289062 L 337.0659790039062 293.1278686523438 C 337.0659790039062 292.6519775390625 337.4517822265625 292.2659912109375 337.9279174804688 292.2659912109375 C 338.4039916992188 292.2659912109375 338.789794921875 292.6517944335938 338.789794921875 293.1278686523438 L 338.789794921875 293.9898071289062 C 338.7900390625 294.2184448242188 338.6990966796875 294.4376220703125 338.5375366210938 294.5994262695312 C 338.3759155273438 294.76123046875 338.1565551757812 294.8516845703125 337.9279174804688 294.8516845703125 L 337.9279174804688 294.8516845703125 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_94_" viewBox="149.333 228.267 5.171 9.48">
+                    <svg
+                        className="Path_94_"
+                        viewBox="149.333 228.267 5.171 9.48"
+                    >
                         <path
                             id="Path_94_"
                             d="M 150.1949005126953 237.7469787597656 C 149.718994140625 237.7467651367188 149.3334045410156 237.3609619140625 149.3329925537109 236.8850708007812 L 149.3329925537109 229.1285095214844 C 149.3331909179688 228.8297424316406 149.4879150390625 228.5526123046875 149.7418212890625 228.3954772949219 C 149.9959411621094 228.238525390625 150.3130645751953 228.2241821289062 150.5802917480469 228.3574829101562 L 154.0277252197266 230.0811157226562 C 154.3196105957031 230.2271423339844 154.5040283203125 230.5256958007812 154.5040283203125 230.8521118164062 L 154.5040283203125 235.1614379882812 C 154.5040283203125 235.4878845214844 154.3196105957031 235.7864074707031 154.0277252197266 235.9324645996094 L 150.5802917480469 237.6560668945312 C 150.4607238769531 237.7158508300781 150.32861328125 237.7469787597656 150.1949005126953 237.7469787597656 L 150.1949005126953 237.7469787597656 Z M 151.0568084716797 230.5232849121094 L 151.0568084716797 235.4906921386719 L 152.7804107666016 234.6287841796875 L 152.7804107666016 231.3851928710938 L 151.0568084716797 230.5232849121094 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_95_"
+                        className="Path_95_"
                         viewBox="132.267 219.734 5.171 11.204"
                     >
                         <path
@@ -7390,13 +7733,19 @@ export default function Menu() {
                             d="M 136.5761260986328 230.9375915527344 C 136.4424133300781 230.9375915527344 136.310302734375 230.9064636230469 136.1907348632812 230.8466796875 L 132.7433013916016 229.123046875 C 132.451416015625 228.9770202636719 132.2669982910156 228.678466796875 132.2669982910156 228.35205078125 L 132.2669982910156 220.5954895019531 C 132.2671966552734 220.2967529296875 132.4219207763672 220.0196228027344 132.6758270263672 219.8624572753906 C 132.9299468994141 219.7055053710938 133.2470703125 219.6911773681641 133.5143127441406 219.8244934082031 L 136.9617309570312 221.548095703125 C 137.2536163330078 221.6941375732422 137.4380340576172 221.9926910400391 137.4380340576172 222.3191223144531 L 137.4380340576172 230.07568359375 C 137.4376373291016 230.5515747070312 137.0520324707031 230.9373779296875 136.5761260986328 230.9375915527344 Z M 133.9906005859375 227.8193969726562 L 135.7142181396484 228.6813049316406 L 135.7142181396484 222.8521728515625 L 133.9906005859375 221.9902648925781 L 133.9906005859375 227.8193969726562 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_96_" viewBox="12.8 160.001 5.171 35.335">
+                    <svg
+                        className="Path_96_"
+                        viewBox="12.8 160.001 5.171 35.335"
+                    >
                         <path
                             id="Path_96_"
                             d="M 17.109130859375 195.3359527587891 C 16.97541046142578 195.3359527587891 16.84330749511719 195.3048400878906 16.72372436523438 195.2450561523438 L 13.27630043029785 193.5214538574219 C 12.98442077636719 193.3753967285156 12.80000114440918 193.0768585205078 12.80000114440918 192.7504272460938 L 12.80000114440918 160.8624877929688 C 12.80020236968994 160.5637512207031 12.95492935180664 160.28662109375 13.20883560180664 160.1294555664062 C 13.46294403076172 159.9725036621094 13.78007411956787 159.9581756591797 14.0473108291626 160.0914916992188 L 17.49473571777344 161.8150939941406 C 17.78661727905273 161.9611511230469 17.97103691101074 162.2596893310547 17.97103691101074 162.5861206054688 L 17.97103691101074 194.4742431640625 C 17.97083473205566 194.949951171875 17.58502578735352 195.3357543945312 17.109130859375 195.3359527587891 Z M 14.5236120223999 192.2177734375 L 16.24722290039062 193.0796813964844 L 16.24722290039062 163.1189727783203 L 14.5236120223999 162.2570648193359 L 14.5236120223999 192.2177734375 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_97_" viewBox="29.866 168.534 5.171 33.612">
+                    <svg
+                        className="Path_97_"
+                        viewBox="29.866 168.534 5.171 33.612"
+                    >
                         <path
                             id="Path_97_"
                             d="M 30.72790336608887 202.1453552246094 C 30.25200843811035 202.1451568603516 29.86640167236328 201.7593383789062 29.86599731445312 201.2834320068359 L 29.86599731445312 169.3955078125 C 29.86620140075684 169.0967559814453 30.02092742919922 168.8196105957031 30.27483177185059 168.6624755859375 C 30.52894020080566 168.5055236816406 30.8460693359375 168.4911804199219 31.11330795288086 168.6244964599609 L 34.56073379516602 170.3481140136719 C 34.85261535644531 170.494140625 35.03703308105469 170.7926940917969 35.03703308105469 171.1191101074219 L 35.03703308105469 199.559814453125 C 35.03703308105469 199.8862457275391 34.85261535644531 200.1847839355469 34.56073379516602 200.3308410644531 L 31.11330795288086 202.054443359375 C 30.99372863769531 202.1142425537109 30.86182594299316 202.1453552246094 30.72790336608887 202.1453552246094 Z M 31.58981132507324 170.7900695800781 L 31.58981132507324 199.8888702392578 L 33.31342315673828 199.0269622802734 L 33.31342315673828 171.6519775390625 L 31.58981132507324 170.7900695800781 Z"
@@ -7407,7 +7756,7 @@ export default function Menu() {
             <div id="Group_202">
                 <div id="Group_54_">
                     <svg
-                        class="Path_233_"
+                        className="Path_233_"
                         viewBox="251.733 79.275 27.081 45.601"
                     >
                         <path
@@ -7416,7 +7765,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_234_"
+                        className="Path_234_"
                         viewBox="110.081 185.26 43.33 29.691"
                     >
                         <path
@@ -7425,7 +7774,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_235_"
+                        className="Path_235_"
                         viewBox="145.493 199.595 37.914 26.65"
                     >
                         <path
@@ -7434,7 +7783,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_236_"
+                        className="Path_236_"
                         viewBox="251.734 8.533 27.081 37.848"
                     >
                         <path
@@ -7444,7 +7793,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_49_a">
                         <svg
-                            class="Path_237_b"
+                            className="Path_237_b"
                             viewBox="277.334 19.2 23.166 35.564"
                         >
                             <path
@@ -7453,7 +7802,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_238_c"
+                            className="Path_238_c"
                             viewBox="145.493 273.676 13.54 6.741"
                         >
                             <path
@@ -7462,7 +7811,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_239_d"
+                            className="Path_239_d"
                             viewBox="287.147 43.999 13.54 6.741"
                         >
                             <path
@@ -7472,14 +7821,17 @@ export default function Menu() {
                         </svg>
                     </div>
                     <div id="Group_50_e">
-                        <svg class="Path_240_f" viewBox="101.55 0 51.356 59.33">
+                        <svg
+                            className="Path_240_f"
+                            viewBox="101.55 0 51.356 59.33"
+                        >
                             <path
                                 id="Path_240_f"
                                 d="M 124.4021835327148 59.33078384399414 C 124.1995391845703 59.33078384399414 123.9996337890625 59.2836799621582 123.8183975219727 59.19313049316406 L 102.2713470458984 48.42595291137695 C 101.8291931152344 48.20479583740234 101.5499114990234 47.75284957885742 101.5499114990234 47.25854110717773 L 101.5499114990234 40.81123352050781 C 101.5457916259766 39.29143524169922 102.4118957519531 37.90332794189453 103.7790603637695 37.23940277099609 L 123.2142715454102 27.52752685546875 C 123.2119827270508 21.28974723815918 123.2098388671875 15.05181884765625 123.2075500488281 8.814040184020996 C 123.6608657836914 7.851875305175781 124.1141967773438 6.889558792114258 124.5673522949219 5.927393913269043 L 125.8239288330078 6.440212726593018 C 125.8240966796875 13.73819065093994 125.8242492675781 21.03632354736328 125.8243942260742 28.33430290222168 C 125.8245468139648 28.82861328125 125.545280456543 29.28071022033691 125.1029586791992 29.50171661376953 L 104.9386749267578 39.57744216918945 C 104.4633255004883 39.80456161499023 104.1604995727539 40.28433990478516 104.1598815917969 40.81123352050781 L 104.1598815917969 46.45161437988281 L 124.4044799804688 56.56817626953125 L 150.2951049804688 43.74712371826172 L 150.2951049804688 12.93294715881348 L 129.8876342773438 2.765453100204468 L 126.5955352783203 4.42809534072876 C 126.1209564208984 4.663168430328369 125.821647644043 5.148150444030762 125.8243942260742 5.677791118621826 L 125.8243942260742 11.74641609191895 C 125.8243942260742 12.46723556518555 125.2400054931641 13.05147743225098 124.5193405151367 13.05147743225098 C 123.7985153198242 13.05147743225098 123.2142715454102 12.46723556518555 123.2142715454102 11.74641609191895 L 123.2142715454102 5.677791118621826 C 123.2080078125 4.160598278045654 124.0644836425781 2.77187705039978 125.4230728149414 2.09648060798645 L 129.2951354980469 0.1406464129686356 C 129.6632690429688 -0.04517925158143044 130.0973205566406 -0.04624985158443451 130.4663696289062 0.1374346166849136 L 152.1830139160156 10.95677089691162 C 152.6257934570312 11.17777442932129 152.9056854248047 11.63002681732178 152.9056854248047 12.12479686737061 L 152.9056854248047 44.55695724487305 C 152.9056854248047 45.05325698852539 152.6241149902344 45.50642776489258 152.17919921875 45.72636032104492 L 124.9807662963867 59.19512557983398 C 124.8010559082031 59.28444671630859 124.6029968261719 59.33094024658203 124.4021835327148 59.33078384399414 Z"
                             ></path>
                         </svg>
                         <svg
-                            class="Path_241_g"
+                            className="Path_241_g"
                             viewBox="247.475 181.033 22.968 12.118"
                         >
                             <path
@@ -7488,7 +7840,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_242_h"
+                            className="Path_242_h"
                             viewBox="389.116 74.974 6.721 28.339"
                         >
                             <path
@@ -7497,7 +7849,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_243_j"
+                            className="Path_243_j"
                             viewBox="247.466 251.736 22.968 18.877"
                         >
                             <path
@@ -7506,7 +7858,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_244_j"
+                            className="Path_244_j"
                             viewBox="66.133 300.518 24.276 21.531"
                         >
                             <path
@@ -7515,7 +7867,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_245_k"
+                            className="Path_245_k"
                             viewBox="207.784 332.802 36.413 27.407"
                         >
                             <path
@@ -7524,7 +7876,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_246_l"
+                            className="Path_246_l"
                             viewBox="141.227 269.408 14.845 8.047"
                         >
                             <path
@@ -7533,7 +7885,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_247_m"
+                            className="Path_247_m"
                             viewBox="282.882 39.732 14.845 8.046"
                         >
                             <path
@@ -7546,7 +7898,7 @@ export default function Menu() {
                 <div id="Group_55_n">
                     <div id="Group_14_o">
                         <svg
-                            class="Path_68_p"
+                            className="Path_68_p"
                             viewBox="443.733 241.067 3.447 37.059"
                         >
                             <path
@@ -7555,7 +7907,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_69_q"
+                            className="Path_69_q"
                             viewBox="324.267 300.8 3.447 37.059"
                         >
                             <path
@@ -7563,7 +7915,10 @@ export default function Menu() {
                                 d="M 327.7142333984375 300.7999877929688 L 327.7142333984375 337.8591613769531 L 324.2669982910156 336.1353454589844 L 324.2669982910156 302.5235900878906 L 327.7142333984375 300.7999877929688 Z"
                             ></path>
                         </svg>
-                        <svg class="Path_70_r" viewBox="136.533 224 3.447 9.48">
+                        <svg
+                            className="Path_70_r"
+                            viewBox="136.533 224 3.447 9.48"
+                        >
                             <path
                                 id="Path_70_r"
                                 d="M 139.9804382324219 225.7236022949219 L 139.9804382324219 233.4801635742188 L 136.5330047607422 231.7565612792969 L 136.5330047607422 224 L 139.9804382324219 225.7236022949219 Z"
@@ -7572,7 +7927,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_15_s">
                         <svg
-                            class="Path_71_t"
+                            className="Path_71_t"
                             viewBox="17.067 164.267 3.447 33.612"
                         >
                             <path
@@ -7580,27 +7935,36 @@ export default function Menu() {
                                 d="M 20.51422119140625 165.9906158447266 L 20.51422119140625 197.8787536621094 L 17.0669994354248 196.1549377441406 L 17.0669994354248 164.2669982910156 L 20.51422119140625 165.9906158447266 Z"
                             ></path>
                         </svg>
-                        <svg class="Path_72_u" viewBox="8.533 32 99.974 49.987">
+                        <svg
+                            className="Path_72_u"
+                            viewBox="8.533 32 99.974 49.987"
+                        >
                             <path
                                 id="Path_72_u"
                                 d="M 108.5065078735352 63.02622222900391 L 70.58544158935547 81.98676300048828 L 8.532999992370605 50.96053314208984 L 46.45407104492188 31.99999237060547 L 108.5065078735352 63.02622222900391 Z"
                             ></path>
                         </svg>
                     </div>
-                    <svg class="Path_73_v" viewBox="34.133 44.8 94.802 47.401">
+                    <svg
+                        className="Path_73_v"
+                        viewBox="34.133 44.8 94.802 47.401"
+                    >
                         <path
                             id="Path_73_v"
                             d="M 128.9354705810547 73.24069976806641 L 91.01439666748047 92.20124816894531 L 34.13299942016602 63.76053619384766 L 72.05406951904297 44.79998779296875 L 128.9354705810547 73.24069976806641 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_74_w" viewBox="0 23.467 103.421 53.434">
+                    <svg
+                        className="Path_74_w"
+                        viewBox="0 23.467 103.421 53.434"
+                    >
                         <path
                             id="Path_74_w"
                             d="M 63.77605056762695 76.9010009765625 C 63.50840759277344 76.9010009765625 63.24440383911133 76.83878326416016 63.00503540039062 76.71920013427734 L 0.9528038501739502 45.69297027587891 C 0.3688403069972992 45.40088653564453 0 44.80399322509766 0 44.15114974975586 C 0 43.49830627441406 0.3688403069972992 42.90141677856445 0.9528038501739502 42.60933303833008 L 38.8736686706543 23.6487922668457 C 39.35905838012695 23.40640068054199 39.93009567260742 23.40640068054199 40.41548919677734 23.6487922668457 L 102.4679260253906 54.67502212524414 C 103.0518951416016 54.96710586547852 103.4207305908203 55.56399917602539 103.4207305908203 56.21684265136719 C 103.4207305908203 56.86968612670898 103.0518951416016 57.46657562255859 102.4679260253906 57.75865936279297 L 64.54705047607422 76.71920013427734 C 64.30769348144531 76.83878326416016 64.04369354248047 76.9010009765625 63.77605056762695 76.9010009765625 L 63.77605056762695 76.9010009765625 Z M 5.577649593353271 44.15114974975586 L 63.77625274658203 73.24996185302734 L 97.84328460693359 56.21684265136719 L 39.64467620849609 27.11803436279297 L 5.577649593353271 44.15114974975586 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_75_x"
+                        className="Path_75_x"
                         viewBox="8.533 125.867 62.052 37.921"
                     >
                         <path
@@ -7609,7 +7973,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_76_y"
+                        className="Path_76_y"
                         viewBox="34.133 138.667 56.881 35.335"
                     >
                         <path
@@ -7617,19 +7981,25 @@ export default function Menu() {
                             d="M 91.01439666748047 167.1077117919922 L 91.01439666748047 174.0023651123047 L 34.13299942016602 145.5616607666016 L 34.13299942016602 138.6670074462891 L 91.01439666748047 167.1077117919922 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_77_z" viewBox="0 117.333 65.5 41.368">
+                    <svg className="Path_77_z" viewBox="0 117.333 65.5 41.368">
                         <path
                             id="Path_77_z"
                             d="M 63.77605056762695 158.7013702392578 C 63.50840759277344 158.701171875 63.24459838867188 158.6389465332031 63.00503540039062 158.5195770263672 L 0.9526018500328064 127.4933471679688 C 0.3686383068561554 127.2014694213867 -0.0002020458487095311 126.6043701171875 -5.222649690495018e-08 125.951530456543 L -5.222649690495018e-08 119.0568771362305 C -5.222649690495018e-08 118.4593811035156 0.3092521727085114 117.9047012329102 0.8174680471420288 117.5906066894531 C 1.325684070587158 117.2765045166016 1.960146188735962 117.2478256225586 2.49462103843689 117.5150604248047 L 64.54705047607422 148.5412902832031 C 65.13102722167969 148.8333740234375 65.49986267089844 149.4302520751953 65.49986267089844 150.0830993652344 L 65.49986267089844 156.9777526855469 C 65.49986267089844 157.4348754882812 65.31826782226562 157.8733978271484 64.99507904052734 158.1965942382812 C 64.67168426513672 158.519775390625 64.23336791992188 158.7013702392578 63.77605056762695 158.7013702392578 Z M 3.44742488861084 124.8860092163086 L 62.05244064331055 154.1886291503906 L 62.05244064331055 151.1486206054688 L 3.44742488861084 121.8460083007812 L 3.44742488861084 124.8860092163086 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_78_" viewBox="315.733 185.6 37.921 25.855">
+                    <svg
+                        className="Path_78_"
+                        viewBox="315.733 185.6 37.921 25.855"
+                    >
                         <path
                             id="Path_78_"
                             d="M 353.654052734375 185.6000061035156 L 353.654052734375 192.4946594238281 L 315.7330017089844 211.4552001953125 L 315.7330017089844 204.560546875 L 353.654052734375 185.6000061035156 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_79_" viewBox="307.2 177.066 41.368 29.303">
+                    <svg
+                        className="Path_79_"
+                        viewBox="307.2 177.066 41.368 29.303"
+                    >
                         <path
                             id="Path_79_"
                             d="M 308.9236145019531 206.3690032958984 C 308.4664916992188 206.3690032958984 308.0279541015625 206.1874084472656 307.7047729492188 205.8642120361328 C 307.381591796875 205.5410308837891 307.2000122070312 205.1025085449219 307.2000122070312 204.6453857421875 L 307.2000122070312 197.750732421875 C 307.1997985839844 197.097900390625 307.5686645507812 196.5007934570312 308.15283203125 196.2089233398438 L 346.0736694335938 177.2483825683594 C 346.6079711914062 176.9813385009766 347.2426147460938 177.0098266601562 347.7508239746094 177.3239288330078 C 348.259033203125 177.6380157470703 348.5682983398438 178.1927032470703 348.5682983398438 178.7901916503906 L 348.5682983398438 185.6848449707031 C 348.5684814453125 186.3376770019531 348.1996459960938 186.9347839355469 347.615478515625 187.2266693115234 L 309.6946411132812 206.1872100830078 C 309.4552612304688 206.3067932128906 309.1912536621094 206.3690032958984 308.9236145019531 206.3690032958984 Z M 310.6474304199219 198.8162536621094 L 310.6474304199219 201.8562622070312 L 345.1210632324219 184.6195373535156 L 345.1210632324219 181.5795288085938 L 310.6474304199219 198.8162536621094 Z"
@@ -7637,7 +8007,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_16_">
                         <svg
-                            class="Path_80_"
+                            className="Path_80_"
                             viewBox="460.8 232.533 3.447 38.783"
                         >
                             <path
@@ -7646,7 +8016,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_81_"
+                            className="Path_81_"
                             viewBox="341.333 292.267 3.447 38.783"
                         >
                             <path
@@ -7655,7 +8025,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_82_"
+                            className="Path_82_"
                             viewBox="153.6 232.533 3.447 7.757"
                         >
                             <path
@@ -7664,7 +8034,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_83_"
+                            className="Path_83_"
                             viewBox="34.133 172.8 3.447 31.888"
                         >
                             <path
@@ -7675,7 +8045,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_17_">
                         <svg
-                            class="Path_84_"
+                            className="Path_84_"
                             viewBox="456.533 228.268 5.171 40.506"
                         >
                             <path
@@ -7684,7 +8054,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_85_"
+                            className="Path_85_"
                             viewBox="439.467 236.801 5.171 38.783"
                         >
                             <path
@@ -7693,7 +8063,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_86_a"
+                            className="Path_86_a"
                             viewBox="439.466 241.066 1.724 2.586"
                         >
                             <path
@@ -7702,7 +8072,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_87_b"
+                            className="Path_87_b"
                             viewBox="473.6 223.999 1.724 2.586"
                         >
                             <path
@@ -7711,7 +8081,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_88_c"
+                            className="Path_88_c"
                             viewBox="456.533 232.533 1.724 2.586"
                         >
                             <path
@@ -7720,7 +8090,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_89_d"
+                            className="Path_89_d"
                             viewBox="320 296.534 5.171 38.783"
                         >
                             <path
@@ -7729,7 +8099,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_90_e"
+                            className="Path_90_e"
                             viewBox="320 300.799 1.724 2.586"
                         >
                             <path
@@ -7738,7 +8108,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_91_f"
+                            className="Path_91_f"
                             viewBox="337.066 288.001 5.171 40.506"
                         >
                             <path
@@ -7747,7 +8117,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_92_g"
+                            className="Path_92_g"
                             viewBox="354.133 283.733 1.724 2.586"
                         >
                             <path
@@ -7756,7 +8126,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_93_h"
+                            className="Path_93_h"
                             viewBox="337.066 292.266 1.724 2.586"
                         >
                             <path
@@ -7765,7 +8135,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_94_i"
+                            className="Path_94_i"
                             viewBox="149.333 228.267 5.171 9.48"
                         >
                             <path
@@ -7774,7 +8144,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_95_k"
+                            className="Path_95_k"
                             viewBox="132.267 219.734 5.171 11.204"
                         >
                             <path
@@ -7783,7 +8153,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_96_k"
+                            className="Path_96_k"
                             viewBox="12.8 160.001 5.171 35.335"
                         >
                             <path
@@ -7792,7 +8162,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_97_l"
+                            className="Path_97_l"
                             viewBox="29.866 168.534 5.171 33.612"
                         >
                             <path
@@ -7806,7 +8176,7 @@ export default function Menu() {
             <div id="Group_203">
                 <div id="Group_54_n">
                     <svg
-                        class="Path_233_p"
+                        className="Path_233_p"
                         viewBox="251.733 79.275 27.081 45.601"
                     >
                         <path
@@ -7815,7 +8185,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_234_q"
+                        className="Path_234_q"
                         viewBox="110.081 185.26 43.33 29.691"
                     >
                         <path
@@ -7824,7 +8194,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_235_r"
+                        className="Path_235_r"
                         viewBox="145.493 199.595 37.914 26.65"
                     >
                         <path
@@ -7833,7 +8203,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_236_s"
+                        className="Path_236_s"
                         viewBox="251.734 8.533 27.081 37.848"
                     >
                         <path
@@ -7843,7 +8213,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_49_t">
                         <svg
-                            class="Path_237_u"
+                            className="Path_237_u"
                             viewBox="277.334 19.2 23.166 35.564"
                         >
                             <path
@@ -7852,7 +8222,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_238_v"
+                            className="Path_238_v"
                             viewBox="145.493 273.676 13.54 6.741"
                         >
                             <path
@@ -7861,7 +8231,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_239_w"
+                            className="Path_239_w"
                             viewBox="287.147 43.999 13.54 6.741"
                         >
                             <path
@@ -7871,14 +8241,17 @@ export default function Menu() {
                         </svg>
                     </div>
                     <div id="Group_50_x">
-                        <svg class="Path_240_y" viewBox="101.55 0 51.356 59.33">
+                        <svg
+                            className="Path_240_y"
+                            viewBox="101.55 0 51.356 59.33"
+                        >
                             <path
                                 id="Path_240_y"
                                 d="M 124.4021835327148 59.33078384399414 C 124.1995391845703 59.33078384399414 123.9996337890625 59.2836799621582 123.8183975219727 59.19313049316406 L 102.2713470458984 48.42595291137695 C 101.8291931152344 48.20479583740234 101.5499114990234 47.75284957885742 101.5499114990234 47.25854110717773 L 101.5499114990234 40.81123352050781 C 101.5457916259766 39.29143524169922 102.4118957519531 37.90332794189453 103.7790603637695 37.23940277099609 L 123.2142715454102 27.52752685546875 C 123.2119827270508 21.28974723815918 123.2098388671875 15.05181884765625 123.2075500488281 8.814040184020996 C 123.6608657836914 7.851875305175781 124.1141967773438 6.889558792114258 124.5673522949219 5.927393913269043 L 125.8239288330078 6.440212726593018 C 125.8240966796875 13.73819065093994 125.8242492675781 21.03632354736328 125.8243942260742 28.33430290222168 C 125.8245468139648 28.82861328125 125.545280456543 29.28071022033691 125.1029586791992 29.50171661376953 L 104.9386749267578 39.57744216918945 C 104.4633255004883 39.80456161499023 104.1604995727539 40.28433990478516 104.1598815917969 40.81123352050781 L 104.1598815917969 46.45161437988281 L 124.4044799804688 56.56817626953125 L 150.2951049804688 43.74712371826172 L 150.2951049804688 12.93294715881348 L 129.8876342773438 2.765453100204468 L 126.5955352783203 4.42809534072876 C 126.1209564208984 4.663168430328369 125.821647644043 5.148150444030762 125.8243942260742 5.677791118621826 L 125.8243942260742 11.74641609191895 C 125.8243942260742 12.46723556518555 125.2400054931641 13.05147743225098 124.5193405151367 13.05147743225098 C 123.7985153198242 13.05147743225098 123.2142715454102 12.46723556518555 123.2142715454102 11.74641609191895 L 123.2142715454102 5.677791118621826 C 123.2080078125 4.160598278045654 124.0644836425781 2.77187705039978 125.4230728149414 2.09648060798645 L 129.2951354980469 0.1406464129686356 C 129.6632690429688 -0.04517925158143044 130.0973205566406 -0.04624985158443451 130.4663696289062 0.1374346166849136 L 152.1830139160156 10.95677089691162 C 152.6257934570312 11.17777442932129 152.9056854248047 11.63002681732178 152.9056854248047 12.12479686737061 L 152.9056854248047 44.55695724487305 C 152.9056854248047 45.05325698852539 152.6241149902344 45.50642776489258 152.17919921875 45.72636032104492 L 124.9807662963867 59.19512557983398 C 124.8010559082031 59.28444671630859 124.6029968261719 59.33094024658203 124.4021835327148 59.33078384399414 Z"
                             ></path>
                         </svg>
                         <svg
-                            class="Path_241_z"
+                            className="Path_241_z"
                             viewBox="247.475 181.033 22.968 12.118"
                         >
                             <path
@@ -7887,7 +8260,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_242_"
+                            className="Path_242_"
                             viewBox="389.116 74.974 6.721 28.339"
                         >
                             <path
@@ -7896,7 +8269,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_243_a"
+                            className="Path_243_a"
                             viewBox="247.466 251.736 22.968 18.877"
                         >
                             <path
@@ -7905,7 +8278,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_244_a"
+                            className="Path_244_a"
                             viewBox="66.133 300.518 24.276 21.531"
                         >
                             <path
@@ -7914,7 +8287,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_245_a"
+                            className="Path_245_a"
                             viewBox="207.784 332.802 36.413 27.407"
                         >
                             <path
@@ -7923,7 +8296,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_246_a"
+                            className="Path_246_a"
                             viewBox="141.227 269.408 14.845 8.047"
                         >
                             <path
@@ -7932,7 +8305,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_247_a"
+                            className="Path_247_a"
                             viewBox="282.882 39.732 14.845 8.046"
                         >
                             <path
@@ -7945,7 +8318,7 @@ export default function Menu() {
                 <div id="Group_55_">
                     <div id="Group_14_a">
                         <svg
-                            class="Path_68_a"
+                            className="Path_68_a"
                             viewBox="443.733 241.067 3.447 37.059"
                         >
                             <path
@@ -7954,7 +8327,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_69_a"
+                            className="Path_69_a"
                             viewBox="324.267 300.8 3.447 37.059"
                         >
                             <path
@@ -7962,7 +8335,10 @@ export default function Menu() {
                                 d="M 327.7142333984375 300.7999877929688 L 327.7142333984375 337.8591613769531 L 324.2669982910156 336.1353454589844 L 324.2669982910156 302.5235900878906 L 327.7142333984375 300.7999877929688 Z"
                             ></path>
                         </svg>
-                        <svg class="Path_70_a" viewBox="136.533 224 3.447 9.48">
+                        <svg
+                            className="Path_70_a"
+                            viewBox="136.533 224 3.447 9.48"
+                        >
                             <path
                                 id="Path_70_a"
                                 d="M 139.9804382324219 225.7236022949219 L 139.9804382324219 233.4801635742188 L 136.5330047607422 231.7565612792969 L 136.5330047607422 224 L 139.9804382324219 225.7236022949219 Z"
@@ -7971,7 +8347,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_15_b">
                         <svg
-                            class="Path_71_c"
+                            className="Path_71_c"
                             viewBox="17.067 164.267 3.447 33.612"
                         >
                             <path
@@ -7979,27 +8355,36 @@ export default function Menu() {
                                 d="M 20.51422119140625 165.9906158447266 L 20.51422119140625 197.8787536621094 L 17.0669994354248 196.1549377441406 L 17.0669994354248 164.2669982910156 L 20.51422119140625 165.9906158447266 Z"
                             ></path>
                         </svg>
-                        <svg class="Path_72_d" viewBox="8.533 32 99.974 49.987">
+                        <svg
+                            className="Path_72_d"
+                            viewBox="8.533 32 99.974 49.987"
+                        >
                             <path
                                 id="Path_72_d"
                                 d="M 108.5065078735352 63.02622222900391 L 70.58544158935547 81.98676300048828 L 8.532999992370605 50.96053314208984 L 46.45407104492188 31.99999237060547 L 108.5065078735352 63.02622222900391 Z"
                             ></path>
                         </svg>
                     </div>
-                    <svg class="Path_73_e" viewBox="34.133 44.8 94.802 47.401">
+                    <svg
+                        className="Path_73_e"
+                        viewBox="34.133 44.8 94.802 47.401"
+                    >
                         <path
                             id="Path_73_e"
                             d="M 128.9354705810547 73.24069976806641 L 91.01439666748047 92.20124816894531 L 34.13299942016602 63.76053619384766 L 72.05406951904297 44.79998779296875 L 128.9354705810547 73.24069976806641 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_74_f" viewBox="0 23.467 103.421 53.434">
+                    <svg
+                        className="Path_74_f"
+                        viewBox="0 23.467 103.421 53.434"
+                    >
                         <path
                             id="Path_74_f"
                             d="M 63.77605056762695 76.9010009765625 C 63.50840759277344 76.9010009765625 63.24440383911133 76.83878326416016 63.00503540039062 76.71920013427734 L 0.9528038501739502 45.69297027587891 C 0.3688403069972992 45.40088653564453 0 44.80399322509766 0 44.15114974975586 C 0 43.49830627441406 0.3688403069972992 42.90141677856445 0.9528038501739502 42.60933303833008 L 38.8736686706543 23.6487922668457 C 39.35905838012695 23.40640068054199 39.93009567260742 23.40640068054199 40.41548919677734 23.6487922668457 L 102.4679260253906 54.67502212524414 C 103.0518951416016 54.96710586547852 103.4207305908203 55.56399917602539 103.4207305908203 56.21684265136719 C 103.4207305908203 56.86968612670898 103.0518951416016 57.46657562255859 102.4679260253906 57.75865936279297 L 64.54705047607422 76.71920013427734 C 64.30769348144531 76.83878326416016 64.04369354248047 76.9010009765625 63.77605056762695 76.9010009765625 L 63.77605056762695 76.9010009765625 Z M 5.577649593353271 44.15114974975586 L 63.77625274658203 73.24996185302734 L 97.84328460693359 56.21684265136719 L 39.64467620849609 27.11803436279297 L 5.577649593353271 44.15114974975586 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_75_g"
+                        className="Path_75_g"
                         viewBox="8.533 125.867 62.052 37.921"
                     >
                         <path
@@ -8008,7 +8393,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_76_i"
+                        className="Path_76_i"
                         viewBox="34.133 138.667 56.881 35.335"
                     >
                         <path
@@ -8016,14 +8401,14 @@ export default function Menu() {
                             d="M 91.01439666748047 167.1077117919922 L 91.01439666748047 174.0023651123047 L 34.13299942016602 145.5616607666016 L 34.13299942016602 138.6670074462891 L 91.01439666748047 167.1077117919922 Z"
                         ></path>
                     </svg>
-                    <svg class="Path_77_j" viewBox="0 117.333 65.5 41.368">
+                    <svg className="Path_77_j" viewBox="0 117.333 65.5 41.368">
                         <path
                             id="Path_77_j"
                             d="M 63.77605056762695 158.7013702392578 C 63.50840759277344 158.701171875 63.24459838867188 158.6389465332031 63.00503540039062 158.5195770263672 L 0.9526018500328064 127.4933471679688 C 0.3686383068561554 127.2014694213867 -0.0002020458487095311 126.6043701171875 -5.222649690495018e-08 125.951530456543 L -5.222649690495018e-08 119.0568771362305 C -5.222649690495018e-08 118.4593811035156 0.3092521727085114 117.9047012329102 0.8174680471420288 117.5906066894531 C 1.325684070587158 117.2765045166016 1.960146188735962 117.2478256225586 2.49462103843689 117.5150604248047 L 64.54705047607422 148.5412902832031 C 65.13102722167969 148.8333740234375 65.49986267089844 149.4302520751953 65.49986267089844 150.0830993652344 L 65.49986267089844 156.9777526855469 C 65.49986267089844 157.4348754882812 65.31826782226562 157.8733978271484 64.99507904052734 158.1965942382812 C 64.67168426513672 158.519775390625 64.23336791992188 158.7013702392578 63.77605056762695 158.7013702392578 Z M 3.44742488861084 124.8860092163086 L 62.05244064331055 154.1886291503906 L 62.05244064331055 151.1486206054688 L 3.44742488861084 121.8460083007812 L 3.44742488861084 124.8860092163086 Z"
                         ></path>
                     </svg>
                     <svg
-                        class="Path_78_j"
+                        className="Path_78_j"
                         viewBox="315.733 185.6 37.921 25.855"
                     >
                         <path
@@ -8032,7 +8417,7 @@ export default function Menu() {
                         ></path>
                     </svg>
                     <svg
-                        class="Path_79_l"
+                        className="Path_79_l"
                         viewBox="307.2 177.066 41.368 29.303"
                     >
                         <path
@@ -8042,7 +8427,7 @@ export default function Menu() {
                     </svg>
                     <div id="Group_16_m">
                         <svg
-                            class="Path_80_m"
+                            className="Path_80_m"
                             viewBox="460.8 232.533 3.447 38.783"
                         >
                             <path
@@ -8051,7 +8436,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_81_n"
+                            className="Path_81_n"
                             viewBox="341.333 292.267 3.447 38.783"
                         >
                             <path
@@ -8060,7 +8445,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_82_o"
+                            className="Path_82_o"
                             viewBox="153.6 232.533 3.447 7.757"
                         >
                             <path
@@ -8069,7 +8454,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_83_p"
+                            className="Path_83_p"
                             viewBox="34.133 172.8 3.447 31.888"
                         >
                             <path
@@ -8080,7 +8465,7 @@ export default function Menu() {
                     </div>
                     <div id="Group_17_q">
                         <svg
-                            class="Path_84_r"
+                            className="Path_84_r"
                             viewBox="456.533 228.268 5.171 40.506"
                         >
                             <path
@@ -8089,7 +8474,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_85_s"
+                            className="Path_85_s"
                             viewBox="439.467 236.801 5.171 38.783"
                         >
                             <path
@@ -8098,7 +8483,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_86_t"
+                            className="Path_86_t"
                             viewBox="439.466 241.066 1.724 2.586"
                         >
                             <path
@@ -8107,7 +8492,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_87_u"
+                            className="Path_87_u"
                             viewBox="473.6 223.999 1.724 2.586"
                         >
                             <path
@@ -8116,7 +8501,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_88_v"
+                            className="Path_88_v"
                             viewBox="456.533 232.533 1.724 2.586"
                         >
                             <path
@@ -8125,7 +8510,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_89_w"
+                            className="Path_89_w"
                             viewBox="320 296.534 5.171 38.783"
                         >
                             <path
@@ -8134,7 +8519,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_90_x"
+                            className="Path_90_x"
                             viewBox="320 300.799 1.724 2.586"
                         >
                             <path
@@ -8143,7 +8528,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_91_y"
+                            className="Path_91_y"
                             viewBox="337.066 288.001 5.171 40.506"
                         >
                             <path
@@ -8152,7 +8537,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_92_z"
+                            className="Path_92_z"
                             viewBox="354.133 283.733 1.724 2.586"
                         >
                             <path
@@ -8161,7 +8546,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_93_"
+                            className="Path_93_"
                             viewBox="337.066 292.266 1.724 2.586"
                         >
                             <path
@@ -8170,7 +8555,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_94_a"
+                            className="Path_94_a"
                             viewBox="149.333 228.267 5.171 9.48"
                         >
                             <path
@@ -8179,7 +8564,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_95_a"
+                            className="Path_95_a"
                             viewBox="132.267 219.734 5.171 11.204"
                         >
                             <path
@@ -8188,7 +8573,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_96_a"
+                            className="Path_96_a"
                             viewBox="12.8 160.001 5.171 35.335"
                         >
                             <path
@@ -8197,7 +8582,7 @@ export default function Menu() {
                             ></path>
                         </svg>
                         <svg
-                            class="Path_97_a"
+                            className="Path_97_a"
                             viewBox="29.866 168.534 5.171 33.612"
                         >
                             <path
@@ -8208,54 +8593,244 @@ export default function Menu() {
                     </div>
                 </div>
             </div>
-            <svg class="Rectangle_1669">
+            <svg className="Path_1180" viewBox="0 0 1920 1080">
+                <path
+                    id="Path_1180"
+                    d="M 0 0 L 1920 0 L 1920 1080 L 0 1080 L 0 0 Z"
+                ></path>
+            </svg>
+            <svg className="Rectangle_492">
                 <rect
-                    id="Rectangle_1669"
-                    rx="40"
-                    ry="40"
-                    x="0"
-                    y="0"
-                    width="465"
-                    height="557"
+                    id="Rectangle_492"
+                    rx={40}
+                    ry={40}
+                    x={0}
+                    y={0}
+                    width={700}
+                    height={850}
                 ></rect>
             </svg>
-            <svg class="Rectangle_1668">
+            <div id="profile">
+                <svg className="Path_1166" viewBox="0 0 173.815 173.815">
+                    <path
+                        id="Path_1166"
+                        d="M 0 0 L 173.81494140625 0 L 173.81494140625 173.81494140625 L 0 173.81494140625 L 0 0 Z"
+                    ></path>
+                </svg>
+                <svg className="Path_1167" viewBox="96 102.662 108.634 104.108">
+                    <path
+                        id="Path_1167"
+                        d="M 204.6343383789062 206.7694396972656 L 96 206.7694396972656 L 96 191.6903076171875 C 96.00131988525391 188.027587890625 98.20928192138672 184.7256164550781 101.5948181152344 183.3265686035156 L 132.4360046386719 170.5827026367188 L 132.2463684082031 162.9297790527344 L 123.1585845947266 149.2855224609375 L 123.1585845947266 130.7691345214844 C 122.9583435058594 116.891471862793 133.0247802734375 104.9936904907227 146.7433166503906 102.8931427001953 C 154.4996948242188 101.8746948242188 162.321044921875 104.2457656860352 168.2049560546875 109.4029846191406 C 174.0888977050781 114.5588684082031 177.4677886962891 121.999626159668 177.4757537841797 129.8236389160156 L 177.4757537841797 149.2855224609375 L 168.3879547119141 162.919189453125 L 168.1983337402344 170.5721130371094 L 199.0395050048828 183.3146362304688 C 202.4290313720703 184.7163391113281 204.6369781494141 188.0236511230469 204.6343383789062 191.6903076171875 L 204.6343383789062 206.7694396972656 Z M 204.6343383789062 206.7694396972656"
+                    ></path>
+                </svg>
+                <div id="Group_85">
+                    <svg className="Path_1168" viewBox="0 0 54.317 54.317">
+                        <path
+                            id="Path_1168"
+                            d="M 10.86343383789062 54.31716918945312 L 0 54.31716918945312 L 0 0 L 54.31716918945312 0 L 54.31716918945312 10.86343383789062 L 10.86343383789062 10.86343383789062 L 10.86343383789062 54.31716918945312 Z M 10.86343383789062 54.31716918945312"
+                        ></path>
+                    </svg>
+                    <svg className="Path_1169" viewBox="0 368 48.885 48.885">
+                        <path
+                            id="Path_1169"
+                            d="M 48.88545227050781 416.8854370117188 L 0 416.8854370117188 L 0 368 L 10.86343383789062 368 L 10.86343383789062 406.0220031738281 L 48.88545227050781 406.0220031738281 L 48.88545227050781 416.8854370117188 Z M 48.88545227050781 416.8854370117188"
+                        ></path>
+                    </svg>
+                    <svg className="Path_1170" viewBox="352 0 54.317 54.317">
+                        <path
+                            id="Path_1170"
+                            d="M 406.3171691894531 54.31716918945312 L 395.4537353515625 54.31716918945312 L 395.4537353515625 10.86343383789062 L 352 10.86343383789062 L 352 0 L 406.3171691894531 0 L 406.3171691894531 54.31716918945312 Z M 406.3171691894531 54.31716918945312"
+                        ></path>
+                    </svg>
+                    <svg className="Path_1171" viewBox="352 352 54.317 54.317">
+                        <path
+                            id="Path_1171"
+                            d="M 406.3171691894531 406.3171691894531 L 352 406.3171691894531 L 352 395.4537353515625 L 395.4537353515625 395.4537353515625 L 395.4537353515625 352 L 406.3171691894531 352 L 406.3171691894531 406.3171691894531 Z M 406.3171691894531 406.3171691894531"
+                        ></path>
+                    </svg>
+                </div>
+                <svg className="Path_1172" viewBox="416 64 10.863 10.863">
+                    <path
+                        id="Path_1172"
+                        d="M 416 64 L 426.8634338378906 64 L 426.8634338378906 74.86343383789062 L 416 74.86343383789062 L 416 64 Z M 416 64"
+                    ></path>
+                </svg>
+                <svg className="Path_1173" viewBox="416 128 10.863 10.863">
+                    <path
+                        id="Path_1173"
+                        d="M 416 128 L 426.8634338378906 128 L 426.8634338378906 138.8634338378906 L 416 138.8634338378906 L 416 128 Z M 416 128"
+                    ></path>
+                </svg>
+            </div>
+            <div id="Name_Abc">
+                <span>Name Abc</span>
+            </div>
+            <div id="Lorem_ipsum_dolor_sit_amet_con">
+                <span>
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.”
+                    <br />
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.”
+                </span>
+            </div>
+            <div id="GENDER">
+                <span>GENDER:</span>
+            </div>
+            <div id="OCCUPATION">
+                <span>OCCUPATION:</span>
+            </div>
+            <div id="Abc">
+                <span>Abc</span>
+            </div>
+            <div id="Abc_l">
+                <span>Abc</span>
+            </div>
+            <div id="SALARY">
+                <span>SALARY:</span>
+            </div>
+            <div id="Abc_n">
+                <span>Abc</span>
+            </div>
+            <div id="TRAIT1">
+                <span>TRAIT#1</span>
+            </div>
+            <div id="TRAIT1_p">
+                <span>TRAIT#1</span>
+            </div>
+            <div id="TRAIT1_q">
+                <span>TRAIT#1</span>
+            </div>
+            <div id="TRAIT1_r">
+                <span>TRAIT#1</span>
+            </div>
+            <svg className="Rectangle_1632">
                 <rect
-                    id="Rectangle_1668"
-                    rx="40"
-                    ry="40"
-                    x="0"
-                    y="0"
-                    width="465"
-                    height="557"
+                    id="Rectangle_1632"
+                    rx={0}
+                    ry={0}
+                    x={0}
+                    y={0}
+                    width={130}
+                    height={10}
                 ></rect>
             </svg>
-            <svg class="Line_27" viewBox="0 0 552.091 3">
-                <path id="Line_27" d="M 0 0 L 552.0908813476562 0"></path>
+            <svg className="Rectangle_1633">
+                <rect
+                    id="Rectangle_1633"
+                    rx={0}
+                    ry={0}
+                    x={0}
+                    y={0}
+                    width={130}
+                    height={10}
+                ></rect>
             </svg>
-            <svg class="Line_28" viewBox="0 0 552.091 3">
-                <path id="Line_28" d="M 0 0 L 552.0908813476562 0"></path>
+            <div id="TRAIT1_u">
+                <span>TRAIT#1</span>
+            </div>
+            <div id="TRAIT1_v">
+                <span>TRAIT#1</span>
+            </div>
+            <svg className="Rectangle_1634">
+                <rect
+                    id="Rectangle_1634"
+                    rx={0}
+                    ry={0}
+                    x={0}
+                    y={0}
+                    width={130}
+                    height={10}
+                ></rect>
             </svg>
-            <svg class="Line_29" viewBox="0 0 552.091 3">
-                <path id="Line_29" d="M 0 0 L 552.0908813476562 0"></path>
+            <div id="TRAIT1_x">
+                <span>TRAIT#1</span>
+            </div>
+            <div id="TRAIT1_y">
+                <span>TRAIT#1</span>
+            </div>
+            <svg className="Rectangle_1635">
+                <rect
+                    id="Rectangle_1635"
+                    rx={0}
+                    ry={0}
+                    x={0}
+                    y={0}
+                    width={130}
+                    height={10}
+                ></rect>
             </svg>
-            <svg class="Line_30" viewBox="0 0 552.091 3">
-                <path id="Line_30" d="M 0 0 L 552.0908813476562 0"></path>
+            <svg className="Rectangle_1636">
+                <rect
+                    id="Rectangle_1636"
+                    rx={0}
+                    ry={0}
+                    x={0}
+                    y={0}
+                    width={10}
+                    height={10}
+                ></rect>
             </svg>
-            <div id="EXIT">
-                <span>EXIT</span>
-            </div>
-            <div id="HELP">
-                <span>HELP</span>
-            </div>
-            <div id="SAVE">
-                <span>SAVE</span>
-            </div>
-            <div id="OPTION1">
-                <span>OPTION1</span>
-            </div>
-            <div id="OPTION2">
-                <span>OPTION2</span>
+            <svg className="Rectangle_1637">
+                <rect
+                    id="Rectangle_1637"
+                    rx={0}
+                    ry={0}
+                    x={0}
+                    y={0}
+                    width={10}
+                    height={10}
+                ></rect>
+            </svg>
+            <svg className="Rectangle_1638">
+                <rect
+                    id="Rectangle_1638"
+                    rx={0}
+                    ry={0}
+                    x={0}
+                    y={0}
+                    width={10}
+                    height={10}
+                ></rect>
+            </svg>
+            <svg className="Rectangle_1639">
+                <rect
+                    id="Rectangle_1639"
+                    rx={0}
+                    ry={0}
+                    x={0}
+                    y={0}
+                    width={10}
+                    height={10}
+                ></rect>
+            </svg>
+            <div id="Group_84">
+                <svg className="Rectangle_440">
+                    <rect
+                        id="Rectangle_440"
+                        rx="30.5"
+                        ry="30.5"
+                        x={0}
+                        y={0}
+                        width={180}
+                        height={61}
+                    ></rect>
+                </svg>
+                <div id="COLLECT">
+                    <span>COLLECT</span>
+                </div>
             </div>
         </div>
     );
