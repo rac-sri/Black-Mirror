@@ -4,20 +4,55 @@ import PhSVG from "./svg.tsx";
 import loadWeb3 from "../../web3.ts";
 import Box from "3box";
 
+declare global {
+    interface Window {
+        box: any;
+        accounts: any;
+    }
+}
 export default function PlayerOrHost({ change }) {
-    const [value, changeValue] = useState("Enter Your Name");
+    const [value, changeValue] = useState("Type your name");
+    const [boxSyncDone, setBoxSyncDone] = React.useState(false);
+    const [boxWrites, setBoxWrites] = React.useState([]);
+
+    async function openBox() {
+        window.ethereum
+            .enable()
+            .then(async () => {
+                const ipfs = await Box.getIPFS();
+                console.log(ipfs);
+                window.box.auth([], {
+                    address: window.accounts[0],
+                    provider: window.ethereum,
+                });
+                window.box.onSyncDone(async () => {
+                    setBoxSyncDone(true);
+                    await writeToBox();
+                });
+            })
+            .catch(console.error);
+    }
+
+    async function writeToBox() {
+        window.box.public
+            .set("name", value)
+            .then(() => {
+                console.log("success");
+                change("profile");
+            })
+            .catch(console.error);
+    }
+
     const onclick = async () => {
         if (value != "") {
             const web3 = await loadWeb3();
             const accounts = await web3.eth.getAccounts();
-            // const profile = await Box.getProfile(accounts[0]);
-            const box = await Box.openBox(
-                accounts[0],
-                window.ethereum || window.web3.currentProvider
-            );
-            await box.syncDone;
-            // const respose = await box.public.set("name", "oed");
-            // console.log(respose);
+            window.accounts = accounts;
+            Box.create().then(async (box) => {
+                console.log(box);
+                window.box = box;
+                await openBox();
+            });
         }
     };
     return (

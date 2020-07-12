@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .mediaViewInfo {
+        --web-view-name: HOST – 2;
+        --web-view-id: new-scenario;
+        --web-scale-on-resize: true;
+        --web-enable-deep-linking: true;
+      }
+      :root {
+        --web-view-ids: new-scenario;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+      }
+      #new-scenario {
+        position: absolute;
+        width: 375px;
+        height: 812px;
+        background-color: rgba(21, 15, 48, 1);
+        overflow: hidden;
+        --web-view-name: HOST – 2;
+        --web-view-id: new-scenario;
+        --web-scale-on-resize: true;
+        --web-enable-deep-linking: true;
+      }
+      #NEW_SCENARIO {
+        left: 35px;
+        top: 94px;
+        position: absolute;
+        overflow: visible;
+        width: 306px;
+        height: 35px;
+        line-height: 40px;
+        margin-top: -2.5px;
+        text-align: center;
+        font-family: Press Start 2p;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #ENVIRONMENT {
+        left: 35px;
+        top: 189px;
+        position: absolute;
+        overflow: visible;
+        width: 112px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -2.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #Public__Private {
+        left: 35px;
+        top: 216px;
+        position: absolute;
+        overflow: visible;
+        width: 109px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -2.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #Invite_Link {
+        left: 35px;
+        top: 243px;
+        position: absolute;
+        overflow: visible;
+        width: 76px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -2.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #TITLE {
+        left: 35px;
+        top: 162px;
+        position: absolute;
+        overflow: visible;
+        width: 42px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -2.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #DESCRIPTION {
+        left: 35px;
+        top: 335px;
+        position: absolute;
+        overflow: visible;
+        width: 100px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -2.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #Rectangle_1663 {
+        fill: rgba(91, 191, 227, 0.204);
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1663 {
+        position: absolute;
+        overflow: visible;
+        width: 179px;
+        height: 20px;
+        left: 161px;
+        top: 162px;
+      }
+      #Rectangle_1664 {
+        fill: rgba(91, 191, 227, 0.204);
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1664 {
+        position: absolute;
+        overflow: visible;
+        width: 179px;
+        height: 20px;
+        left: 161px;
+        top: 189px;
+      }
+      #Rectangle_1665 {
+        fill: rgba(91, 191, 227, 0.204);
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1665 {
+        position: absolute;
+        overflow: visible;
+        width: 179px;
+        height: 20px;
+        left: 161px;
+        top: 216px;
+      }
+      #Rectangle_1666 {
+        fill: rgba(91, 191, 227, 0.204);
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1666 {
+        position: absolute;
+        overflow: visible;
+        width: 179px;
+        height: 20px;
+        left: 161px;
+        top: 243px;
+      }
+      #Rectangle_1662 {
+        fill: rgba(91, 191, 227, 0.204);
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1662 {
+        position: absolute;
+        overflow: visible;
+        width: 305px;
+        height: 207px;
+        left: 35px;
+        top: 365px;
+      }
+      #Rectangle_1679 {
+        fill: transparent;
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 8px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1679 {
+        position: absolute;
+        overflow: visible;
+        width: 166px;
+        height: 56px;
+        left: 105px;
+        top: 701px;
+      }
+      #CREATE {
+        left: 132px;
+        top: 715px;
+        position: absolute;
+        overflow: visible;
+        width: 113px;
+        white-space: nowrap;
+        line-height: 120px;
+        margin-top: -46px;
+        text-align: left;
+        font-family: Quantico;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        color: rgba(196, 201, 255, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="HOST__2">
+      <div id="NEW_SCENARIO">
+        <span>NEW SCENARIO</span>
+      </div>
+      <div id="ENVIRONMENT">
+        <span>ENVIRONMENT:</span>
+      </div>
+      <div id="Public__Private">
+        <span>Public / Private:</span>
+      </div>
+      <div id="Invite_Link">
+        <span>Invite Link:</span>
+      </div>
+      <div id="TITLE">
+        <span>TITLE:</span>
+      </div>
+      <div id="DESCRIPTION">
+        <span>DESCRIPTION:</span>
+      </div>
+      <svg class="Rectangle_1663">
+        <rect
+          id="Rectangle_1663"
+          rx="5"
+          ry="5"
+          x="0"
+          y="0"
+          width="179"
+          height="20"
+        ></rect>
+      </svg>
+      <svg class="Rectangle_1664">
+        <rect
+          id="Rectangle_1664"
+          rx="5"
+          ry="5"
+          x="0"
+          y="0"
+          width="179"
+          height="20"
+        ></rect>
+      </svg>
+      <svg class="Rectangle_1665">
+        <rect
+          id="Rectangle_1665"
+          rx="5"
+          ry="5"
+          x="0"
+          y="0"
+          width="179"
+          height="20"
+        ></rect>
+      </svg>
+      <svg class="Rectangle_1666">
+        <rect
+          id="Rectangle_1666"
+          rx="5"
+          ry="5"
+          x="0"
+          y="0"
+          width="179"
+          height="20"
+        ></rect>
+      </svg>
+      <svg class="Rectangle_1662">
+        <rect
+          id="Rectangle_1662"
+          rx="20"
+          ry="20"
+          x="0"
+          y="0"
+          width="305"
+          height="207"
+        ></rect>
+      </svg>
+      <svg class="Rectangle_1679">
+        <rect
+          id="Rectangle_1679"
+          rx="28"
+          ry="28"
+          x="0"
+          y="0"
+          width="166"
+          height="56"
+        ></rect>
+      </svg>
+      <div id="CREATE">
+        <span>CREATE</span>
+      </div>
+    </div>
+  </body>
+</html>

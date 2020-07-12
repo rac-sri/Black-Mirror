@@ -10,6 +10,7 @@ import StartContent from "./startContent.tsx";
 import YourRole from "../yourRole/YourRole.tsx";
 import Role from "../role/Role.tsx";
 import PlayerOrHost from "../playerOrHost/PlayerOrHost.tsx";
+import Profile from "../profile/profile.tsx";
 
 export default function Start() {
     const [component, changeComponent] = useState("StartContent");
@@ -21,6 +22,7 @@ export default function Start() {
             {component === "playerorhost" && (
                 <PlayerOrHost change={changeComponent} />
             )}
+            {component === "profile" && <Profile />}
         </>
     );
 }

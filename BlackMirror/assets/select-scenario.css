@@ -1,0 +1,143 @@
+.mediaViewInfo {
+  --web-view-name: Scenario preview w/ explanation;
+  --web-view-id: Scenario_preview_w_explanation;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: Scenario_preview_w_explanation;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#Scenario_preview_w_explanation {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  background: linear-gradient(165.4deg, rgba(32,15,70,1) 0%, rgba(51,68,131,1) 100%);
+  overflow: hidden;
+  --web-view-name: Scenario preview w/ explanation;
+  --web-view-id: Scenario_preview_w_explanation;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+#SCENARIO {
+  left: 25px;
+  top: 68px;
+  position: absolute;
+  overflow: visible;
+  width: 184px;
+  white-space: nowrap;
+  line-height: 40px;
+  margin-top: -2.5px;
+  text-align: left;
+  font-family: Press Start 2P;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: rgba(91,191,227,1);
+}
+#Rectangle_1650 {
+  fill: rgba(91,191,227,0.204);
+  stroke: rgba(91,191,227,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_1650 {
+  position: absolute;
+  overflow: visible;
+  width: 221px;
+  height: 60px;
+  left: 77px;
+  top: 243px;
+}
+#WORKSPACE {
+  left: 102px;
+  top: 261px;
+  position: absolute;
+  overflow: visible;
+  width: 181px;
+  white-space: nowrap;
+  line-height: 120px;
+  margin-top: -46px;
+  text-align: left;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: rgba(196,201,255,1);
+}
+#Rectangle_1659 {
+  fill: rgba(91,191,227,0.204);
+}
+.Rectangle_1659 {
+  position: absolute;
+  overflow: visible;
+  width: 278px;
+  height: 119px;
+  left: 49px;
+  top: 323px;
+}
+#Live_everyday_Workplace_-_wear {
+  left: 62px;
+  top: 331px;
+  position: absolute;
+  overflow: visible;
+  width: 253px;
+  height: 103px;
+  line-height: 20px;
+  margin-top: -3.5px;
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(196,201,255,0.502);
+}
+#Group_86 {
+  position: absolute;
+  width: 133px;
+  height: 56px;
+  left: 121px;
+  top: 546px;
+  overflow: visible;
+}
+#Rectangle_1640 {
+  fill: transparent;
+  stroke: rgba(91,191,227,1);
+  stroke-width: 8px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_1640 {
+  position: absolute;
+  overflow: visible;
+  width: 133px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+}
+#START {
+  left: 24px;
+  top: 16px;
+  position: absolute;
+  overflow: visible;
+  width: 90px;
+  white-space: nowrap;
+  line-height: 120px;
+  margin-top: -46px;
+  text-align: left;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: rgba(196,201,255,1);
+}
