@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CryptoPersons front-end</title>
+  <script language="javascript" type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script language="javascript" type="text/javascript" src="web3.min.js"></script>
+  <script language="javascript" type="text/javascript" src="cryptopersons_abi.js"></script>
+</head>
+
+<body>
+  <div id="txStatus"></div>
+  <div id="persons"></div>
+
+  <script>
+    var cryptoPersons;
+    var userAccount;
+
+    function startApp() {
+      var cryptoPersonsAddress = "YOUR_CONTRACT_ADDRESS";
+      cryptoPersons = new web3js.eth.Contract(cryptoPersonsABI, cryptoPersonsAddress);
+
+      var accountInterval = setInterval(function () {
+
+        if (web3.eth.accounts[0] !== userAccount) {
+          userAccount = web3.eth.accounts[0];
+
+          getPersonsByOwner(userAccount)
+            .then(displayPersons);
+        }
+      }, 100);
+
+      cryptoPersons.events.Transfer({ filter: { _to: userAccount } })
+        .on("data", function (event) {
+          let data = event.returnValues;
+          getPersonsByOwner(userAccount).then(displayPersons);
+        }).on("error", console.error);
+    }
+
+    function displayPersons(ids) {
+      $("#persons").empty();
+      for (id of ids) {
+
+        getPersonDetails(id)
+          .then(function (person) {
+
+
+            $("#persons").append('<div class="person">
+              <ul>
+                <li>Name: ${person.name}</li>
+                <li>DNA: ${person.dna}</li>
+                <li>Level: ${person.level}</li>
+                <li>Wins: ${person.winCount}</li>
+                <li>Losses: ${person.lossCount}</li>
+                <li>Ready Time: ${person.readyTime}</li>
+              </ul>
+            </div>');
+          });
+      }
+    }
+
+    function createRandomPerson(name) {
+
+
+      $("#txStatus").text("Creating new person on the blockchain. This may take a while...");
+
+      return cryptoPersons.methods.createRandomPerson(name)
+        .send({ from: userAccount })
+        .on("receipt", function (receipt) {
+          $("#txStatus").text("Successfully created " + name + "!");
+
+          getPersonsByOwner(userAccount).then(displayPersons);
+        })
+        .on("error", function (error) {
+
+          $("#txStatus").text(error);
+        });
+    }
+
+    function feedOnKitty(personId, kittyId) {
+      $("#txStatus").text("Eating a kitty. This may take a while...");
+      return cryptoPersons.methods.feedOnKitty(personId, kittyId)
+        .send({ from: userAccount })
+        .on("receipt", function (receipt) {
+          $("#txStatus").text("Ate a kitty and spawned a new Person!");
+          getPersonsByOwner(userAccount).then(displayPersons);
+        })
+        .on("error", function (error) {
+          $("#txStatus").text(error);
+        });
+    }
+
+    function levelUp(personId) {
+      $("#txStatus").text("Leveling up your person...");
+      return cryptoPersons.methods.levelUp(personId)
+        .send({ from: userAccount, value: web3.utils.toWei("0.001", "ether") })
+        .on("receipt", function (receipt) {
+          $("#txStatus").text("Power overwhelming! Person successfully leveled up");
+        })
+        .on("error", function (error) {
+          $("#txStatus").text(error);
+        });
+    }
+
+    function getPersonDetails(id) {
+      return cryptoPersons.methods.persons(id).call()
+    }
+
+    function personToOwner(id) {
+      return cryptoPersons.methods.personToOwner(id).call()
+    }
+
+    function getPersonsByOwner(owner) {
+      return cryptoPersons.methods.getPersonsByOwner(owner).call()
+    }
+
+    window.addEventListener('load', function () {
+
+
+      if (typeof web3 !== 'undefined') {
+
+        web3js = new Web3(web3.currentProvider);
+      } else {
+
+
+      }
+
+
+      startApp()
+
+    })
+  </script>
+</body>
+
+</html>
