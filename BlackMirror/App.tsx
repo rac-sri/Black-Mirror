@@ -17,24 +17,20 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import LoginScreen from './src/loginScreen.tsx';
 
+import {WebView} from 'react-native-webview';
 declare const global: {HermesInternal: null | {}};
 
 const App = () => {
   Orientation.lockToPortrait();
 
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <LoginScreen />
-        </ScrollView>
-      </SafeAreaView>
-    </>
+    <WebView
+      source={{
+        uri:
+          'https://raw.githubusercontent.com/rachit2501/Black-Mirror/3box/BlackMirror/assets/challenge.html?token=AKOUM3WIPCDWD3NTAVVQMOK7CR2W4',
+      }}
+    />
   );
 };
 
