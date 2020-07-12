@@ -203,3 +203,15 @@
     font-size: 50px;
     color: rgba(196, 201, 255, 1);
 }
+.rectangle_400 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    width: 100px;
+    height: 80px;
+    border-radius: 30px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}

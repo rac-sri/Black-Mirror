@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .mediaViewInfo {
+        --web-view-name: PLAYER ROLE;
+        --web-view-id: Challenge_Card;
+        --web-scale-on-resize: true;
+        --web-enable-deep-linking: true;
+      }
+      :root {
+        --web-view-ids: Challenge_Card;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+      }
+      #Challenge_Card {
+        position: absolute;
+        width: 375px;
+        height: 812px;
+        background: linear-gradient(
+          180deg,
+          rgba(32, 15, 70, 1) 0%,
+          rgba(51, 68, 131, 1) 100%
+        );
+        overflow: hidden;
+        --web-view-name: PLAYER ROLE;
+        --web-view-id: Challenge_Card;
+        --web-scale-on-resize: true;
+        --web-enable-deep-linking: true;
+      }
+      #Rectangle_1650 {
+        fill: rgba(91, 191, 227, 0.204);
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1650 {
+        position: absolute;
+        overflow: visible;
+        width: 330px;
+        height: 570px;
+        left: 23px;
+        top: 117px;
+      }
+      #Youre_a_young_newly_hired_mana_bs {
+        left: 54px;
+        top: 261px;
+        position: absolute;
+        overflow: visible;
+        width: 269px;
+        height: 284px;
+        line-height: 20px;
+        margin-top: -3.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        color: rgba(196, 201, 255, 1);
+      }
+      #Youre_a_young_newly_hired_mana_bs {
+        left: 54px;
+        top: 261px;
+        position: absolute;
+        overflow: visible;
+        width: 269px;
+        height: 284px;
+        line-height: 20px;
+        margin-top: -3.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        color: rgba(196, 201, 255, 1);
+      }
+      #profile {
+        position: absolute;
+        width: 100.031px;
+        height: 100.031px;
+        left: 53px;
+        top: 146px;
+        overflow: visible;
+      }
+      #Path_1166 {
+        fill: rgba(196, 201, 255, 1);
+      }
+      .Path_1166 {
+        overflow: visible;
+        position: absolute;
+        width: 100.031px;
+        height: 100.031px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+      #Path_1167 {
+        fill: rgba(35, 51, 84, 1);
+      }
+      .Path_1167 {
+        overflow: visible;
+        position: absolute;
+        width: 62.519px;
+        height: 59.915px;
+        left: 18.756px;
+        top: 20.057px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+      #Group_85 {
+        position: absolute;
+        width: 100.031px;
+        height: 100.031px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+      }
+      #Path_1168 {
+        fill: rgba(112, 130, 153, 1);
+      }
+      .Path_1168 {
+        overflow: visible;
+        position: absolute;
+        width: 31.26px;
+        height: 31.26px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+      #Path_1169 {
+        fill: rgba(112, 130, 153, 1);
+      }
+      .Path_1169 {
+        overflow: visible;
+        position: absolute;
+        width: 28.134px;
+        height: 28.134px;
+        left: 0px;
+        top: 71.897px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+      #Path_1170 {
+        fill: rgba(112, 130, 153, 1);
+      }
+      .Path_1170 {
+        overflow: visible;
+        position: absolute;
+        width: 31.26px;
+        height: 31.26px;
+        left: 68.771px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+      #Path_1171 {
+        fill: rgba(112, 130, 153, 1);
+      }
+      .Path_1171 {
+        overflow: visible;
+        position: absolute;
+        width: 31.26px;
+        height: 31.26px;
+        left: 68.771px;
+        top: 68.771px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+      #Path_1172 {
+        fill: rgba(35, 51, 84, 1);
+      }
+      .Path_1172 {
+        overflow: visible;
+        position: absolute;
+        width: 6.252px;
+        height: 6.252px;
+        left: 81.275px;
+        top: 12.504px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+      #Path_1173 {
+        fill: rgba(35, 51, 84, 1);
+      }
+      .Path_1173 {
+        overflow: visible;
+        position: absolute;
+        width: 6.252px;
+        height: 6.252px;
+        left: 81.275px;
+        top: 25.008px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+      #sandycort {
+        left: 168px;
+        top: 146px;
+        position: absolute;
+        overflow: visible;
+        width: 75px;
+        white-space: nowrap;
+        line-height: 50px;
+        margin-top: -16.5px;
+        text-align: left;
+        font-family: Quantico;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #GENDER {
+        left: 168px;
+        top: 172px;
+        position: absolute;
+        overflow: visible;
+        width: 64px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -2.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(91, 191, 227, 1);
+      }
+      # {
+        left: 308px;
+        top: 172px;
+        position: absolute;
+        overflow: visible;
+        width: 7px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -2.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(196, 201, 255, 1);
+      }
+      #OCCUPATION {
+        left: 168px;
+        top: 199px;
+        position: absolute;
+        overflow: visible;
+        width: 98px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -2.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #_b {
+        left: 308px;
+        top: 199px;
+        position: absolute;
+        overflow: visible;
+        width: 7px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -2.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(196, 201, 255, 1);
+      }
+      #SALARY {
+        left: 168px;
+        top: 226px;
+        position: absolute;
+        overflow: visible;
+        width: 58px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -2.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #_ca {
+        left: 308px;
+        top: 226px;
+        position: absolute;
+        overflow: visible;
+        width: 7px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -2.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(196, 201, 255, 1);
+      }
+      #Annual__Salary {
+        left: 44px;
+        top: 552px;
+        position: absolute;
+        overflow: visible;
+        width: 51px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -1.5px;
+        text-align: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #Group_96 {
+        position: absolute;
+        width: 161px;
+        height: 10px;
+        left: 107px;
+        top: 564px;
+        overflow: visible;
+      }
+      #Rectangle_1651 {
+        fill: transparent;
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1651 {
+        position: absolute;
+        overflow: visible;
+        width: 161px;
+        height: 10px;
+        left: 0px;
+        top: 0px;
+      }
+      #Rectangle_1655 {
+        fill: rgba(56, 76, 152, 1);
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1655 {
+        position: absolute;
+        overflow: visible;
+        width: 10px;
+        height: 10px;
+        left: 33px;
+        top: 0px;
+      }
+      #Promotion {
+        left: 35px;
+        top: 601px;
+        position: absolute;
+        overflow: visible;
+        width: 70px;
+        white-space: nowrap;
+        line-height: 20px;
+        margin-top: -3.5px;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #ID2 {
+        left: 271px;
+        top: 603px;
+        position: absolute;
+        overflow: visible;
+        width: 52px;
+        height: 18px;
+        line-height: 20px;
+        margin-top: -3.5px;
+        text-align: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #Group_98 {
+        position: absolute;
+        width: 161px;
+        height: 10px;
+        left: 107px;
+        top: 607px;
+        overflow: visible;
+      }
+      #Rectangle_1653 {
+        fill: transparent;
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1653 {
+        position: absolute;
+        overflow: visible;
+        width: 161px;
+        height: 10px;
+        left: 0px;
+        top: 0px;
+      }
+      #Rectangle_1657 {
+        fill: rgba(56, 76, 152, 1);
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1657 {
+        position: absolute;
+        overflow: visible;
+        width: 10px;
+        height: 10px;
+        left: 33px;
+        top: 0px;
+      }
+      #Pay_off__study_loan {
+        left: 38px;
+        top: 634px;
+        position: absolute;
+        overflow: visible;
+        width: 63px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -2px;
+        text-align: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #Group_99 {
+        position: absolute;
+        width: 161px;
+        height: 10px;
+        left: 107px;
+        top: 652px;
+        overflow: visible;
+      }
+      #Rectangle_1654 {
+        fill: transparent;
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1654 {
+        position: absolute;
+        overflow: visible;
+        width: 161px;
+        height: 10px;
+        left: 0px;
+        top: 0px;
+      }
+      #Rectangle_1658 {
+        fill: rgba(56, 76, 152, 1);
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1658 {
+        position: absolute;
+        overflow: visible;
+        width: 10px;
+        height: 10px;
+        left: 33px;
+        top: 0px;
+      }
+      #YOUR_CHALLENGE {
+        left: 34px;
+        top: 70px;
+        position: absolute;
+        overflow: visible;
+        width: 297px;
+        white-space: nowrap;
+        line-height: 40px;
+        margin-top: -4px;
+        text-align: center;
+        font-family: Press Start 2p;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #Group_86 {
+        position: absolute;
+        width: 133px;
+        height: 56px;
+        left: 121px;
+        top: 716px;
+        overflow: visible;
+      }
+      #Rectangle_1640 {
+        fill: transparent;
+        stroke: rgba(91, 191, 227, 1);
+        stroke-width: 8px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+      }
+      .Rectangle_1640 {
+        position: absolute;
+        overflow: visible;
+        width: 133px;
+        height: 56px;
+        left: 0px;
+        top: 0px;
+      }
+      #NEXT {
+        left: 32px;
+        top: 16px;
+        position: absolute;
+        overflow: visible;
+        width: 76px;
+        white-space: nowrap;
+        line-height: 120px;
+        margin-top: -46px;
+        text-align: left;
+        font-family: Quantico;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        color: rgba(196, 201, 255, 1);
+      }
+      #ID3 {
+        left: 271px;
+        top: 646px;
+        position: absolute;
+        overflow: visible;
+        width: 52px;
+        height: 18px;
+        line-height: 20px;
+        margin-top: -3.5px;
+        text-align: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #ID1 {
+        left: 271px;
+        top: 560px;
+        position: absolute;
+        overflow: visible;
+        width: 52px;
+        height: 18px;
+        line-height: 20px;
+        margin-top: -3.5px;
+        text-align: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #USD {
+        left: 162px;
+        top: 577px;
+        position: absolute;
+        overflow: visible;
+        width: 70px;
+        height: 18px;
+        line-height: 20px;
+        margin-top: -4px;
+        text-align: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #years {
+        left: 162px;
+        top: 616px;
+        position: absolute;
+        overflow: visible;
+        width: 70px;
+        height: 18px;
+        line-height: 20px;
+        margin-top: -4px;
+        text-align: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(91, 191, 227, 1);
+      }
+      #years_cv {
+        left: 162px;
+        top: 663px;
+        position: absolute;
+        overflow: visible;
+        width: 70px;
+        height: 18px;
+        line-height: 20px;
+        margin-top: -4px;
+        text-align: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: rgba(91, 191, 227, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Challenge_Card">
+      <svg class="Rectangle_1650">
+        <rect
+          id="Rectangle_1650"
+          rx="40"
+          ry="40"
+          x="0"
+          y="0"
+          width="330"
+          height="570"
+        ></rect>
+      </svg>
+      <div id="Youre_a_young_newly_hired_mana_bs">
+        <span>You’re a young, newly hired manager at the </span
+        ><span
+          style="
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: underline;
+          "
+          >Moustache Foundation</span
+        ><span style="text-decoration: underline;"> (</span
+        ><span
+          style="
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: underline;
+          "
+          >MF</span
+        ><span style="text-decoration: underline;">)</span
+        ><span
+          >.<br /><br />You don’t know the details of your Character just yet,
+          but try to immerse yourself in her shoes, and </span
+        ><span style="font-style: normal; font-weight: bold;"
+          >fill the questions below.</span
+        ><span>
+          <br /><br />You may use your real-life experience as a comparison - to
+          see how your expectations would have to be resized.<br /><br />The
+          more accurate your expectations, the </span
+        ><span style="font-style: normal; font-weight: bold;"
+          >higher the chances you have to win this card, and reveal the
+          Character</span
+        ><span>!</span>
+      </div>
+      <div id="Youre_a_young_newly_hired_mana_bs">
+        <span>You’re a young, newly hired manager at the </span
+        ><span
+          style="
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: underline;
+          "
+          >Moustache Foundation</span
+        ><span style="text-decoration: underline;"> (</span
+        ><span
+          style="
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: underline;
+          "
+          >MF</span
+        ><span style="text-decoration: underline;">)</span
+        ><span
+          >.<br /><br />You don’t know the details of your Character just yet,
+          but try to immerse yourself in her shoes, and </span
+        ><span style="font-style: normal; font-weight: bold;"
+          >fill the questions below.</span
+        ><span>
+          <br /><br />You may use your real-life experience as a comparison - to
+          see how your expectations would have to be resized.<br /><br />The
+          more accurate your expectations, the </span
+        ><span style="font-style: normal; font-weight: bold;"
+          >higher the chances you have to win this card, and reveal the
+          Character</span
+        ><span>!</span>
+      </div>
+      <div id="profile">
+        <svg class="Path_1166" viewBox="0 0 100.031 100.031">
+          <path
+            id="Path_1166"
+            d="M 0 0 L 100.031005859375 0 L 100.031005859375 100.031005859375 L 0 100.031005859375 L 0 0 Z"
+          ></path>
+        </svg>
+        <svg class="Path_1167" viewBox="96 102.662 62.519 59.914">
+          <path
+            id="Path_1167"
+            d="M 158.5193786621094 162.5759429931641 L 96 162.5759429931641 L 96 153.8978576660156 C 96.00076293945312 151.7899475097656 97.27145385742188 149.8896636962891 99.21983337402344 149.0845031738281 L 116.9690246582031 141.7503662109375 L 116.8598937988281 137.3460845947266 L 111.6298522949219 129.4937744140625 L 111.6298522949219 118.8375396728516 C 111.5146026611328 110.8509063720703 117.3078765869141 104.0037002563477 125.2029266357422 102.7948303222656 C 129.666748046875 102.2087097167969 134.1679534912109 103.5732727050781 137.5541687011719 106.541259765625 C 140.9403839111328 109.5084838867188 142.8849487304688 113.7906646728516 142.8895416259766 118.2934112548828 L 142.8895416259766 129.4937744140625 L 137.6594848632812 137.3399963378906 L 137.5503540039062 141.7442779541016 L 155.2995452880859 149.07763671875 C 157.2502288818359 149.8843231201172 158.5209045410156 151.7876892089844 158.5193786621094 153.8978576660156 L 158.5193786621094 162.5759429931641 Z M 158.5193786621094 162.5759429931641"
+          ></path>
+        </svg>
+        <div id="Group_85">
+          <svg class="Path_1168" viewBox="0 0 31.26 31.26">
+            <path
+              id="Path_1168"
+              d="M 6.251937866210938 31.25968933105469 L 0 31.25968933105469 L 0 0 L 31.25968933105469 0 L 31.25968933105469 6.251937866210938 L 6.251937866210938 6.251937866210938 L 6.251937866210938 31.25968933105469 Z M 6.251937866210938 31.25968933105469"
+            ></path>
+          </svg>
+          <svg class="Path_1169" viewBox="0 368 28.134 28.134">
+            <path
+              id="Path_1169"
+              d="M 28.13372039794922 396.1337280273438 L 0 396.1337280273438 L 0 368 L 6.251937866210938 368 L 6.251937866210938 389.8817749023438 L 28.13372039794922 389.8817749023438 L 28.13372039794922 396.1337280273438 Z M 28.13372039794922 396.1337280273438"
+            ></path>
+          </svg>
+          <svg class="Path_1170" viewBox="352 0 31.26 31.26">
+            <path
+              id="Path_1170"
+              d="M 383.2597045898438 31.25968933105469 L 377.0077514648438 31.25968933105469 L 377.0077514648438 6.251937866210938 L 352 6.251937866210938 L 352 0 L 383.2597045898438 0 L 383.2597045898438 31.25968933105469 Z M 383.2597045898438 31.25968933105469"
+            ></path>
+          </svg>
+          <svg class="Path_1171" viewBox="352 352 31.26 31.26">
+            <path
+              id="Path_1171"
+              d="M 383.2597045898438 383.2597045898438 L 352 383.2597045898438 L 352 377.0077514648438 L 377.0077514648438 377.0077514648438 L 377.0077514648438 352 L 383.2597045898438 352 L 383.2597045898438 383.2597045898438 Z M 383.2597045898438 383.2597045898438"
+            ></path>
+          </svg>
+        </div>
+        <svg class="Path_1172" viewBox="416 64 6.252 6.252">
+          <path
+            id="Path_1172"
+            d="M 416 64 L 422.251953125 64 L 422.251953125 70.25193786621094 L 416 70.25193786621094 L 416 64 Z M 416 64"
+          ></path>
+        </svg>
+        <svg class="Path_1173" viewBox="416 128 6.252 6.252">
+          <path
+            id="Path_1173"
+            d="M 416 128 L 422.251953125 128 L 422.251953125 134.2519378662109 L 416 134.2519378662109 L 416 128 Z M 416 128"
+          ></path>
+        </svg>
+      </div>
+      <div id="sandycort">
+        <span>sandycort</span>
+      </div>
+      <div id="GENDER">
+        <span>GENDER:</span>
+      </div>
+      <div id="">
+        <span>?</span>
+      </div>
+      <div id="OCCUPATION">
+        <span>OCCUPATION:</span>
+      </div>
+      <div id="_b">
+        <span>?</span>
+      </div>
+      <div id="SALARY">
+        <span>SALARY:</span>
+      </div>
+      <div id="_ca">
+        <span>?</span>
+      </div>
+      <div id="Annual__Salary">
+        <span>Annual <br />Salary</span>
+      </div>
+      <div id="Group_96">
+        <svg class="Rectangle_1651">
+          <rect
+            id="Rectangle_1651"
+            rx="0"
+            ry="0"
+            x="0"
+            y="0"
+            width="161"
+            height="10"
+          ></rect>
+        </svg>
+        <svg class="Rectangle_1655">
+          <rect
+            id="Rectangle_1655"
+            rx="0"
+            ry="0"
+            x="0"
+            y="0"
+            width="10"
+            height="10"
+          ></rect>
+        </svg>
+      </div>
+      <div id="Promotion">
+        <span>Promotion</span>
+      </div>
+      <div id="ID2">
+        <span>#2</span>
+      </div>
+      <div id="Group_98">
+        <svg class="Rectangle_1653">
+          <rect
+            id="Rectangle_1653"
+            rx="0"
+            ry="0"
+            x="0"
+            y="0"
+            width="161"
+            height="10"
+          ></rect>
+        </svg>
+        <svg class="Rectangle_1657">
+          <rect
+            id="Rectangle_1657"
+            rx="0"
+            ry="0"
+            x="0"
+            y="0"
+            width="10"
+            height="10"
+          ></rect>
+        </svg>
+      </div>
+      <div id="Pay_off__study_loan">
+        <span>Pay off <br />study loan</span>
+      </div>
+      <div id="Group_99">
+        <svg class="Rectangle_1654">
+          <rect
+            id="Rectangle_1654"
+            rx="0"
+            ry="0"
+            x="0"
+            y="0"
+            width="161"
+            height="10"
+          ></rect>
+        </svg>
+        <svg class="Rectangle_1658">
+          <rect
+            id="Rectangle_1658"
+            rx="0"
+            ry="0"
+            x="0"
+            y="0"
+            width="10"
+            height="10"
+          ></rect>
+        </svg>
+      </div>
+      <div id="YOUR_CHALLENGE">
+        <span>YOUR CHALLENGE</span>
+      </div>
+      <div id="Group_86">
+        <svg class="Rectangle_1640">
+          <rect
+            id="Rectangle_1640"
+            rx="28"
+            ry="28"
+            x="0"
+            y="0"
+            width="133"
+            height="56"
+          ></rect>
+        </svg>
+        <div id="NEXT">
+          <span>NEXT</span>
+        </div>
+      </div>
+      <div id="ID3">
+        <span>#3</span>
+      </div>
+      <div id="ID1">
+        <span>#1</span>
+      </div>
+      <div id="USD">
+        <span>USD</span>
+      </div>
+      <div id="years">
+        <span>years</span>
+      </div>
+      <div id="years_cv">
+        <span>years</span>
+      </div>
+    </div>
+  </body>
+</html>
