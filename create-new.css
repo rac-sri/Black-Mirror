@@ -1,0 +1,445 @@
+.mediaViewInfo {
+  --web-view-name: HOST PROFILE;
+  --web-view-id: create-new;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: create-new;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#create-new {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  background: linear-gradient(165.4deg, rgba(32,15,70,1) 0%, rgba(51,68,131,1) 100%);
+  overflow: hidden;
+  --web-view-name: HOST PROFILE;
+  --web-view-id: create-new;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+
+}
+#ABOUT_YOU {
+  left: 45px;
+  top: 68px;
+  position: absolute;
+  overflow: visible;
+  width: 205px;
+  white-space: nowrap;
+  line-height: 40px;
+  margin-top: -2.5px;
+  text-align: center;
+  font-family: Press Start 2P;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: rgba(91,191,227,1);
+}
+#GENDER {
+  left: 48px;
+  top: 131px;
+  position: absolute;
+  overflow: visible;
+  width: 74px;
+  white-space: nowrap;
+  line-height: 120px;
+  margin-top: -51.5px;
+  text-align: left;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: rgba(196,201,255,1);
+}
+#FINANCIAL_EXPECTATIONS {
+  left: 48px;
+  top: 228px;
+  position: absolute;
+  overflow: visible;
+  width: 223px;
+  white-space: nowrap;
+  line-height: 120px;
+  margin-top: -51.5px;
+  text-align: left;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: rgba(196,201,255,1);
+}
+#CAREER_HABITS {
+  left: 48px;
+  top: 334px;
+  position: absolute;
+  overflow: visible;
+  width: 138px;
+  white-space: nowrap;
+  line-height: 120px;
+  margin-top: -51.5px;
+  text-align: left;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: rgba(196,201,255,1);
+}
+#Rectangle_1645 {
+  fill: rgba(91,191,227,0.204);
+}
+.Rectangle_1645 {
+  position: absolute;
+  overflow: visible;
+  width: 115px;
+  height: 31px;
+  left: 51px;
+  top: 171px;
+}
+#Rectangle_1646 {
+  fill: transparent;
+  stroke: rgba(91,191,227,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_1646 {
+  position: absolute;
+  overflow: visible;
+  width: 115px;
+  height: 31px;
+  left: 51px;
+  top: 170px;
+}
+#Rectangle_1647 {
+  fill: transparent;
+  stroke: rgba(91,191,227,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_1647 {
+  position: absolute;
+  overflow: visible;
+  width: 115px;
+  height: 31px;
+  left: 51px;
+  top: 170px;
+}
+#Polygon_5 {
+  fill: rgba(91,191,227,1);
+}
+.Polygon_5 {
+  overflow: hidden;
+  position: absolute;
+  width: 12px;
+  height: 7px;
+  transform: matrix(1,0,0,1,144,182) rotate(180deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+#Group_90 {
+  position: absolute;
+  width: 115px;
+  height: 31px;
+  left: 48px;
+  top: 269px;
+  overflow: visible;
+}
+#Rectangle_1643 {
+  fill: rgba(91,191,227,0.204);
+}
+.Rectangle_1643 {
+  position: absolute;
+  overflow: visible;
+  width: 115px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+}
+#Rectangle_1644 {
+  fill: transparent;
+  stroke: rgba(91,191,227,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_1644 {
+  position: absolute;
+  overflow: visible;
+  width: 115px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+}
+#Polygon_6 {
+  fill: rgba(91,191,227,1);
+}
+.Polygon_6 {
+  overflow: hidden;
+  position: absolute;
+  width: 12px;
+  height: 7px;
+  transform: translate(-70px, -370px) matrix(1,0,0,1,163,383) rotate(180deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+#Group_91 {
+  position: absolute;
+  width: 115px;
+  height: 31px;
+  left: 212px;
+  top: 267px;
+  overflow: visible;
+}
+#Group_89 {
+  position: absolute;
+  width: 115px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Rectangle_1630 {
+  fill: rgba(91,191,227,0.204);
+}
+.Rectangle_1630 {
+  position: absolute;
+  overflow: visible;
+  width: 115px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+}
+#Rectangle_1631 {
+  fill: transparent;
+  stroke: rgba(91,191,227,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_1631 {
+  position: absolute;
+  overflow: visible;
+  width: 115px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+}
+#Polygon_4 {
+  fill: rgba(91,191,227,1);
+}
+.Polygon_4 {
+  overflow: hidden;
+  position: absolute;
+  width: 13px;
+  height: 7px;
+  transform: translate(0.295px, 0.352px) matrix(1,0,0,1,92.7046,12.6477) rotate(180deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+#TO {
+  left: 176px;
+  top: 276px;
+  position: absolute;
+  overflow: visible;
+  width: 25px;
+  white-space: nowrap;
+  line-height: 120px;
+  margin-top: -51.5px;
+  text-align: center;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: rgba(196,201,255,1);
+}
+#Group_92 {
+  position: absolute;
+  width: 145.701px;
+  height: 32px;
+  left: 48px;
+  top: 374px;
+  overflow: visible;
+}
+#plus {
+  position: absolute;
+  width: 12.511px;
+  height: 12.511px;
+  left: 133.19px;
+  top: 9.366px;
+  overflow: visible;
+}
+#Group_82 {
+  position: absolute;
+  width: 12.511px;
+  height: 12.511px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Path_1165 {
+  fill: rgba(91,191,227,1);
+}
+.Path_1165 {
+  overflow: visible;
+  position: absolute;
+  width: 12.511px;
+  height: 12.511px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Polygon_7 {
+  fill: rgba(91,191,227,1);
+}
+.Polygon_7 {
+  overflow: hidden;
+  position: absolute;
+  width: 12px;
+  height: 7px;
+  transform: translate(-69px, -544px) matrix(1,0,0,1,162,556) rotate(180deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+#Rectangle_1648 {
+  fill: rgba(91,191,227,0.204);
+}
+.Rectangle_1648 {
+  position: absolute;
+  overflow: visible;
+  width: 115px;
+  height: 31px;
+  left: 0px;
+  top: 1px;
+}
+#Rectangle_1649 {
+  fill: transparent;
+  stroke: rgba(91,191,227,1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_1649 {
+  position: absolute;
+  overflow: visible;
+  width: 115px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+}
+#Group_86 {
+  position: absolute;
+  width: 133px;
+  height: 75px;
+  left: 43px;
+  top: 546px;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: HOST.html;
+  cursor: pointer;
+}
+#Rectangle_1640 {
+  fill: transparent;
+  stroke: rgba(91,191,227,1);
+  stroke-width: 8px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_1640 {
+  position: absolute;
+  overflow: visible;
+  width: 133px;
+  height: 75px;
+  left: 0px;
+  top: 0px;
+}
+#CREATE_CHARACTER {
+  left: 17px;
+  top: 21px;
+  position: absolute;
+  overflow: visible;
+  width: 101px;
+  white-space: nowrap;
+  line-height: 17px;
+  margin-top: -0.5px;
+  text-align: center;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(196,201,255,1);
+}
+#Group_166 {
+  position: absolute;
+  width: 133px;
+  height: 75px;
+  left: 199px;
+  top: 546px;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: HOST___2.html;
+  cursor: pointer;
+}
+#Rectangle_1640_cj {
+  fill: transparent;
+  stroke: rgba(91,191,227,1);
+  stroke-width: 8px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_1640_cj {
+  position: absolute;
+  overflow: visible;
+  width: 133px;
+  height: 75px;
+  left: 0px;
+  top: 0px;
+}
+#CREATE_SCENARIO {
+  left: 23px;
+  top: 24px;
+  position: absolute;
+  overflow: visible;
+  width: 89px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: rgba(196,201,255,1);
+}

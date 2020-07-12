@@ -1,0 +1,626 @@
+.mediaViewInfo {
+		--web-view-name: PLAYER ROLE;
+		--web-view-id: Challenge_Card;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Challenge_Card;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Challenge_Card {
+		position: absolute;
+		width: 375px;
+		height: 812px;
+		background: linear-gradient(180deg, rgba(32,15,70,1) 0%, rgba(51,68,131,1) 100%);
+		overflow: hidden;
+		--web-view-name: PLAYER ROLE;
+		--web-view-id: Challenge_Card;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Rectangle_1650 {
+		fill: rgba(91,191,227,0.204);
+		stroke: rgba(91,191,227,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1650 {
+		position: absolute;
+		overflow: visible;
+		width: 330px;
+		height: 570px;
+		left: 23px;
+		top: 117px;
+	}
+	#Youre_a_young_newly_hired_mana_bs {
+		left: 54px;
+		top: 261px;
+		position: absolute;
+		overflow: visible;
+		width: 269px;
+		height: 284px;
+		line-height: 20px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(196,201,255,1);
+	}
+	#Youre_a_young_newly_hired_mana_bs {
+		left: 54px;
+		top: 261px;
+		position: absolute;
+		overflow: visible;
+		width: 269px;
+		height: 284px;
+		line-height: 20px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(196,201,255,1);
+	}
+	#profile {
+		position: absolute;
+		width: 100.031px;
+		height: 100.031px;
+		left: 53px;
+		top: 146px;
+		overflow: visible;
+	}
+	#Path_1166 {
+		fill: rgba(196,201,255,1);
+	}
+	.Path_1166 {
+		overflow: visible;
+		position: absolute;
+		width: 100.031px;
+		height: 100.031px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_1167 {
+		fill: rgba(35,51,84,1);
+	}
+	.Path_1167 {
+		overflow: visible;
+		position: absolute;
+		width: 62.519px;
+		height: 59.915px;
+		left: 18.756px;
+		top: 20.057px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_85 {
+		position: absolute;
+		width: 100.031px;
+		height: 100.031px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_1168 {
+		fill: rgba(112,130,153,1);
+	}
+	.Path_1168 {
+		overflow: visible;
+		position: absolute;
+		width: 31.26px;
+		height: 31.26px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_1169 {
+		fill: rgba(112,130,153,1);
+	}
+	.Path_1169 {
+		overflow: visible;
+		position: absolute;
+		width: 28.134px;
+		height: 28.134px;
+		left: 0px;
+		top: 71.897px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_1170 {
+		fill: rgba(112,130,153,1);
+	}
+	.Path_1170 {
+		overflow: visible;
+		position: absolute;
+		width: 31.26px;
+		height: 31.26px;
+		left: 68.771px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_1171 {
+		fill: rgba(112,130,153,1);
+	}
+	.Path_1171 {
+		overflow: visible;
+		position: absolute;
+		width: 31.26px;
+		height: 31.26px;
+		left: 68.771px;
+		top: 68.771px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_1172 {
+		fill: rgba(35,51,84,1);
+	}
+	.Path_1172 {
+		overflow: visible;
+		position: absolute;
+		width: 6.252px;
+		height: 6.252px;
+		left: 81.275px;
+		top: 12.504px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_1173 {
+		fill: rgba(35,51,84,1);
+	}
+	.Path_1173 {
+		overflow: visible;
+		position: absolute;
+		width: 6.252px;
+		height: 6.252px;
+		left: 81.275px;
+		top: 25.008px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#sandycort {
+		left: 168px;
+		top: 146px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		line-height: 50px;
+		margin-top: -16.5px;
+		text-align: left;
+		font-family: Quantico;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(91,191,227,1);
+	}
+	#GENDER {
+		left: 168px;
+		top: 172px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(91,191,227,1);
+	}
+	# {
+		left: 308px;
+		top: 172px;
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(196,201,255,1);
+	}
+	#OCCUPATION {
+		left: 168px;
+		top: 199px;
+		position: absolute;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(91,191,227,1);
+	}
+	#_b {
+		left: 308px;
+		top: 199px;
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(196,201,255,1);
+	}
+	#SALARY {
+		left: 168px;
+		top: 226px;
+		position: absolute;
+		overflow: visible;
+		width: 58px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(91,191,227,1);
+	}
+	#_ca {
+		left: 308px;
+		top: 226px;
+		position: absolute;
+		overflow: visible;
+		width: 7px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(196,201,255,1);
+	}
+	#Annual__Salary {
+		left: 44px;
+		top: 552px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		line-height: 16px;
+		margin-top: -1.5px;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(91,191,227,1);
+	}
+	#Group_96 {
+		position: absolute;
+		width: 161px;
+		height: 10px;
+		left: 107px;
+		top: 564px;
+		overflow: visible;
+	}
+	#Rectangle_1651 {
+		fill: transparent;
+		stroke: rgba(91,191,227,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1651 {
+		position: absolute;
+		overflow: visible;
+		width: 161px;
+		height: 10px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_1655 {
+		fill: rgba(56,76,152,1);
+		stroke: rgba(91,191,227,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1655 {
+		position: absolute;
+		overflow: visible;
+		width: 10px;
+		height: 10px;
+		left: 33px;
+		top: 0px;
+	}
+	#Promotion {
+		left: 35px;
+		top: 601px;
+		position: absolute;
+		overflow: visible;
+		width: 70px;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(91,191,227,1);
+	}
+	#ID2 {
+		left: 271px;
+		top: 603px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		height: 18px;
+		line-height: 20px;
+		margin-top: -3.5px;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(91,191,227,1);
+	}
+	#Group_98 {
+		position: absolute;
+		width: 161px;
+		height: 10px;
+		left: 107px;
+		top: 607px;
+		overflow: visible;
+	}
+	#Rectangle_1653 {
+		fill: transparent;
+		stroke: rgba(91,191,227,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1653 {
+		position: absolute;
+		overflow: visible;
+		width: 161px;
+		height: 10px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_1657 {
+		fill: rgba(56,76,152,1);
+		stroke: rgba(91,191,227,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1657 {
+		position: absolute;
+		overflow: visible;
+		width: 10px;
+		height: 10px;
+		left: 33px;
+		top: 0px;
+	}
+	#Pay_off__study_loan {
+		left: 38px;
+		top: 634px;
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		white-space: nowrap;
+		line-height: 16px;
+		margin-top: -2px;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		color: rgba(91,191,227,1);
+	}
+	#Group_99 {
+		position: absolute;
+		width: 161px;
+		height: 10px;
+		left: 107px;
+		top: 652px;
+		overflow: visible;
+	}
+	#Rectangle_1654 {
+		fill: transparent;
+		stroke: rgba(91,191,227,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1654 {
+		position: absolute;
+		overflow: visible;
+		width: 161px;
+		height: 10px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_1658 {
+		fill: rgba(56,76,152,1);
+		stroke: rgba(91,191,227,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1658 {
+		position: absolute;
+		overflow: visible;
+		width: 10px;
+		height: 10px;
+		left: 33px;
+		top: 0px;
+	}
+	#YOUR_CHALLENGE {
+		left: 34px;
+		top: 70px;
+		position: absolute;
+		overflow: visible;
+		width: 297px;
+		white-space: nowrap;
+		line-height: 40px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Press Start 2P;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 32px;
+		color: rgba(91,191,227,1);
+	}
+	#Group_86 {
+		position: absolute;
+		width: 133px;
+		height: 56px;
+		left: 121px;
+		top: 716px;
+		overflow: visible;
+	}
+	#Rectangle_1640 {
+		fill: transparent;
+		stroke: rgba(91,191,227,1);
+		stroke-width: 8px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1640 {
+		position: absolute;
+		overflow: visible;
+		width: 133px;
+		height: 56px;
+		left: 0px;
+		top: 0px;
+	}
+	#NEXT {
+		left: 32px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 76px;
+		white-space: nowrap;
+		line-height: 120px;
+		margin-top: -46px;
+		text-align: left;
+		font-family: Quantico;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		color: rgba(196,201,255,1);
+	}
+	#ID3 {
+		left: 271px;
+		top: 646px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		height: 18px;
+		line-height: 20px;
+		margin-top: -3.5px;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(91,191,227,1);
+	}
+	#ID1 {
+		left: 271px;
+		top: 560px;
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		height: 18px;
+		line-height: 20px;
+		margin-top: -3.5px;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(91,191,227,1);
+	}
+	#USD {
+		left: 162px;
+		top: 577px;
+		position: absolute;
+		overflow: visible;
+		width: 70px;
+		height: 18px;
+		line-height: 20px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(91,191,227,1);
+	}
+	#years {
+		left: 162px;
+		top: 616px;
+		position: absolute;
+		overflow: visible;
+		width: 70px;
+		height: 18px;
+		line-height: 20px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(91,191,227,1);
+	}
+	#years_cv {
+		left: 162px;
+		top: 663px;
+		position: absolute;
+		overflow: visible;
+		width: 70px;
+		height: 18px;
+		line-height: 20px;
+		margin-top: -4px;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(91,191,227,1);
+	}
