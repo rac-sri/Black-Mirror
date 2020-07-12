@@ -1,0 +1,148 @@
+.mediaViewInfo {
+  --web-view-name: HOST – 1;
+  --web-view-id: HOST__1;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: HOST__1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#HOST__1 {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  background-color: rgba(21,15,48,1);
+  overflow: hidden;
+  --web-view-name: HOST – 1;
+  --web-view-id: HOST__1;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+
+}
+#CONGRATS {
+  left: 25px;
+  top: 68px;
+  position: absolute;
+  overflow: visible;
+  width: 206px;
+  white-space: nowrap;
+  line-height: 40px;
+  margin-top: -2.5px;
+  text-align: left;
+  font-family: Press Start 2P;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: rgba(91,191,227,1);
+}
+#Congrats_your_Character_is_rea {
+  left: 48.5px;
+  top: 230px;
+  position: absolute;
+  overflow: visible;
+  width: 279px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: rgba(196,201,255,1);
+}
+#Group_86 {
+  position: absolute;
+  width: 133px;
+  height: 56px;
+  left: 43px;
+  top: 546px;
+  overflow: visible;
+}
+#Rectangle_1640 {
+  fill: transparent;
+  stroke: rgba(91,191,227,1);
+  stroke-width: 8px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_1640 {
+  position: absolute;
+  overflow: visible;
+  width: 133px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+}
+#YES {
+  left: 39px;
+  top: 16px;
+  position: absolute;
+  overflow: visible;
+  width: 57px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: rgba(196,201,255,1);
+}
+#Group_166 {
+  position: absolute;
+  width: 133px;
+  height: 56px;
+  left: 199px;
+  top: 546px;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: HOST.html;
+  cursor: pointer;
+}
+#Rectangle_1640_bw {
+  fill: transparent;
+  stroke: rgba(91,191,227,1);
+  stroke-width: 8px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_1640_bw {
+  position: absolute;
+  overflow: visible;
+  width: 133px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+}
+#NO {
+  left: 46px;
+  top: 16px;
+  position: absolute;
+  overflow: visible;
+  width: 43px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: rgba(196,201,255,1);
+}

@@ -28,7 +28,7 @@ const App = () => {
     <WebView
       source={{
         uri:
-          'https://raw.githubusercontent.com/rachit2501/Black-Mirror/3box/BlackMirror/assets/challenge.html?token=AKOUM3WIPCDWD3NTAVVQMOK7CR2W4',
+          'https://rachit2501.github.io/Black-Mirror/iWant.html',
       }}
     />
   );
