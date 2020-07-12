@@ -1,0 +1,205 @@
+.mediaViewInfo {
+    --web-view-name: Web 1920 – 3;
+    --web-view-id: Web_1920__3;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Web_1920__3;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Web_1920__3 {
+    position: absolute;
+    width: 1920px;
+    height: 1429px;
+    background: linear-gradient(
+        131.8deg,
+        rgba(36, 19, 42, 1) 0%,
+        rgba(50, 36, 106, 1) 62.72%,
+        rgba(56, 76, 152, 1) 100%
+    );
+    overflow: hidden;
+    --web-view-name: Web 1920 – 3;
+    --web-view-id: Web_1920__3;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#Rectangle_491 {
+    fill: rgba(91, 191, 227, 0.204);
+}
+.Rectangle_491 {
+    position: absolute;
+    overflow: visible;
+    width: 1000px;
+    height: 100px;
+    left: 460px;
+    top: 477px;
+}
+#Rectangle_13 {
+    fill: rgba(21, 15, 48, 1);
+}
+.Rectangle_13 {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 350px;
+    left: 0px;
+    top: 1079px;
+}
+#FOOTER {
+    left: 200px;
+    top: 1254px;
+    position: absolute;
+    overflow: visible;
+    width: 586px;
+    height: 66px;
+    line-height: 120px;
+    margin-top: -35px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(196, 201, 255, 1);
+}
+#Path_2_bv {
+    fill: url(#Path_2_bv);
+}
+.Path_2_bv {
+    overflow: visible;
+    position: absolute;
+    width: 52.787px;
+    height: 45.293px;
+    left: 1824.188px;
+    top: 36.031px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Group_172 {
+    position: absolute;
+    width: 260px;
+    height: 97px;
+    left: 830px;
+    top: 671px;
+    overflow: visible;
+}
+#Group_84 {
+    position: absolute;
+    width: 260px;
+    height: 97px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Web_1920___8.html;
+    cursor: pointer;
+}
+#Rectangle_440 {
+    fill: transparent;
+    stroke: rgba(91, 191, 227, 1);
+    stroke-width: 8px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_440 {
+    position: absolute;
+    overflow: visible;
+    width: 260px;
+    height: 97px;
+    left: 0px;
+    top: 0px;
+}
+#JOIN {
+    left: 73px;
+    top: 15px;
+    position: absolute;
+    overflow: hidden;
+    width: 115px;
+    height: 67px;
+    line-height: 120px;
+    margin-top: -35px;
+    text-align: center;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(196, 201, 255, 1);
+}
+#Rectangle_490 {
+    fill: transparent;
+    stroke: rgba(91, 191, 227, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_490 {
+    position: absolute;
+    overflow: visible;
+    width: 1000px;
+    height: 100px;
+    left: 460px;
+    top: 477px;
+}
+#Enter_Your_Name {
+    left: 503px;
+    top: 491px;
+    position: absolute;
+    overflow: hidden;
+    width: 452px;
+    height: 69px;
+    line-height: 120px;
+    margin-top: -35px;
+    text-align: left;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(196, 201, 255, 0.502);
+}
+#By_clicking_Join_you_have_read {
+    left: 569px;
+    top: 598px;
+    position: absolute;
+    overflow: hidden;
+    width: 783px;
+    height: 23px;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(196, 201, 255, 0.502);
+}
+#Are_you_a_PLAYER_or_a_HOST {
+    left: 603px;
+    top: 360px;
+    position: absolute;
+    overflow: hidden;
+    width: 716px;
+    height: 67px;
+    line-height: 120px;
+    margin-top: -35px;
+    text-align: left;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(196, 201, 255, 1);
+}
