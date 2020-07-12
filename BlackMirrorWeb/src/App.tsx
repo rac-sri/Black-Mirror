@@ -1,9 +1,5 @@
 import React from "react";
-import Help from "./components/help/Help.tsx";
-import Sets from "./components/cardSets/Sets.tsx";
-import Task from "./components/Task/task.tsx";
-import Menu from "./components/Menu/menu.tsx";
-import Info from "./components/Info/Info.tsx";
+import Start from "./components/start/Start.tsx";
 
 export interface Props {}
 
@@ -13,7 +9,7 @@ class App extends React.Component<Props, State> {
     render() {
         return (
             <>
-                <Info />
+                <Start />
             </>
         );
     }
