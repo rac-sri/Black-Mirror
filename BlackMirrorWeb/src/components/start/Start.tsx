@@ -18,7 +18,9 @@ export default function Start() {
             {component === "StartContent" && (
                 <StartContent change={changeComponent} />
             )}
-            {component === "playerorhost" && <PlayerOrHost />}
+            {component === "playerorhost" && (
+                <PlayerOrHost change={changeComponent} />
+            )}
         </>
     );
 }

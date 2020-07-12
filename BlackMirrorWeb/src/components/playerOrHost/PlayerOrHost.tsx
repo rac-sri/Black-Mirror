@@ -1,9 +1,25 @@
 import React, { useState } from "react";
 import "./playerorhost.css";
 import PhSVG from "./svg.tsx";
+import loadWeb3 from "../../web3.ts";
+import Box from "3box";
 
-export default function PlayerOrHost() {
+export default function PlayerOrHost({ change }) {
     const [value, changeValue] = useState("Enter Your Name");
+    const onclick = async () => {
+        if (value != "") {
+            const web3 = await loadWeb3();
+            const accounts = await web3.eth.getAccounts();
+            // const profile = await Box.getProfile(accounts[0]);
+            const box = await Box.openBox(
+                accounts[0],
+                window.ethereum || window.web3.currentProvider
+            );
+            await box.syncDone;
+            // const respose = await box.public.set("name", "oed");
+            // console.log(respose);
+        }
+    };
     return (
         <div id="Web_1920__3">
             <PhSVG />
@@ -11,6 +27,7 @@ export default function PlayerOrHost() {
                 id="Enter_Your_Name"
                 value={value}
                 onChange={(e) => changeValue(e.target.value)}
+                onClick={() => changeValue("")}
             ></input>
             <div id="By_clicking_Join_you_have_read">
                 <span>By clicking “Join”, you have read and agree to the </span>
@@ -53,6 +70,9 @@ export default function PlayerOrHost() {
                 </span>
                 <span>?</span>
             </div>
+            <button className="rectangle_400" onClick={onclick}>
+                Join Now
+            </button>
         </div>
     );
 }
